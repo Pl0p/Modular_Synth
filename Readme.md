@@ -1,7 +1,7 @@
 # Welcome here =)
 
 Here you can find all the resources I use to build my modules.
-You will also find my modules, their Kikad files, their schematics as well as my sources of inspiration and pictures/videos of the prototypes and finished modules
+You will also find my modules, their Kicad files, their schematics as well as my sources of inspiration and pictures/videos of the prototypes and finished modules
 
 
 You will also find
