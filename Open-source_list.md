@@ -42,6 +42,14 @@ List of awesome eurorack diy and opensource projects
  * [Plum Audio](https://github.com/Shayshez)
  * [Benjiao](https://github.com/benjiao)
  * [Kraakenstuff](https://github.com/kraakenstuff)
+ * [Lazare Live](https://github.com/LazareLive/AnalogDrumMachine)
+ * [Sensai7](https://github.com/sensai7/OpenEuroBoard)
+ * [Westlicht](https://github.com/westlicht/performer-hardware)
+ * [jacobbarssbailey](https://github.com/jacobbarssbailey/vco3340)
+ * [Richards Holmes](https://github.com/holmesrichards/Directory)
+ * [Midi to DMX](https://github.com/matthova/arduino_midi_to_dmx)
+ * [Jerry Sievert](https://github.com/JerrySievert/EurorackClock)
+
 
 # Gitlab
  * [Faselunare](https://gitlab.com/Faselunare)
