@@ -6,8 +6,8 @@ Analogue drum kick
  - Soft/Hard attack
  - Decay
  - Tune
+ - Tone
  - Distortion
- - 
 
 ### Inputs
 
