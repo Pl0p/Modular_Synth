@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jean_kevin/Documents/My_git/Gate_O_matix/Kicad_Project/Main_board.sch</source>
+    <date>sam. 01 mai 2021 20:30:20</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Main_Board</title>
+        <company>Plop_Corp</company>
+        <rev>1.1</rev>
+        <date>2021-02-16</date>
+        <source>Main_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>00_Mes_empreintes:DIP-16_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60019872</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595</value>
+      <footprint>00_Mes_empreintes:DIP-16_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6001A2A2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002019A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002094E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60020D70</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002107F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600212A3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600215A5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600218F1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60021BD7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043D5E</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60044D1C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004695A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004736E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60047EB6</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600483DB</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004892C</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60048E6A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA81</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA87</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA8D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA93</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA99</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BA9F</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAA5</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAAB</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAB1</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAB7</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BABD</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAC3</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAC9</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BACF</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BAD5</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED_BLUE</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6006BADB</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595</value>
+      <footprint>00_Mes_empreintes:DIP-16_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3EFF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC595</value>
+      <footprint>00_Mes_empreintes:DIP-16_Socket</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F05</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F0B</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F11</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F17</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F1D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F23</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F29</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F2F</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F35</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F3B</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F41</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F47</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F4D</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F53</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F59</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F5F</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F65</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F80</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F86</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F8C</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F92</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F98</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3F9E</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FA4</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FAA</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FB0</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FB6</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FBC</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FC2</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FC8</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FCE</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FD4</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED_GREEN</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B3FDA</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6039244F</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603AD1ED</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603D54BF</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603E2009</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6043425D</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6043426A</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60434277</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60434284</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604433E1</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604433EE</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604433FB</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60443408</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60452CC3</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60452CD0</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60452CDD</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60452CEA</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60462D63</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60462D70</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60462D7D</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_Push</value>
+      <footprint>00_Mes_empreintes:SW_PUSH-12mm(deported)</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60462D8A</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602F6FD9</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032FB33</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603318D3</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038A80E</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038B30C</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6048FCDD</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60490A1B</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60491353</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60491E79</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60492795</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E265A</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E2660</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E2666</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E266C</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E2672</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606000DE</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606000E4</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606000EA</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606000F0</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606000F6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Data 2</value>
+      <footprint>00_Mes_empreintes:IDC-Header_2x08</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60813CD7</tstamp>
+    </comp>
+    <comp ref="Encoder_1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>00_Mes_empreintes:RotaryEncoder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307817</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>7_segment_3_digit_2831AS</value>
+      <footprint>00_Mes_empreintes:7-Segment_2831AS</footprint>
+      <libsource lib="00_Mes_symboles" part="7_segment_3_digit_2831AS-7_segments" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030781D</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307839</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030783F</tstamp>
+    </comp>
+    <comp ref="Encoder_2">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>00_Mes_empreintes:RotaryEncoder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307853</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030786F</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307875</tstamp>
+    </comp>
+    <comp ref="Encoder_3">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>00_Mes_empreintes:RotaryEncoder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307889</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078A5</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>50k</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078AB</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078BF</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078C5</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED</value>
+      <footprint>00_Mes_empreintes:LED_5.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078CB</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>220</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078D4</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>220</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078DA</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>220</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603078E0</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>?</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307903</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>?</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60307909</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>?</value>
+      <footprint>00_Mes_empreintes:Resistance</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030790F</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Data 3</value>
+      <footprint>00_Mes_empreintes:IDC-Header_2x08</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise" description="Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D8490</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Data &amp; Power</value>
+      <footprint>00_Mes_empreintes:IDC-Header_2x05</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise" description="Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607D9BB6</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>Rotary_switch_8S.1P_(voltage_divider)</value>
+      <footprint>00_Mes_empreintes:SolderWirePad_1x03_Drill1.5mm</footprint>
+      <libsource lib="00_Mes_symboles" part="Rotary_switch_8S.1P_(voltage_divider)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BA99F1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="00_Mes_symboles" part="7_segment_3_digit_2831AS-7_segments">
+      <footprints>
+        <fp>HDSP?7401*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7_segment_3_digit_2831AS-7_segments</field>
+        <field name="Footprint">Display_7Segment_3digit</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="DP" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="G" type="input"/>
+        <pin num="7" name="CA1" type="input"/>
+        <pin num="8" name="A" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="CA2" type="input"/>
+        <pin num="11" name="CA3" type="input"/>
+        <pin num="12" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="00_Mes_symboles" part="Rotary_switch_8S.1P_(voltage_divider)">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_switch_8S.1P_(voltage_divider)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+      </aliases>
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Counter_Clockwise">
+      <description>Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Counter_Clockwise">
+      <description>Generic connector, double row, 02x08, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="00_Mes_symboles">
+      <uri>/home/jean_kevin/Documents/KiCAD/My_library/00_Mes_symboles.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="4">
+      <node ref="D52" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="2" name="3">
+      <node ref="J2" pin="6"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D47" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D49-Pad2)">
+      <node ref="D49" pin="2"/>
+      <node ref="SW17" pin="1"/>
+    </net>
+    <net code="4" name="2">
+      <node ref="J2" pin="4"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="6" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="7" name="Selector_pin">
+      <node ref="J2" pin="1"/>
+      <node ref="SW24" pin="2"/>
+    </net>
+    <net code="8" name="Screen_E">
+      <node ref="U5" pin="1"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="9" name="Net-(R35-Pad2)">
+      <node ref="U5" pin="11"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="10" name="Screen_D">
+      <node ref="J1" pin="8"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="11" name="Screen_DP">
+      <node ref="J3" pin="4"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="12" name="Screen_G">
+      <node ref="J1" pin="4"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="13" name="Data_1">
+      <node ref="U1" pin="14"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="14" name="Clock_1">
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="15" name="Latch_1">
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="16" name="A">
+      <node ref="SW11" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="J2" pin="12"/>
+      <node ref="SW16" pin="2"/>
+    </net>
+    <net code="17" name="B">
+      <node ref="J2" pin="14"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="18" name="C">
+      <node ref="SW3" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW13" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="19" name="D">
+      <node ref="SW4" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="J2" pin="10"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="20" name="E">
+      <node ref="J2" pin="15"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D38-Pad2)">
+      <node ref="SW6" pin="1"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D43-Pad2)">
+      <node ref="D43" pin="2"/>
+      <node ref="SW11" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="SW16" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="25" name="GND">
+      <node ref="Encoder_2" pin="S2"/>
+      <node ref="Encoder_2" pin="C"/>
+      <node ref="Encoder_3" pin="S2"/>
+      <node ref="Encoder_3" pin="C"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="D15" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="D19" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="D21" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="SW24" pin="3"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="Encoder_1" pin="S2"/>
+      <node ref="Encoder_1" pin="C"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="26" name="1">
+      <node ref="D33" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="27" name="Net-(D33-Pad2)">
+      <node ref="SW1" pin="1"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="28" name="ecdr_led_3">
+      <node ref="R44" pin="1"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="29" name="Screen_F">
+      <node ref="J1" pin="7"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="30" name="ecdr_clock_3">
+      <node ref="Encoder_3" pin="A"/>
+      <node ref="R38" pin="1"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="31" name="ecdr_sw_1">
+      <node ref="Encoder_1" pin="S1"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="32" name="ecdr_led_2">
+      <node ref="J3" pin="11"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="33" name="ecdr_data_2">
+      <node ref="Encoder_2" pin="B"/>
+      <node ref="J3" pin="9"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="34" name="ecdr_data_3">
+      <node ref="J3" pin="15"/>
+      <node ref="R41" pin="1"/>
+      <node ref="Encoder_3" pin="B"/>
+    </net>
+    <net code="35" name="ecdr_sw_3">
+      <node ref="Encoder_3" pin="S1"/>
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="36" name="ecdr_led_1">
+      <node ref="J3" pin="7"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="37" name="ecdr_data_1">
+      <node ref="Encoder_1" pin="B"/>
+      <node ref="R39" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="38" name="ecdr_clock_2">
+      <node ref="J3" pin="3"/>
+      <node ref="Encoder_2" pin="A"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="39" name="ecdr_sw_2">
+      <node ref="J3" pin="2"/>
+      <node ref="Encoder_2" pin="S1"/>
+    </net>
+    <net code="40" name="ecdr_clock_1">
+      <node ref="R36" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Encoder_1" pin="A"/>
+    </net>
+    <net code="41" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="42" name="Screen_A">
+      <node ref="U5" pin="8"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="43" name="Screen_B">
+      <node ref="U5" pin="12"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="44" name="Screen_C">
+      <node ref="J1" pin="6"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="45" name="Screen_CA1">
+      <node ref="J3" pin="8"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R33-Pad2)">
+      <node ref="U5" pin="7"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="47" name="Screen_CA2">
+      <node ref="R34" pin="1"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="48" name="Screen_CA3">
+      <node ref="R35" pin="1"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="49" name="+5V">
+      <node ref="R39" pin="2"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R41" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="R40" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="50" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="R43" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D53-Pad2)">
+      <node ref="D53" pin="2"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="55" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="56" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="57" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="58" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="59" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="60" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="61" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="63" name="Net-(R16-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="64" name="Net-(R1-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R9-Pad2)">
+      <node ref="U2" pin="15"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="66" name="Net-(R15-Pad2)">
+      <node ref="U2" pin="6"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="67" name="Net-(R14-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="68" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="69" name="Net-(R12-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="71" name="Net-(R32-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="72" name="Net-(R18-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="73" name="Net-(R19-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="74" name="Clock_2">
+      <node ref="U4" pin="11"/>
+      <node ref="U3" pin="11"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="75" name="Latch_2">
+      <node ref="J2" pin="9"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="76" name="Data_2">
+      <node ref="J2" pin="7"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="77" name="Net-(R17-Pad2)">
+      <node ref="U3" pin="15"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="79" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D4-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="85" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D9-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="89" name="Net-(D11-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="91" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="92" name="Net-(D15-Pad2)">
+      <node ref="R15" pin="1"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D16-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="94" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="95" name="Net-(R22-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="96" name="Net-(R21-Pad2)">
+      <node ref="U3" pin="4"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="97" name="Net-(R20-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D45-Pad2)">
+      <node ref="SW13" pin="1"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D41-Pad2)">
+      <node ref="SW9" pin="1"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D46-Pad2)">
+      <node ref="D46" pin="2"/>
+      <node ref="SW14" pin="1"/>
+    </net>
+    <net code="101" name="Net-(D51-Pad2)">
+      <node ref="D51" pin="2"/>
+      <node ref="SW19" pin="1"/>
+    </net>
+    <net code="102" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="103" name="Net-(D40-Pad2)">
+      <node ref="SW8" pin="1"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D50-Pad2)">
+      <node ref="SW18" pin="1"/>
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="106" name="Net-(D39-Pad2)">
+      <node ref="SW7" pin="1"/>
+      <node ref="D39" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="108" name="Net-(D37-Pad2)">
+      <node ref="SW5" pin="1"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="110" name="Net-(D47-Pad2)">
+      <node ref="SW15" pin="1"/>
+      <node ref="D47" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D52-Pad2)">
+      <node ref="D52" pin="2"/>
+      <node ref="SW20" pin="1"/>
+    </net>
+    <net code="112" name="Net-(D23-Pad2)">
+      <node ref="R23" pin="1"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D24-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D22-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="115" name="Net-(R25-Pad2)">
+      <node ref="U4" pin="15"/>
+      <node ref="R25" pin="2"/>
+    </net>
+    <net code="116" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="117" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="118" name="Net-(R28-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R28" pin="2"/>
+    </net>
+    <net code="119" name="Net-(R29-Pad2)">
+      <node ref="U4" pin="4"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="120" name="Net-(R31-Pad2)">
+      <node ref="U4" pin="6"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="121" name="Net-(R24-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="122" name="Net-(D17-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="123" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="124" name="Net-(D19-Pad2)">
+      <node ref="R19" pin="1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="125" name="Net-(D20-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="126" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="127" name="Net-(R30-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="128" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="129" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="130" name="Net-(D26-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="131" name="Net-(D27-Pad2)">
+      <node ref="R27" pin="1"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="132" name="Net-(D28-Pad2)">
+      <node ref="R28" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="133" name="Net-(D29-Pad2)">
+      <node ref="R29" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="134" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="135" name="Net-(D31-Pad2)">
+      <node ref="R31" pin="1"/>
+      <node ref="D31" pin="2"/>
+    </net>
+  </nets>
+</export>
