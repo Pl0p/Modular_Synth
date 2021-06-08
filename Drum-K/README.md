@@ -16,12 +16,12 @@ Analogue drum kick
  - [ ] TODO
 
 
-# [Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/ ... ... ... )
+# [Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K/Drum-k.pdf)
 
 ### Front of the PCB 
-![Here is the front](https://github.com/Pl0p/Modular_Synth/blob/main/ ... ... ... )
+![Here is the front](not yet)
 
 ### Back of the PCB
 
-![Here is the back](https://github.com/Pl0p/Modular_Synth/blob/main/ ... ... ... )
+![Here is the back](not yet)
 
