@@ -1,0 +1,3150 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 20472 15748
+encoding utf-8
+Sheet 1 1
+Title "Drum H"
+Date "2021-06-02"
+Rev "V2"
+Comp "Plop corp"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4xxx:40106 U1
+U 7 1 611010D4
+P 13875 10100
+F 0 "U1" V 13500 10100 50  0000 C CNN
+F 1 "40106" V 13600 10100 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 13875 10100 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 13875 10100 50  0001 C CNN
+	7    13875 10100
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4xxx:4070 U2
+U 5 1 618E7EC9
+P 13875 9475
+F 0 "U2" V 13508 9475 50  0000 C CNN
+F 1 "4070" V 13599 9475 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 13875 9475 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 13875 9475 50  0001 C CNN
+	5    13875 9475
+	0    -1   1    0   
+$EndComp
+Text Notes 750  5250 0    157  ~ 31
+METAL NOISE
+Text Notes 15450 8400 0    157  ~ 31
+MIX WHITE/METAL NOISE
+$Comp
+L Device:R R14
+U 1 1 60B6676C
+P 10500 2575
+F 0 "R14" H 10570 2621 50  0000 L CNN
+F 1 "4.7k" H 10570 2530 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 10430 2575 50  0001 C CNN
+F 3 "~" H 10500 2575 50  0001 C CNN
+	1    10500 2575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C13
+U 1 1 60B68299
+P 10875 2225
+F 0 "C13" V 11130 2225 50  0000 C CNN
+F 1 "10uf" V 11039 2225 50  0000 C CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 10913 2075 50  0001 C CNN
+F 3 "~" H 10875 2225 50  0001 C CNN
+	1    10875 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60B6C990
+P 10500 2975
+F 0 "#PWR020" H 10500 2725 50  0001 C CNN
+F 1 "GND" H 10505 2802 50  0000 C CNN
+F 2 "" H 10500 2975 50  0001 C CNN
+F 3 "" H 10500 2975 50  0001 C CNN
+	1    10500 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2725 10500 2975
+$Comp
+L power:GND #PWR022
+U 1 1 60BA134E
+P 11250 2975
+F 0 "#PWR022" H 11250 2725 50  0001 C CNN
+F 1 "GND" H 11255 2802 50  0000 C CNN
+F 2 "" H 11250 2975 50  0001 C CNN
+F 3 "" H 11250 2975 50  0001 C CNN
+	1    11250 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2975 11250 2725
+Wire Wire Line
+	10500 2225 10500 2425
+Wire Wire Line
+	10500 2225 10000 2225
+Wire Wire Line
+	11250 2225 11250 2425
+Text GLabel 15950 2625 2    89   Input ~ 0
+Mix_1
+$Comp
+L Device:C C27
+U 1 1 60B88876
+P 15575 2625
+F 0 "C27" V 15323 2625 50  0000 C CNN
+F 1 "47nf" V 15414 2625 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 15613 2475 50  0001 C CNN
+F 3 "~" H 15575 2625 50  0001 C CNN
+	1    15575 2625
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 60BD3B6F
+P 15200 2200
+F 0 "R25" H 15270 2246 50  0000 L CNN
+F 1 "1M" H 15270 2155 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 15130 2200 50  0001 C CNN
+F 3 "~" H 15200 2200 50  0001 C CNN
+	1    15200 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR038
+U 1 1 60BFB605
+P 15200 1875
+F 0 "#PWR038" H 15200 1725 50  0001 C CNN
+F 1 "+12V" H 15215 2048 50  0000 C CNN
+F 2 "" H 15200 1875 50  0001 C CNN
+F 3 "" H 15200 1875 50  0001 C CNN
+	1    15200 1875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q3
+U 1 1 60C22DF2
+P 14800 2625
+F 0 "Q3" H 14990 2671 50  0000 L CNN
+F 1 "2N3904" H 14990 2580 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 15000 2550 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 14800 2625 50  0001 L CNN
+	1    14800 2625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 60C70C95
+P 14700 2975
+F 0 "#PWR036" H 14700 2725 50  0001 C CNN
+F 1 "GND" H 14705 2802 50  0000 C CNN
+F 2 "" H 14700 2975 50  0001 C CNN
+F 3 "" H 14700 2975 50  0001 C CNN
+	1    14700 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 2425 14700 2225
+Wire Wire Line
+	14200 2225 14200 2475
+$Comp
+L power:GND #PWR030
+U 1 1 60CC06C7
+P 14200 2975
+F 0 "#PWR030" H 14200 2725 50  0001 C CNN
+F 1 "GND" H 14205 2802 50  0000 C CNN
+F 2 "" H 14200 2975 50  0001 C CNN
+F 3 "" H 14200 2975 50  0001 C CNN
+	1    14200 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 2825 14700 2975
+Wire Wire Line
+	14200 2775 14200 2975
+$Comp
+L Diode:1N4148 D5
+U 1 1 60CE9836
+P 13825 2225
+F 0 "D5" H 13825 2009 50  0000 C CNN
+F 1 "1N4148" H 13825 2100 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 13825 2050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13825 2225 50  0001 C CNN
+	1    13825 2225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13975 2225 14200 2225
+$Comp
+L Device:C C17
+U 1 1 60D116C0
+P 13825 1475
+F 0 "C17" V 13573 1475 50  0000 C CNN
+F 1 "10nf" V 13664 1475 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 13863 1325 50  0001 C CNN
+F 3 "~" H 13825 1475 50  0001 C CNN
+	1    13825 1475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13675 1475 13450 1475
+$Comp
+L Device:R R21
+U 1 1 60D620FD
+P 14650 1475
+F 0 "R21" V 14443 1475 50  0000 C CNN
+F 1 "1k" V 14534 1475 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 14580 1475 50  0001 C CNN
+F 3 "~" H 14650 1475 50  0001 C CNN
+	1    14650 1475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13975 1475 14500 1475
+$Comp
+L Device:R R19
+U 1 1 60DB36F8
+P 13075 2225
+F 0 "R19" V 13282 2225 50  0000 C CNN
+F 1 "47k" V 13191 2225 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 13005 2225 50  0001 C CNN
+F 3 "~" H 13075 2225 50  0001 C CNN
+	1    13075 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 6111CCFE
+P 11625 2225
+F 0 "D3" H 11625 2441 50  0000 C CNN
+F 1 "1N4148" H 11625 2350 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 11625 2050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11625 2225 50  0001 C CNN
+	1    11625 2225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 6111CD04
+P 12000 2975
+F 0 "#PWR024" H 12000 2725 50  0001 C CNN
+F 1 "GND" H 12005 2802 50  0000 C CNN
+F 2 "" H 12000 2975 50  0001 C CNN
+F 3 "" H 12000 2975 50  0001 C CNN
+	1    12000 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 2975 12000 2725
+$Comp
+L Device:R_POT RV10
+U 1 1 6111CD0E
+P 12725 3150
+F 0 "RV10" H 12950 3400 50  0000 R CNN
+F 1 "100k OH Decay" H 12950 3325 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(2Nc)_Drill-1.5mm" H 12725 3150 50  0001 C CNN
+F 3 "~" H 12725 3150 50  0001 C CNN
+	1    12725 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12725 3300 12725 3375
+$Comp
+L power:GND #PWR028
+U 1 1 6111CD15
+P 12725 3475
+F 0 "#PWR028" H 12725 3225 50  0001 C CNN
+F 1 "GND" H 12730 3302 50  0000 C CNN
+F 2 "" H 12725 3475 50  0001 C CNN
+F 3 "" H 12725 3475 50  0001 C CNN
+	1    12725 3475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12575 3150 12575 3375
+Wire Wire Line
+	12575 3375 12725 3375
+Connection ~ 12725 3375
+Wire Wire Line
+	12725 3375 12725 3475
+Wire Wire Line
+	12000 2225 12000 2425
+Wire Wire Line
+	12725 2725 12725 3000
+Wire Wire Line
+	10000 2425 10000 2975
+$Comp
+L power:GND #PWR018
+U 1 1 6111CD3B
+P 10000 2975
+F 0 "#PWR018" H 10000 2725 50  0001 C CNN
+F 1 "GND" H 10005 2802 50  0000 C CNN
+F 2 "" H 10000 2975 50  0001 C CNN
+F 3 "" H 10000 2975 50  0001 C CNN
+	1    10000 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13225 2225 13450 2225
+Wire Wire Line
+	13450 2225 13450 1475
+Wire Wire Line
+	15000 2625 15200 2625
+Wire Wire Line
+	15200 2350 15200 2625
+Wire Wire Line
+	15200 1875 15200 2050
+Wire Wire Line
+	15950 2625 15725 2625
+Wire Wire Line
+	14800 1475 15750 1475
+Connection ~ 13450 2225
+Wire Wire Line
+	13450 2225 13675 2225
+Wire Wire Line
+	14700 2225 14200 2225
+Connection ~ 14200 2225
+Connection ~ 15200 2625
+Wire Wire Line
+	15200 2625 15425 2625
+Wire Wire Line
+	11025 2225 11250 2225
+Wire Wire Line
+	10725 2225 10500 2225
+Connection ~ 10500 2225
+$Comp
+L 00_Mes_symboles:Jack_mono J1
+U 1 1 6185BF9D
+P 9825 2225
+F 0 "J1" H 9783 2450 50  0000 C CNN
+F 1 "Open_trigg" H 9783 2359 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x02_(1Nc)_Drill-1.5mm" H 9800 2175 50  0001 C CNN
+F 3 "~" H 9800 2175 50  0001 C CNN
+	1    9825 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 2225 11475 2225
+Connection ~ 11250 2225
+Text Notes 10625 1850 0    50   ~ 0
+Gate to trigger\n   converter
+Wire Wire Line
+	11775 2225 12000 2225
+Connection ~ 12000 2225
+Text Notes 12825 3200 0    89   Italic 18
+OH-DECAY
+Text Notes 9475 1000 0    157  ~ 31
+Enveloppe Generator + VCA
+Text GLabel 16250 9450 0    50   Input ~ 0
+White_Noise
+Text GLabel 16250 9950 0    50   Input ~ 0
+Metal
+$Comp
+L Device:R R15
+U 1 1 61A0F046
+P 10500 6525
+F 0 "R15" H 10570 6571 50  0000 L CNN
+F 1 "4.7k" H 10570 6480 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 10430 6525 50  0001 C CNN
+F 3 "~" H 10500 6525 50  0001 C CNN
+	1    10500 6525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C14
+U 1 1 61A0F04C
+P 10875 6175
+F 0 "C14" V 11130 6175 50  0000 C CNN
+F 1 "4.7uf" V 11039 6175 50  0000 C CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 10913 6025 50  0001 C CNN
+F 3 "~" H 10875 6175 50  0001 C CNN
+	1    10875 6175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 61A0F058
+P 10500 6925
+F 0 "#PWR021" H 10500 6675 50  0001 C CNN
+F 1 "GND" H 10505 6752 50  0000 C CNN
+F 2 "" H 10500 6925 50  0001 C CNN
+F 3 "" H 10500 6925 50  0001 C CNN
+	1    10500 6925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 6675 10500 6925
+$Comp
+L power:GND #PWR023
+U 1 1 61A0F05F
+P 11250 6925
+F 0 "#PWR023" H 11250 6675 50  0001 C CNN
+F 1 "GND" H 11255 6752 50  0000 C CNN
+F 2 "" H 11250 6925 50  0001 C CNN
+F 3 "" H 11250 6925 50  0001 C CNN
+	1    11250 6925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 6925 11250 6675
+Wire Wire Line
+	10500 6175 10500 6375
+Wire Wire Line
+	10500 6175 10000 6175
+Wire Wire Line
+	11250 6175 11250 6375
+Text GLabel 15950 6575 2    89   Input ~ 0
+Mix_2
+$Comp
+L Device:R R26
+U 1 1 61A0F070
+P 15200 6150
+F 0 "R26" H 15270 6196 50  0000 L CNN
+F 1 "1M" H 15270 6105 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 15130 6150 50  0001 C CNN
+F 3 "~" H 15200 6150 50  0001 C CNN
+	1    15200 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR039
+U 1 1 61A0F076
+P 15200 5825
+F 0 "#PWR039" H 15200 5675 50  0001 C CNN
+F 1 "+12V" H 15215 5998 50  0000 C CNN
+F 2 "" H 15200 5825 50  0001 C CNN
+F 3 "" H 15200 5825 50  0001 C CNN
+	1    15200 5825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q4
+U 1 1 61A0F07C
+P 14800 6575
+F 0 "Q4" H 14990 6621 50  0000 L CNN
+F 1 "2N3904" H 14990 6530 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 15000 6500 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 14800 6575 50  0001 L CNN
+	1    14800 6575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 61A0F082
+P 14700 6925
+F 0 "#PWR037" H 14700 6675 50  0001 C CNN
+F 1 "GND" H 14705 6752 50  0000 C CNN
+F 2 "" H 14700 6925 50  0001 C CNN
+F 3 "" H 14700 6925 50  0001 C CNN
+	1    14700 6925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 61A0F088
+P 14200 6575
+F 0 "C20" H 14315 6621 50  0000 L CNN
+F 1 "1nf" H 14315 6530 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 14238 6425 50  0001 C CNN
+F 3 "~" H 14200 6575 50  0001 C CNN
+	1    14200 6575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6375 14700 6175
+Wire Wire Line
+	14200 6175 14200 6425
+$Comp
+L power:GND #PWR031
+U 1 1 61A0F090
+P 14200 6925
+F 0 "#PWR031" H 14200 6675 50  0001 C CNN
+F 1 "GND" H 14205 6752 50  0000 C CNN
+F 2 "" H 14200 6925 50  0001 C CNN
+F 3 "" H 14200 6925 50  0001 C CNN
+	1    14200 6925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6775 14700 6925
+Wire Wire Line
+	14200 6725 14200 6925
+$Comp
+L Diode:1N4148 D6
+U 1 1 61A0F098
+P 13825 6175
+F 0 "D6" H 13825 5959 50  0000 C CNN
+F 1 "1N4148" H 13825 6050 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 13825 6000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13825 6175 50  0001 C CNN
+	1    13825 6175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13975 6175 14200 6175
+$Comp
+L Device:C C18
+U 1 1 61A0F09F
+P 13825 5425
+F 0 "C18" V 13573 5425 50  0000 C CNN
+F 1 "10nf" V 13664 5425 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 13863 5275 50  0001 C CNN
+F 3 "~" H 13825 5425 50  0001 C CNN
+	1    13825 5425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13675 5425 13450 5425
+$Comp
+L Device:R R22
+U 1 1 61A0F0A6
+P 14650 5425
+F 0 "R22" V 14443 5425 50  0000 C CNN
+F 1 "1k" V 14534 5425 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 14580 5425 50  0001 C CNN
+F 3 "~" H 14650 5425 50  0001 C CNN
+	1    14650 5425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13975 5425 14500 5425
+$Comp
+L Device:R R20
+U 1 1 61A0F0AE
+P 13075 6175
+F 0 "R20" V 13282 6175 50  0000 C CNN
+F 1 "47k" V 13191 6175 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 13005 6175 50  0001 C CNN
+F 3 "~" H 13075 6175 50  0001 C CNN
+	1    13075 6175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C16
+U 1 1 61A0F0B4
+P 12000 6525
+F 0 "C16" H 12118 6571 50  0000 L CNN
+F 1 "4.7uf" H 12050 6675 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 12038 6375 50  0001 C CNN
+F 3 "~" H 12000 6525 50  0001 C CNN
+	1    12000 6525
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 61A0F0BA
+P 11625 6175
+F 0 "D4" H 11625 6391 50  0000 C CNN
+F 1 "1N4148" H 11625 6300 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 11625 6000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11625 6175 50  0001 C CNN
+	1    11625 6175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 61A0F0C0
+P 12000 6925
+F 0 "#PWR025" H 12000 6675 50  0001 C CNN
+F 1 "GND" H 12005 6752 50  0000 C CNN
+F 2 "" H 12000 6925 50  0001 C CNN
+F 3 "" H 12000 6925 50  0001 C CNN
+	1    12000 6925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 6925 12000 6675
+$Comp
+L Device:R_POT RV11
+U 1 1 61A0F0C7
+P 12750 7100
+F 0 "RV11" H 12975 7350 50  0000 R CNN
+F 1 "100k CH Decay" H 12975 7275 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(2Nc)_Drill-1.5mm" H 12750 7100 50  0001 C CNN
+F 3 "~" H 12750 7100 50  0001 C CNN
+	1    12750 7100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 7250 12750 7325
+$Comp
+L power:GND #PWR029
+U 1 1 61A0F0CE
+P 12750 7425
+F 0 "#PWR029" H 12750 7175 50  0001 C CNN
+F 1 "GND" H 12755 7252 50  0000 C CNN
+F 2 "" H 12750 7425 50  0001 C CNN
+F 3 "" H 12750 7425 50  0001 C CNN
+	1    12750 7425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 7100 12600 7325
+Wire Wire Line
+	12600 7325 12750 7325
+Connection ~ 12750 7325
+Wire Wire Line
+	12750 7325 12750 7425
+Wire Wire Line
+	12000 6175 12000 6375
+Wire Wire Line
+	12750 6675 12750 6950
+Wire Wire Line
+	10000 6375 10000 6925
+$Comp
+L power:GND #PWR019
+U 1 1 61A0F0DB
+P 10000 6925
+F 0 "#PWR019" H 10000 6675 50  0001 C CNN
+F 1 "GND" H 10005 6752 50  0000 C CNN
+F 2 "" H 10000 6925 50  0001 C CNN
+F 3 "" H 10000 6925 50  0001 C CNN
+	1    10000 6925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13225 6175 13450 6175
+Wire Wire Line
+	13450 6175 13450 5425
+Wire Wire Line
+	15000 6575 15200 6575
+Wire Wire Line
+	15200 6300 15200 6575
+Wire Wire Line
+	15200 5825 15200 6000
+Wire Wire Line
+	15950 6575 15725 6575
+Wire Wire Line
+	14800 5425 15750 5425
+Connection ~ 13450 6175
+Wire Wire Line
+	13450 6175 13675 6175
+Wire Wire Line
+	14700 6175 14200 6175
+Connection ~ 14200 6175
+Connection ~ 15200 6575
+Wire Wire Line
+	15200 6575 15425 6575
+Wire Wire Line
+	11025 6175 11250 6175
+Wire Wire Line
+	10725 6175 10500 6175
+Connection ~ 10500 6175
+$Comp
+L 00_Mes_symboles:Jack_mono J2
+U 1 1 61A0F0F1
+P 9825 6175
+F 0 "J2" H 9783 6400 50  0000 C CNN
+F 1 "Closed_trigg" H 9783 6309 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x02_(1Nc)_Drill-1.5mm" H 9800 6125 50  0001 C CNN
+F 3 "~" H 9800 6125 50  0001 C CNN
+	1    9825 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 6175 11475 6175
+Connection ~ 11250 6175
+Text Notes 10625 5800 0    50   ~ 0
+Gate to trigger\n   converter
+Wire Wire Line
+	11775 6175 12000 6175
+Connection ~ 12000 6175
+Text Notes 12850 7150 0    89   Italic 18
+CH-DECAY
+Text Notes 750  1000 0    157  ~ 31
+WHITE NOISE
+$Comp
+L power:+12V #PWR01
+U 1 1 61AFF264
+P 1000 1650
+F 0 "#PWR01" H 1000 1500 50  0001 C CNN
+F 1 "+12V" H 1015 1823 50  0000 C CNN
+F 2 "" H 1000 1650 50  0001 C CNN
+F 3 "" H 1000 1650 50  0001 C CNN
+	1    1000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61AFF26A
+P 2375 2400
+F 0 "C6" V 2123 2400 50  0000 C CNN
+F 1 "100nf" V 2214 2400 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 2413 2250 50  0001 C CNN
+F 3 "~" H 2375 2400 50  0001 C CNN
+	1    2375 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61AFF270
+P 1000 2175
+F 0 "R1" H 1070 2221 50  0000 L CNN
+F 1 "470k" H 1070 2130 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 930 2175 50  0001 C CNN
+F 3 "~" H 1000 2175 50  0001 C CNN
+	1    1000 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 61AFF276
+P 1850 2600
+F 0 "Q1" H 2041 2554 50  0000 L CNN
+F 1 "2N3904" H 2041 2645 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2050 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 1850 2600 50  0001 L CNN
+	1    1850 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 2025 1000 1650
+$Comp
+L Device:CP C1
+U 1 1 61AFF27D
+P 1000 2675
+F 0 "C1" H 1118 2721 50  0000 L CNN
+F 1 "1uf" H 1118 2630 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_5*11" H 1038 2525 50  0001 C CNN
+F 3 "~" H 1000 2675 50  0001 C CNN
+	1    1000 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61AFF283
+P 1000 3100
+F 0 "#PWR02" H 1000 2850 50  0001 C CNN
+F 1 "GND" H 1005 2927 50  0000 C CNN
+F 2 "" H 1000 3100 50  0001 C CNN
+F 3 "" H 1000 3100 50  0001 C CNN
+	1    1000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3100 1000 2825
+Wire Wire Line
+	1000 2525 1000 2400
+$Comp
+L Device:R R2
+U 1 1 61AFF28B
+P 1400 2400
+F 0 "R2" V 1193 2400 50  0000 C CNN
+F 1 "470k" V 1284 2400 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 1330 2400 50  0001 C CNN
+F 3 "~" H 1400 2400 50  0001 C CNN
+	1    1400 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 2400 1000 2400
+Connection ~ 1000 2400
+Wire Wire Line
+	1000 2400 1000 2325
+Wire Wire Line
+	1750 2400 1550 2400
+NoConn ~ 1750 2925
+Wire Wire Line
+	2225 2400 1750 2400
+Connection ~ 1750 2400
+$Comp
+L Device:R R3
+U 1 1 61AFF298
+P 2250 2925
+F 0 "R3" H 2180 2879 50  0000 R CNN
+F 1 "470k" H 2180 2970 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 2180 2925 50  0001 C CNN
+F 3 "~" H 2250 2925 50  0001 C CNN
+	1    2250 2925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2775 2250 2600
+Wire Wire Line
+	2250 2600 2050 2600
+$Comp
+L power:-12V #PWR07
+U 1 1 61AFF2A0
+P 2250 3350
+F 0 "#PWR07" H 2250 3450 50  0001 C CNN
+F 1 "-12V" H 2265 3523 50  0000 C CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "" H 2250 3350 50  0001 C CNN
+	1    2250 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3350 2250 3075
+$Comp
+L Device:R R4
+U 1 1 61AFF2A7
+P 2750 2675
+F 0 "R4" H 2680 2629 50  0000 R CNN
+F 1 "2M" H 2680 2720 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 2680 2675 50  0001 C CNN
+F 3 "~" H 2750 2675 50  0001 C CNN
+	1    2750 2675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2400 2525 2400
+Wire Wire Line
+	1750 2925 1750 2800
+Wire Wire Line
+	2750 2525 2750 2400
+$Comp
+L Amplifier_Operational:TL072 U3
+U 1 1 61AFF2B0
+P 3800 2500
+F 0 "U3" H 3800 2867 50  0000 C CNN
+F 1 "TL072" H 3800 2776 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 3800 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3800 2500 50  0001 C CNN
+	1    3800 2500
+	1    0    0    1   
+$EndComp
+Text Notes 5025 1900 0    50   ~ 0
+Filtering
+Wire Wire Line
+	2750 3100 2750 2825
+$Comp
+L power:GND #PWR08
+U 1 1 61AFF31C
+P 2750 3100
+F 0 "#PWR08" H 2750 2850 50  0001 C CNN
+F 1 "GND" H 2755 2927 50  0000 C CNN
+F 2 "" H 2750 3100 50  0001 C CNN
+F 3 "" H 2750 3100 50  0001 C CNN
+	1    2750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61B4FCAF
+P 3150 2400
+F 0 "R5" V 2943 2400 50  0000 C CNN
+F 1 "1k" V 3034 2400 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 3080 2400 50  0001 C CNN
+F 3 "~" H 3150 2400 50  0001 C CNN
+	1    3150 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2400 2750 2400
+Connection ~ 2750 2400
+Connection ~ 5750 2500
+Wire Wire Line
+	5975 2500 5750 2500
+Text Notes 5450 2125 0    50   ~ 0
+High pass\n23Hz
+$Comp
+L power:GND #PWR013
+U 1 1 61AEB8E1
+P 5750 3100
+F 0 "#PWR013" H 5750 2850 50  0001 C CNN
+F 1 "GND" H 5755 2927 50  0000 C CNN
+F 2 "" H 5750 3100 50  0001 C CNN
+F 3 "" H 5750 3100 50  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2900 5750 3100
+Wire Wire Line
+	5750 2500 5550 2500
+Wire Wire Line
+	5750 2600 5750 2500
+$Comp
+L Device:R R10
+U 1 1 61AEB8D8
+P 5750 2750
+F 0 "R10" H 5680 2704 50  0000 R CNN
+F 1 "6.8k" H 5680 2795 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 5680 2750 50  0001 C CNN
+F 3 "~" H 5750 2750 50  0001 C CNN
+	1    5750 2750
+	-1   0    0    1   
+$EndComp
+Connection ~ 5000 2500
+Wire Wire Line
+	5250 2500 5000 2500
+$Comp
+L Device:C C10
+U 1 1 61AEB8D0
+P 5400 2500
+F 0 "C10" V 5148 2500 50  0000 C CNN
+F 1 "1uf" V 5239 2500 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Rect_1uf_(grey)" H 5438 2350 50  0001 C CNN
+F 3 "~" H 5400 2500 50  0001 C CNN
+	1    5400 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3100 5000 2900
+$Comp
+L power:GND #PWR012
+U 1 1 61AEB8C9
+P 5000 3100
+F 0 "#PWR012" H 5000 2850 50  0001 C CNN
+F 1 "GND" H 5005 2927 50  0000 C CNN
+F 2 "" H 5000 3100 50  0001 C CNN
+F 3 "" H 5000 3100 50  0001 C CNN
+	1    5000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2500 4825 2500
+Wire Wire Line
+	5000 2600 5000 2500
+$Comp
+L Device:C C9
+U 1 1 61AEB8C1
+P 5000 2750
+F 0 "C9" H 5115 2796 50  0000 L CNN
+F 1 "6.8nf" H 5115 2705 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 5038 2600 50  0001 C CNN
+F 3 "~" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 2500 4250 2500
+Wire Wire Line
+	3500 2600 3450 2600
+Wire Wire Line
+	3500 2400 3400 2400
+Wire Wire Line
+	3400 2400 3400 1900
+Wire Wire Line
+	3400 1900 3725 1900
+Connection ~ 3400 2400
+Wire Wire Line
+	3400 2400 3300 2400
+Wire Wire Line
+	4025 1900 4250 1900
+Wire Wire Line
+	4250 1900 4250 2500
+Wire Wire Line
+	4250 2500 4100 2500
+$Comp
+L Device:R R6
+U 1 1 61CF471B
+P 3875 1900
+F 0 "R6" V 3668 1900 50  0000 C CNN
+F 1 "100k" V 3759 1900 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 3805 1900 50  0001 C CNN
+F 3 "~" H 3875 1900 50  0001 C CNN
+	1    3875 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 4250 2500
+Text Notes 4375 2175 0    50   ~ 0
+     Low pass\n23k Hz -> 2,3k Hz
+Text Notes 3700 1575 0    50   ~ 0
+Pre-Amp
+Text Notes 1500 1900 0    50   ~ 0
+Noise generator
+$Comp
+L Amplifier_Operational:TL072 U3
+U 2 1 61D308E8
+P 6825 2600
+F 0 "U3" H 6825 2967 50  0000 C CNN
+F 1 "TL072" H 6825 2876 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 6825 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6825 2600 50  0001 C CNN
+	2    6825 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61D53F83
+P 6125 2500
+F 0 "R11" V 5918 2500 50  0000 C CNN
+F 1 "10k" V 6009 2500 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 6055 2500 50  0001 C CNN
+F 3 "~" H 6125 2500 50  0001 C CNN
+	1    6125 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6525 2500 6400 2500
+Wire Wire Line
+	6525 2700 6525 3100
+$Comp
+L power:GND #PWR015
+U 1 1 61DC47E9
+P 6525 3100
+F 0 "#PWR015" H 6525 2850 50  0001 C CNN
+F 1 "GND" H 6530 2927 50  0000 C CNN
+F 2 "" H 6525 3100 50  0001 C CNN
+F 3 "" H 6525 3100 50  0001 C CNN
+	1    6525 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2600 3450 3100
+$Comp
+L power:GND #PWR011
+U 1 1 61C8BD49
+P 3450 3100
+F 0 "#PWR011" H 3450 2850 50  0001 C CNN
+F 1 "GND" H 3455 2927 50  0000 C CNN
+F 2 "" H 3450 3100 50  0001 C CNN
+F 3 "" H 3450 3100 50  0001 C CNN
+	1    3450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2500 6400 2150
+Wire Wire Line
+	6400 2150 6725 2150
+Connection ~ 6400 2500
+Wire Wire Line
+	6400 2500 6275 2500
+Wire Wire Line
+	7025 2150 7075 2150
+Wire Wire Line
+	7250 2150 7250 2600
+Wire Wire Line
+	7250 2600 7125 2600
+$Comp
+L Device:R_POT_TRIM RV7
+U 1 1 61EE9FBD
+P 6875 2150
+F 0 "RV7" V 6760 2150 50  0000 C CNN
+F 1 "1M" V 6669 2150 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 6875 2150 50  0001 C CNN
+F 3 "~" H 6875 2150 50  0001 C CNN
+	1    6875 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6875 2000 6875 1950
+Wire Wire Line
+	7075 2150 7075 1950
+Wire Wire Line
+	7075 1950 6875 1950
+Connection ~ 7075 2150
+Wire Wire Line
+	7075 2150 7250 2150
+Text Notes 6800 1900 0    50   ~ 0
+Gain
+Connection ~ 7250 2600
+Text GLabel 18250 9350 2    89   Input ~ 0
+Mix_1
+$Comp
+L Device:R_POT RV9
+U 1 1 62094FC0
+P 16625 9700
+F 0 "RV9" H 16550 9700 50  0000 R CNN
+F 1 "100k Mix" H 16525 9800 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_Drill-1.5mm" H 16625 9700 50  0001 C CNN
+F 3 "~" H 16625 9700 50  0001 C CNN
+	1    16625 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16625 9850 16625 9950
+Wire Wire Line
+	16625 9950 16250 9950
+Wire Wire Line
+	16625 9550 16625 9450
+Wire Wire Line
+	16625 9450 16250 9450
+Text Notes 16775 9550 0    90   Italic 18
+MIX
+Text Notes 14700 2125 0    50   ~ 0
+VCA
+Text Notes 14700 6050 0    50   ~ 0
+VCA
+Text Notes 11825 1850 0    50   ~ 0
+Enveloppe\ngenerator
+Text Notes 11825 5800 0    50   ~ 0
+Enveloppe\ngenerator
+$Comp
+L Device:C C19
+U 1 1 60C723AB
+P 14200 2625
+F 0 "C19" H 14315 2671 50  0000 L CNN
+F 1 "1nf" H 14315 2580 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 14238 2475 50  0001 C CNN
+F 3 "~" H 14200 2625 50  0001 C CNN
+	1    14200 2625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C15
+U 1 1 6111CCF8
+P 12000 2575
+F 0 "C15" H 12118 2621 50  0000 L CNN
+F 1 "22uf" H 12050 2725 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 12038 2425 50  0001 C CNN
+F 3 "~" H 12000 2575 50  0001 C CNN
+	1    12000 2575
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U5
+U 1 1 623D8CE6
+P 16250 1575
+F 0 "U5" H 16250 1208 50  0000 C CNN
+F 1 "TL074" H 16250 1299 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 16200 1675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 16300 1775 50  0001 C CNN
+	1    16250 1575
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U5
+U 2 1 624E973E
+P 16250 5525
+F 0 "U5" H 16250 5158 50  0000 C CNN
+F 1 "TL074" H 16250 5249 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 16200 5625 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 16300 5725 50  0001 C CNN
+	2    16250 5525
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	16975 1575 16750 1575
+Wire Wire Line
+	16750 1575 16750 975 
+Wire Wire Line
+	15750 975  15750 1475
+Connection ~ 16750 1575
+Wire Wire Line
+	16750 1575 16550 1575
+Connection ~ 15750 1475
+Wire Wire Line
+	15750 1475 15950 1475
+Wire Wire Line
+	15950 1675 15750 1675
+Wire Wire Line
+	15750 1675 15750 1850
+$Comp
+L power:GND #PWR040
+U 1 1 62525469
+P 15750 1850
+F 0 "#PWR040" H 15750 1600 50  0001 C CNN
+F 1 "GND" H 15755 1677 50  0000 C CNN
+F 2 "" H 15750 1850 50  0001 C CNN
+F 3 "" H 15750 1850 50  0001 C CNN
+	1    15750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15950 5625 15750 5625
+Wire Wire Line
+	15750 5625 15750 5800
+$Comp
+L power:GND #PWR041
+U 1 1 62525933
+P 15750 5800
+F 0 "#PWR041" H 15750 5550 50  0001 C CNN
+F 1 "GND" H 15755 5627 50  0000 C CNN
+F 2 "" H 15750 5800 50  0001 C CNN
+F 3 "" H 15750 5800 50  0001 C CNN
+	1    15750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15750 5425 15750 4925
+Wire Wire Line
+	16750 5525 16550 5525
+Connection ~ 15750 5425
+Wire Wire Line
+	15750 5425 15950 5425
+$Comp
+L Device:R R28
+U 1 1 62560540
+P 16250 4925
+F 0 "R28" V 16043 4925 50  0000 C CNN
+F 1 "220k" V 16134 4925 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 16180 4925 50  0001 C CNN
+F 3 "~" H 16250 4925 50  0001 C CNN
+	1    16250 4925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16400 4925 16750 4925
+Wire Wire Line
+	16750 4925 16750 5525
+Wire Wire Line
+	16100 4925 15750 4925
+$Comp
+L Device:R R27
+U 1 1 625883FE
+P 16250 975
+F 0 "R27" V 16043 975 50  0000 C CNN
+F 1 "220k" V 16134 975 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 16180 975 50  0001 C CNN
+F 3 "~" H 16250 975 50  0001 C CNN
+	1    16250 975 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16100 975  15750 975 
+Wire Wire Line
+	16750 975  16400 975 
+$Comp
+L Device:R_POT RV12
+U 1 1 60B8C6E9
+P 17125 1575
+F 0 "RV12" V 16918 1575 50  0000 C CNN
+F 1 "100k OH Volume" V 17009 1575 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(1Nc)_Drill-1.5mm" H 17125 1575 50  0001 C CNN
+F 3 "~" H 17125 1575 50  0001 C CNN
+	1    17125 1575
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	17275 1575 17400 1575
+Wire Wire Line
+	17400 1575 17400 1850
+Wire Wire Line
+	17400 1850 17125 1850
+Wire Wire Line
+	17125 1850 17125 1725
+Wire Wire Line
+	17400 1575 17625 1575
+Connection ~ 17400 1575
+$Comp
+L Device:CP C34
+U 1 1 60BCACF0
+P 17775 1575
+F 0 "C34" V 18030 1575 50  0000 C CNN
+F 1 "4.7uf" V 17939 1575 50  0000 C CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 17813 1425 50  0001 C CNN
+F 3 "~" H 17775 1575 50  0001 C CNN
+	1    17775 1575
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17925 1575 18125 1575
+Connection ~ 18125 1575
+$Comp
+L Device:R R30
+U 1 1 60C454FC
+P 18125 1900
+F 0 "R30" H 18195 1946 50  0000 L CNN
+F 1 "100k" H 18195 1855 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 18055 1900 50  0001 C CNN
+F 3 "~" H 18125 1900 50  0001 C CNN
+	1    18125 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18125 1575 18125 1750
+Wire Wire Line
+	18125 2050 18125 2225
+$Comp
+L power:GND #PWR044
+U 1 1 60C6FDF5
+P 18125 2225
+F 0 "#PWR044" H 18125 1975 50  0001 C CNN
+F 1 "GND" H 18130 2052 50  0000 C CNN
+F 2 "" H 18125 2225 50  0001 C CNN
+F 3 "" H 18125 2225 50  0001 C CNN
+	1    18125 2225
+	1    0    0    -1  
+$EndComp
+Text Notes 16775 1300 0    89   Italic 18
+OH Volume
+$Comp
+L 00_Mes_symboles:Jack_mono J4
+U 1 1 60C72561
+P 18925 1775
+F 0 "J4" H 18622 1644 50  0000 R CNN
+F 1 "OH_OUT" H 18622 1735 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x02_(1Nc)_Drill-1.5mm" H 18900 1725 50  0001 C CNN
+F 3 "~" H 18900 1725 50  0001 C CNN
+	1    18925 1775
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 60C73720
+P 18750 2225
+F 0 "#PWR046" H 18750 1975 50  0001 C CNN
+F 1 "GND" H 18755 2052 50  0000 C CNN
+F 2 "" H 18750 2225 50  0001 C CNN
+F 3 "" H 18750 2225 50  0001 C CNN
+	1    18750 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 2225 18750 1775
+Wire Wire Line
+	18125 1575 18750 1575
+Wire Wire Line
+	16975 5525 16750 5525
+$Comp
+L Device:R_POT RV13
+U 1 1 60CB2E8F
+P 17125 5525
+F 0 "RV13" V 16918 5525 50  0000 C CNN
+F 1 "100k CH Volume" V 17009 5525 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(1Nc)_Drill-1.5mm" H 17125 5525 50  0001 C CNN
+F 3 "~" H 17125 5525 50  0001 C CNN
+	1    17125 5525
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	17275 5525 17400 5525
+Wire Wire Line
+	17400 5525 17400 5800
+Wire Wire Line
+	17400 5800 17125 5800
+Wire Wire Line
+	17125 5800 17125 5675
+Wire Wire Line
+	17400 5525 17625 5525
+Connection ~ 17400 5525
+$Comp
+L Device:CP C35
+U 1 1 60CB2E9B
+P 17775 5525
+F 0 "C35" V 18030 5525 50  0000 C CNN
+F 1 "4.7uf" V 17939 5525 50  0000 C CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 17813 5375 50  0001 C CNN
+F 3 "~" H 17775 5525 50  0001 C CNN
+	1    17775 5525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17925 5525 18125 5525
+Connection ~ 18125 5525
+$Comp
+L Device:R R31
+U 1 1 60CB2EA3
+P 18125 5850
+F 0 "R31" H 18195 5896 50  0000 L CNN
+F 1 "100k" H 18195 5805 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 18055 5850 50  0001 C CNN
+F 3 "~" H 18125 5850 50  0001 C CNN
+	1    18125 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18125 5525 18125 5700
+Wire Wire Line
+	18125 6000 18125 6175
+$Comp
+L power:GND #PWR045
+U 1 1 60CB2EAB
+P 18125 6175
+F 0 "#PWR045" H 18125 5925 50  0001 C CNN
+F 1 "GND" H 18130 6002 50  0000 C CNN
+F 2 "" H 18125 6175 50  0001 C CNN
+F 3 "" H 18125 6175 50  0001 C CNN
+	1    18125 6175
+	1    0    0    -1  
+$EndComp
+Text Notes 16775 5250 0    89   Italic 18
+CH Volume
+$Comp
+L 00_Mes_symboles:Jack_mono J5
+U 1 1 60CB2EB2
+P 18925 5725
+F 0 "J5" H 18622 5594 50  0000 R CNN
+F 1 "CH_OUT" H 18622 5685 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x02_(1Nc)_Drill-1.5mm" H 18900 5675 50  0001 C CNN
+F 3 "~" H 18900 5675 50  0001 C CNN
+	1    18925 5725
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 60CB2EB8
+P 18750 6175
+F 0 "#PWR047" H 18750 5925 50  0001 C CNN
+F 1 "GND" H 18755 6002 50  0000 C CNN
+F 2 "" H 18750 6175 50  0001 C CNN
+F 3 "" H 18750 6175 50  0001 C CNN
+	1    18750 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18750 6175 18750 5725
+Wire Wire Line
+	18125 5525 18750 5525
+Connection ~ 16750 5525
+Text Notes 725  14925 0    197  ~ 0
+Controls :\n\n  -OH decay\n  -CH decay\n  -OH volume\n  -CH volume\n  -Interaction\n  -Metal caracter\n  -Metal tune\n  -Noise mix\n  -Noise cutoff
+$Comp
+L Device:CP C21
+U 1 1 60CF58C8
+P 9525 9525
+F 0 "C21" H 9643 9571 50  0000 L CNN
+F 1 "10uf" H 9643 9480 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_5*11" H 9563 9375 50  0001 C CNN
+F 3 "~" H 9525 9525 50  0001 C CNN
+	1    9525 9525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 60CF776B
+P 10025 9775
+F 0 "R24" H 10095 9821 50  0000 L CNN
+F 1 "47k" H 10095 9730 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 9955 9775 50  0001 C CNN
+F 3 "~" H 10025 9775 50  0001 C CNN
+	1    10025 9775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 60CF82EA
+P 10025 9275
+F 0 "R23" H 10095 9321 50  0000 L CNN
+F 1 "47k" H 10095 9230 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 9955 9275 50  0001 C CNN
+F 3 "~" H 10025 9275 50  0001 C CNN
+	1    10025 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C26
+U 1 1 60CF9457
+P 10525 9775
+F 0 "C26" H 10643 9821 50  0000 L CNN
+F 1 "4.7uf" H 10643 9730 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 10563 9625 50  0001 C CNN
+F 3 "~" H 10525 9775 50  0001 C CNN
+	1    10525 9775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10025 9625 10025 9525
+Wire Wire Line
+	10025 9925 10025 10025
+Wire Wire Line
+	10025 10025 9525 10025
+Wire Wire Line
+	9525 10025 9525 9675
+Wire Wire Line
+	9525 9375 9525 9025
+Wire Wire Line
+	9525 9025 10025 9025
+Wire Wire Line
+	10025 9025 10025 9125
+Wire Wire Line
+	9525 10025 9525 10275
+Connection ~ 9525 10025
+Wire Wire Line
+	9525 9025 9525 8775
+Connection ~ 9525 9025
+Wire Wire Line
+	10525 9625 10525 9525
+Wire Wire Line
+	10525 9525 10025 9525
+Connection ~ 10025 9525
+Wire Wire Line
+	10025 9525 10025 9425
+Wire Wire Line
+	10025 10025 10525 10025
+Wire Wire Line
+	10525 10025 10525 9925
+Connection ~ 10025 10025
+$Comp
+L power:GND #PWR035
+U 1 1 60DDDC25
+P 9525 10275
+F 0 "#PWR035" H 9525 10025 50  0001 C CNN
+F 1 "GND" H 9530 10102 50  0000 C CNN
+F 2 "" H 9525 10275 50  0001 C CNN
+F 3 "" H 9525 10275 50  0001 C CNN
+	1    9525 10275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR034
+U 1 1 60DE04D6
+P 9525 8775
+F 0 "#PWR034" H 9525 8625 50  0001 C CNN
+F 1 "+12V" H 9540 8948 50  0000 C CNN
+F 2 "" H 9525 8775 50  0001 C CNN
+F 3 "" H 9525 8775 50  0001 C CNN
+	1    9525 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 2 1 60DE1EC3
+P 11325 9425
+F 0 "U4" H 11325 9058 50  0000 C CNN
+F 1 "TL072" H 11325 9149 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 11325 9425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 11325 9425 50  0001 C CNN
+	2    11325 9425
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	11025 9525 10525 9525
+Connection ~ 10525 9525
+Wire Wire Line
+	11025 9325 10900 9325
+Wire Wire Line
+	10900 9325 10900 8900
+Wire Wire Line
+	10900 8900 11675 8900
+Wire Wire Line
+	11675 8900 11675 9425
+Wire Wire Line
+	11675 9425 11625 9425
+$Comp
+L Device:R R29
+U 1 1 60E7B355
+P 12150 10200
+F 0 "R29" H 12220 10246 50  0000 L CNN
+F 1 "10k" H 12220 10155 50  0000 L CNN
+F 2 "00_Mes_empreintes:Resistor" V 12080 10200 50  0001 C CNN
+F 3 "~" H 12150 10200 50  0001 C CNN
+	1    12150 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C33
+U 1 1 60E7C13B
+P 12625 10200
+F 0 "C33" H 12743 10246 50  0000 L CNN
+F 1 "4.7uf" H 12743 10155 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_4*7" H 12663 10050 50  0001 C CNN
+F 3 "~" H 12625 10200 50  0001 C CNN
+	1    12625 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 9425 12150 9650
+$Comp
+L Device:R_POT RV14
+U 1 1 60E97A62
+P 12150 9800
+F 0 "RV14" H 12080 9846 50  0000 R CNN
+F 1 "10k Tune" H 12080 9755 50  0000 R CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_Drill-1.5mm" H 12150 9800 50  0001 C CNN
+F 3 "~" H 12150 9800 50  0001 C CNN
+	1    12150 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 10050 12150 9950
+Wire Wire Line
+	12150 10350 12150 10500
+Wire Wire Line
+	12625 10500 12625 10350
+$Comp
+L power:GND #PWR042
+U 1 1 60EE69C7
+P 12150 10500
+F 0 "#PWR042" H 12150 10250 50  0001 C CNN
+F 1 "GND" H 12155 10327 50  0000 C CNN
+F 2 "" H 12150 10500 50  0001 C CNN
+F 3 "" H 12150 10500 50  0001 C CNN
+	1    12150 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 60EE70CC
+P 12625 10500
+F 0 "#PWR043" H 12625 10250 50  0001 C CNN
+F 1 "GND" H 12630 10327 50  0000 C CNN
+F 2 "" H 12625 10500 50  0001 C CNN
+F 3 "" H 12625 10500 50  0001 C CNN
+	1    12625 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 9800 12625 9800
+Wire Wire Line
+	12625 9800 12625 10050
+Wire Wire Line
+	13375 9475 13275 9475
+Wire Wire Line
+	13275 9475 13275 9800
+Wire Wire Line
+	13275 10100 13375 10100
+Connection ~ 13275 9800
+Wire Wire Line
+	13275 9800 13275 10100
+Wire Wire Line
+	12625 9800 12950 9800
+Connection ~ 12625 9800
+Wire Wire Line
+	14500 10100 14500 10500
+Wire Wire Line
+	14375 10100 14500 10100
+Wire Wire Line
+	14375 9475 14500 9475
+Wire Wire Line
+	14500 9475 14500 10100
+Connection ~ 14500 10100
+$Comp
+L power:GND #PWR048
+U 1 1 61053204
+P 14500 10500
+F 0 "#PWR048" H 14500 10250 50  0001 C CNN
+F 1 "GND" H 14505 10327 50  0000 C CNN
+F 2 "" H 14500 10500 50  0001 C CNN
+F 3 "" H 14500 10500 50  0001 C CNN
+	1    14500 10500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 9425 11675 9425
+Connection ~ 11675 9425
+Text Notes 11975 9325 0    89   Italic 18
+Tune
+Wire Wire Line
+	12000 2225 12375 2225
+$Comp
+L Device:R R17
+U 1 1 60BAFC96
+P 12725 2575
+F 0 "R17" V 12932 2575 50  0000 C CNN
+F 1 "1k" V 12841 2575 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 12655 2575 50  0001 C CNN
+F 3 "~" H 12725 2575 50  0001 C CNN
+	1    12725 2575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12725 2425 12725 2225
+Connection ~ 12725 2225
+Wire Wire Line
+	12725 2225 12925 2225
+$Comp
+L Device:R R18
+U 1 1 60BE81E9
+P 12750 6525
+F 0 "R18" V 12957 6525 50  0000 C CNN
+F 1 "1k" V 12866 6525 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 12680 6525 50  0001 C CNN
+F 3 "~" H 12750 6525 50  0001 C CNN
+	1    12750 6525
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12000 6175 12750 6175
+Wire Wire Line
+	12750 6375 12750 6175
+Connection ~ 12750 6175
+Wire Wire Line
+	12750 6175 12925 6175
+$Comp
+L Device:C C28
+U 1 1 60C39887
+P 15575 6575
+F 0 "C28" H 15690 6621 50  0000 L CNN
+F 1 "47nf" H 15690 6530 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 15613 6425 50  0001 C CNN
+F 3 "~" H 15575 6575 50  0001 C CNN
+	1    15575 6575
+	0    1    -1   0   
+$EndComp
+Text Notes 9425 8375 0    157  ~ 31
+METAL TUNING
+Wire Notes Line
+	475  11500 20000 11500
+Wire Notes Line
+	9000 475  9000 11500
+Wire Notes Line
+	475  4750 9000 4750
+Wire Notes Line
+	9025 7750 20025 7750
+Text Notes 2950 8075 0    90   Italic 18
+Caracter
+Wire Wire Line
+	3400 7275 3525 7275
+Connection ~ 3400 7275
+Wire Wire Line
+	3400 7775 3400 7275
+Wire Wire Line
+	3650 7775 3400 7775
+Wire Wire Line
+	3400 9025 3525 9025
+Connection ~ 3400 9025
+Wire Wire Line
+	3400 8575 3400 9025
+Wire Wire Line
+	3650 8575 3400 8575
+Wire Wire Line
+	3300 9025 3400 9025
+Connection ~ 3850 8425
+Wire Wire Line
+	3850 8275 3850 8425
+Wire Wire Line
+	3650 8275 3850 8275
+Wire Wire Line
+	3300 7275 3400 7275
+Wire Wire Line
+	3300 9725 4425 9725
+Wire Wire Line
+	2900 9025 2900 9125
+Text Notes 6350 7825 0    50   ~ 0
+High pass\n23Hz
+Text Notes 5500 7825 0    50   ~ 0
+Low pass\n23k Hz
+$Comp
+L power:GND #PWR016
+U 1 1 6125A23B
+P 6650 8800
+F 0 "#PWR016" H 6650 8550 50  0001 C CNN
+F 1 "GND" H 6655 8627 50  0000 C CNN
+F 2 "" H 6650 8800 50  0001 C CNN
+F 3 "" H 6650 8800 50  0001 C CNN
+	1    6650 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 8600 6650 8800
+Wire Wire Line
+	6650 8200 6450 8200
+Wire Wire Line
+	6650 8300 6650 8200
+$Comp
+L Device:R R12
+U 1 1 61216157
+P 6650 8450
+F 0 "R12" H 6580 8404 50  0000 R CNN
+F 1 "6.8k" H 6580 8495 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 6580 8450 50  0001 C CNN
+F 3 "~" H 6650 8450 50  0001 C CNN
+	1    6650 8450
+	-1   0    0    1   
+$EndComp
+Connection ~ 5900 8200
+Wire Wire Line
+	6150 8200 5900 8200
+$Comp
+L Device:C C12
+U 1 1 611F4389
+P 6300 8200
+F 0 "C12" V 6048 8200 50  0000 C CNN
+F 1 "1uf" V 6139 8200 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Rect_1uf_(grey)" H 6338 8050 50  0001 C CNN
+F 3 "~" H 6300 8200 50  0001 C CNN
+	1    6300 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 8800 5900 8600
+$Comp
+L power:GND #PWR014
+U 1 1 611D2BE4
+P 5900 8800
+F 0 "#PWR014" H 5900 8550 50  0001 C CNN
+F 1 "GND" H 5905 8627 50  0000 C CNN
+F 2 "" H 5900 8800 50  0001 C CNN
+F 3 "" H 5900 8800 50  0001 C CNN
+	1    5900 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 8200 5725 8200
+Wire Wire Line
+	5900 8300 5900 8200
+$Comp
+L Device:C C11
+U 1 1 611AED74
+P 5900 8450
+F 0 "C11" H 6015 8496 50  0000 L CNN
+F 1 "6.8nf" H 6015 8405 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 5938 8300 50  0001 C CNN
+F 3 "~" H 5900 8450 50  0001 C CNN
+	1    5900 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 6118DA67
+P 5575 8200
+F 0 "R9" V 5368 8200 50  0000 C CNN
+F 1 "1k" V 5459 8200 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 5505 8200 50  0001 C CNN
+F 3 "~" H 5575 8200 50  0001 C CNN
+	1    5575 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5425 8200 5150 8200
+Text GLabel 8525 8300 2    50   Input ~ 0
+Metal
+Wire Wire Line
+	5150 8200 5150 8300
+Connection ~ 5150 8200
+Wire Wire Line
+	5150 8100 5150 8200
+Wire Wire Line
+	5025 6875 5150 6875
+Wire Wire Line
+	5025 9625 5150 9625
+$Comp
+L Device:R R8
+U 1 1 61821A1A
+P 5150 8450
+F 0 "R8" H 5080 8404 50  0000 R CNN
+F 1 "100k" H 5080 8495 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 5080 8450 50  0001 C CNN
+F 3 "~" H 5150 8450 50  0001 C CNN
+	1    5150 8450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 61820CF0
+P 5150 7950
+F 0 "R7" H 5080 7904 50  0000 R CNN
+F 1 "100k" H 5080 7995 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 5080 7950 50  0001 C CNN
+F 3 "~" H 5150 7950 50  0001 C CNN
+	1    5150 7950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 6775 4425 6775
+$Comp
+L 4xxx:4070 U2
+U 2 1 617961CD
+P 4725 6875
+F 0 "U2" H 4725 7200 50  0000 C CNN
+F 1 "4070" H 4725 7109 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 4725 6875 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 4725 6875 50  0001 C CNN
+	2    4725 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:4070 U2
+U 4 1 617921BD
+P 4725 9625
+F 0 "U2" H 4725 9950 50  0000 C CNN
+F 1 "4070" H 4725 9859 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 4725 9625 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 4725 9625 50  0001 C CNN
+	4    4725 9625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4xxx:40106 U1
+U 6 1 61774CAB
+P 3825 9025
+F 0 "U1" H 3825 8875 50  0000 C CNN
+F 1 "40106" H 3825 8800 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 3825 9025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3825 9025 50  0001 C CNN
+	6    3825 9025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 9025 2900 9025
+$Comp
+L power:GND #PWR010
+U 1 1 61774CA4
+P 2900 9125
+F 0 "#PWR010" H 2900 8875 50  0001 C CNN
+F 1 "GND" H 3050 9025 50  0000 C CNN
+F 2 "" H 2900 9125 50  0001 C CNN
+F 3 "" H 2900 9125 50  0001 C CNN
+	1    2900 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 61774C99
+P 3150 9025
+F 0 "C8" V 2898 9025 50  0000 C CNN
+F 1 "10n" V 2989 9025 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 3188 8875 50  0001 C CNN
+F 3 "" H 3150 9025 50  0001 C CNN
+	1    3150 9025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_Dual RV5
+U 1 1 616FBC92
+P 3750 8175
+F 0 "RV5" V 3750 7875 50  0000 C CNN
+F 1 "100k Caracter" V 3750 8250 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_2x03_(2Nc)_Drill-1.5mm" H 3750 8175 50  0001 C CNN
+F 3 "~" H 3750 8175 50  0001 C CNN
+	1    3750 8175
+	0    1    1    0   
+$EndComp
+$Comp
+L 4xxx:40106 U1
+U 5 1 616FBC89
+P 3825 7275
+F 0 "U1" H 3825 7125 50  0000 C CNN
+F 1 "40106" H 3825 7050 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 3825 7275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 3825 7275 50  0001 C CNN
+	5    3825 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 7275 2900 7375
+Wire Wire Line
+	3000 7275 2900 7275
+$Comp
+L power:GND #PWR09
+U 1 1 616FBC81
+P 2900 7375
+F 0 "#PWR09" H 2900 7125 50  0001 C CNN
+F 1 "GND" H 3050 7275 50  0000 C CNN
+F 2 "" H 2900 7375 50  0001 C CNN
+F 3 "" H 2900 7375 50  0001 C CNN
+	1    2900 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 616FBC76
+P 3150 7275
+F 0 "C7" V 2898 7275 50  0000 C CNN
+F 1 "10n" V 2989 7275 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 3188 7125 50  0001 C CNN
+F 3 "" H 3150 7275 50  0001 C CNN
+	1    3150 7275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 9175 2700 9175
+Wire Wire Line
+	2700 9625 2700 9175
+Wire Wire Line
+	2700 9825 2700 10325
+Wire Wire Line
+	2250 10325 2700 10325
+Connection ~ 2250 10325
+Connection ~ 2250 9875
+Wire Wire Line
+	2250 9725 2250 9875
+Wire Wire Line
+	1800 9725 2250 9725
+$Comp
+L Device:R_POT_TRIM RV4
+U 1 1 616A0567
+P 1800 9875
+F 0 "RV4" V 1685 9875 50  0000 C CNN
+F 1 "100k" V 1594 9875 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 1800 9875 50  0001 C CNN
+F 3 "~" H 1800 9875 50  0001 C CNN
+	1    1800 9875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2125 10325 2250 10325
+Connection ~ 1350 10325
+Wire Wire Line
+	1525 10325 1350 10325
+$Comp
+L 4xxx:40106 U1
+U 4 1 616A055E
+P 1825 10325
+F 0 "U1" H 1825 10175 50  0000 C CNN
+F 1 "40106" H 1825 10100 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 1825 10325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 1825 10325 50  0001 C CNN
+	4    1825 10325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  10325 900  10425
+Wire Wire Line
+	1000 10325 900  10325
+$Comp
+L power:GND #PWR06
+U 1 1 616A0556
+P 900 10425
+F 0 "#PWR06" H 900 10175 50  0001 C CNN
+F 1 "GND" H 1050 10325 50  0000 C CNN
+F 2 "" H 900 10425 50  0001 C CNN
+F 3 "" H 900 10425 50  0001 C CNN
+	1    900  10425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 9875 2250 10325
+Wire Wire Line
+	1950 9875 2250 9875
+Wire Wire Line
+	1350 9875 1350 10325
+Wire Wire Line
+	1650 9875 1350 9875
+Wire Wire Line
+	1300 10325 1350 10325
+$Comp
+L Device:C C5
+U 1 1 616A054B
+P 1150 10325
+F 0 "C5" V 898 10325 50  0000 C CNN
+F 1 "10n" V 989 10325 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 1188 10175 50  0001 C CNN
+F 3 "" H 1150 10325 50  0001 C CNN
+	1    1150 10325
+	0    1    1    0   
+$EndComp
+Connection ~ 2250 9175
+$Comp
+L 4xxx:4070 U2
+U 3 1 616A0544
+P 3000 9725
+F 0 "U2" H 3000 10050 50  0000 C CNN
+F 1 "4070" H 3000 9959 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 3000 9725 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 3000 9725 50  0001 C CNN
+	3    3000 9725
+	1    0    0    1   
+$EndComp
+Connection ~ 2250 8725
+Wire Wire Line
+	2250 8575 2250 8725
+Wire Wire Line
+	1800 8575 2250 8575
+$Comp
+L Device:R_POT_TRIM RV3
+U 1 1 616A053B
+P 1800 8725
+F 0 "RV3" V 1685 8725 50  0000 C CNN
+F 1 "100k" V 1594 8725 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 1800 8725 50  0001 C CNN
+F 3 "~" H 1800 8725 50  0001 C CNN
+	1    1800 8725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2125 9175 2250 9175
+Connection ~ 1350 9175
+Wire Wire Line
+	1525 9175 1350 9175
+$Comp
+L 4xxx:40106 U1
+U 3 1 616A0532
+P 1825 9175
+F 0 "U1" H 1825 9025 50  0000 C CNN
+F 1 "40106" H 1825 8950 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 1825 9175 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 1825 9175 50  0001 C CNN
+	3    1825 9175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  9175 900  9275
+Wire Wire Line
+	1000 9175 900  9175
+$Comp
+L power:GND #PWR05
+U 1 1 616A052A
+P 900 9275
+F 0 "#PWR05" H 900 9025 50  0001 C CNN
+F 1 "GND" H 1050 9175 50  0000 C CNN
+F 2 "" H 900 9275 50  0001 C CNN
+F 3 "" H 900 9275 50  0001 C CNN
+	1    900  9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 8725 2250 9175
+Wire Wire Line
+	1950 8725 2250 8725
+Wire Wire Line
+	1350 8725 1350 9175
+Wire Wire Line
+	1650 8725 1350 8725
+Wire Wire Line
+	1300 9175 1350 9175
+$Comp
+L Device:C C4
+U 1 1 616A051F
+P 1150 9175
+F 0 "C4" V 898 9175 50  0000 C CNN
+F 1 "10n" V 989 9175 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 1188 9025 50  0001 C CNN
+F 3 "" H 1150 9175 50  0001 C CNN
+	1    1150 9175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 6225 2700 6225
+Wire Wire Line
+	2700 6675 2700 6225
+Wire Wire Line
+	2700 6875 2700 7375
+Wire Wire Line
+	2250 7375 2700 7375
+Connection ~ 2250 7375
+Connection ~ 2250 6925
+Wire Wire Line
+	2250 6775 2250 6925
+Wire Wire Line
+	1800 6775 2250 6775
+$Comp
+L Device:R_POT_TRIM RV2
+U 1 1 616381C6
+P 1800 6925
+F 0 "RV2" V 1685 6925 50  0000 C CNN
+F 1 "100k" V 1594 6925 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 1800 6925 50  0001 C CNN
+F 3 "~" H 1800 6925 50  0001 C CNN
+	1    1800 6925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2125 7375 2250 7375
+Connection ~ 1350 7375
+Wire Wire Line
+	1525 7375 1350 7375
+$Comp
+L 4xxx:40106 U1
+U 2 1 616381BD
+P 1825 7375
+F 0 "U1" H 1825 7225 50  0000 C CNN
+F 1 "40106" H 1825 7150 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 1825 7375 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 1825 7375 50  0001 C CNN
+	2    1825 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  7375 900  7475
+Wire Wire Line
+	1000 7375 900  7375
+$Comp
+L power:GND #PWR04
+U 1 1 616381B5
+P 900 7475
+F 0 "#PWR04" H 900 7225 50  0001 C CNN
+F 1 "GND" H 1050 7375 50  0000 C CNN
+F 2 "" H 900 7475 50  0001 C CNN
+F 3 "" H 900 7475 50  0001 C CNN
+	1    900  7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6925 2250 7375
+Wire Wire Line
+	1950 6925 2250 6925
+Wire Wire Line
+	1350 6925 1350 7375
+Wire Wire Line
+	1650 6925 1350 6925
+Wire Wire Line
+	1300 7375 1350 7375
+$Comp
+L Device:C C3
+U 1 1 616381AA
+P 1150 7375
+F 0 "C3" V 898 7375 50  0000 C CNN
+F 1 "10n" V 989 7375 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 1188 7225 50  0001 C CNN
+F 3 "" H 1150 7375 50  0001 C CNN
+	1    1150 7375
+	0    1    1    0   
+$EndComp
+Connection ~ 2250 6225
+$Comp
+L 4xxx:4070 U2
+U 1 1 6161F100
+P 3000 6775
+F 0 "U2" H 3000 7100 50  0000 C CNN
+F 1 "4070" H 3000 7009 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 3000 6775 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf" H 3000 6775 50  0001 C CNN
+	1    3000 6775
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 5775
+Wire Wire Line
+	2250 5625 2250 5775
+Wire Wire Line
+	1800 5625 2250 5625
+$Comp
+L Device:R_POT_TRIM RV1
+U 1 1 615AEA0A
+P 1800 5775
+F 0 "RV1" V 1685 5775 50  0000 C CNN
+F 1 "100k" V 1594 5775 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 1800 5775 50  0001 C CNN
+F 3 "~" H 1800 5775 50  0001 C CNN
+	1    1800 5775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2125 6225 2250 6225
+Connection ~ 1350 6225
+Wire Wire Line
+	1525 6225 1350 6225
+$Comp
+L 4xxx:40106 U1
+U 1 1 6117B665
+P 1825 6225
+F 0 "U1" H 1825 6075 50  0000 C CNN
+F 1 "40106" H 1825 6000 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 1825 6225 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf" H 1825 6225 50  0001 C CNN
+	1    1825 6225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  6225 900  6325
+Wire Wire Line
+	1000 6225 900  6225
+$Comp
+L power:GND #PWR03
+U 1 1 5C278FF6
+P 900 6325
+F 0 "#PWR03" H 900 6075 50  0001 C CNN
+F 1 "GND" H 1050 6225 50  0000 C CNN
+F 2 "" H 900 6325 50  0001 C CNN
+F 3 "" H 900 6325 50  0001 C CNN
+	1    900  6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 5775 2250 6225
+Wire Wire Line
+	1950 5775 2250 5775
+Wire Wire Line
+	1350 5775 1350 6225
+Wire Wire Line
+	1650 5775 1350 5775
+Wire Wire Line
+	1300 6225 1350 6225
+$Comp
+L Device:C C2
+U 1 1 5BF1F3DF
+P 1150 6225
+F 0 "C2" V 898 6225 50  0000 C CNN
+F 1 "10n" V 989 6225 50  0000 C CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 1188 6075 50  0001 C CNN
+F 3 "" H 1150 6225 50  0001 C CNN
+	1    1150 6225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4425 8425 4425 9025
+Wire Wire Line
+	3850 8425 4425 8425
+Wire Wire Line
+	3850 7925 3900 7925
+Wire Wire Line
+	5150 8600 5150 9625
+Wire Wire Line
+	5150 7800 5150 6875
+Connection ~ 8150 8300
+Text Notes 7700 7600 0    50   ~ 0
+Gain
+Wire Wire Line
+	7975 7850 8150 7850
+Connection ~ 7975 7850
+Wire Wire Line
+	7975 7650 7775 7650
+Wire Wire Line
+	7975 7850 7975 7650
+Wire Wire Line
+	7775 7700 7775 7650
+$Comp
+L Device:R_POT_TRIM RV8
+U 1 1 612ED19F
+P 7775 7850
+F 0 "RV8" V 7660 7850 50  0000 C CNN
+F 1 "100k" V 7569 7850 50  0000 C CNN
+F 2 "00_Mes_empreintes:Trimot_RM-065" H 7775 7850 50  0001 C CNN
+F 3 "~" H 7775 7850 50  0001 C CNN
+	1    7775 7850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 8300 8025 8300
+Wire Wire Line
+	8150 7850 8150 8300
+Wire Wire Line
+	7925 7850 7975 7850
+Wire Wire Line
+	7300 8200 7175 8200
+Connection ~ 7300 8200
+Wire Wire Line
+	7300 7850 7625 7850
+Wire Wire Line
+	7300 8200 7300 7850
+$Comp
+L power:GND #PWR017
+U 1 1 612ED192
+P 7425 8800
+F 0 "#PWR017" H 7425 8550 50  0001 C CNN
+F 1 "GND" H 7430 8627 50  0000 C CNN
+F 2 "" H 7425 8800 50  0001 C CNN
+F 3 "" H 7425 8800 50  0001 C CNN
+	1    7425 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7425 8400 7425 8800
+Wire Wire Line
+	7425 8200 7300 8200
+$Comp
+L Device:R R13
+U 1 1 612ED18A
+P 7025 8200
+F 0 "R13" V 6818 8200 50  0000 C CNN
+F 1 "10k" V 6909 8200 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 6955 8200 50  0001 C CNN
+F 3 "~" H 7025 8200 50  0001 C CNN
+	1    7025 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U4
+U 1 1 612ED184
+P 7725 8300
+F 0 "U4" H 7725 8667 50  0000 C CNN
+F 1 "TL072" H 7725 8576 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 7725 8300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7725 8300 50  0001 C CNN
+	1    7725 8300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6875 8200 6650 8200
+Connection ~ 6650 8200
+Text Notes 15225 11350 0    50   ~ 0
+Here is just a single pot mixing metal and white noise together\nthen 2 buffers (one for OH the and one for CH) I try without but the sound become noisier (in a bad way)\nThank you Lazare =)
+Text Notes 9225 11075 0    50   ~ 0
+Tuning is accomplished by varying he supplt voltage with a voltage divider to CD40106 & CD4070 (from 3v to 6v).\nThis alter the time taken for the oscillators to reach their respective thresholds and therefore changes their frequencies.
+Text Notes 9225 11325 0    50   ~ 10
+http://experimentalistsanonymous.com/diy/Schematics/Full%20Synths%20Drum%20Synths%20and%20Misc%20Synth/Synbal.pdf
+Text Notes 750  4350 0    50   ~ 0
+Noise generator from MFOS, fitered to be between 20Hz and 20kHz with adjustable gain and adjustable low pass, thank you JaggedNZ\nThe noise source is the reverse-biased emitter-base junction of the transistor.\nCut off the collector of the transistor so that it doesn't act like an antenna picking up unwanted noise or EMI.\nThe BVEBO (Emitter-Base Breakdown Voltage) is exceeeded thus the transistor is operating in avalanche mode.
+Text Notes 750  4500 0    50   ~ 10
+http://musicfromouterspace.com/analogsynth_new/NOISECORNREV01/NOISECORNREV01.php
+Text Notes 5000 11125 0    50   ~ 0
+For the metal noise we use CD40106 (Schmitt trigger) for making 6 square wave oscillators\nand the CD4070 (XOR) as a frequency mixer resulting in a complex inharmonic waveform.
+Text Notes 5000 11275 0    50   ~ 10
+https://hackaday.com/2015/04/10/logic-noise-more-cmos-cowbell/
+Text Notes 16725 6925 0    50   ~ 0
+Single transistor VCA (voltage controlled attenuator),\na circuit referred to by the Roland engineers as a "Swing Type VCA." \nThe VCA envelope is provided by a pulse from the trigger input
+Text Notes 16725 7075 0    50   ~ 10
+http://www.mickeydelp.com/blog/anatomy-of-a-drum-machine
+$Comp
+L Amplifier_Operational:TL072 U3
+U 3 1 617006C5
+P 15675 13250
+F 0 "U3" H 15600 13475 50  0000 L CNN
+F 1 "TL072" H 15600 13400 50  0000 L CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 15625 13350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 15725 13450 50  0001 C CNN
+	3    15675 13250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J3
+U 1 1 617006CB
+P 13175 13250
+F 0 "J3" H 13575 13050 50  0000 C CNN
+F 1 "Eurorack_power" H 13175 12800 50  0000 C CNN
+F 2 "00_Mes_empreintes:2X05_Power_conn" H 13175 13250 50  0001 C CNN
+F 3 "~" H 13175 13250 50  0001 C CNN
+	1    13175 13250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 617006D1
+P 14025 13050
+F 0 "D7" H 14025 12834 50  0000 C CNN
+F 1 "1N4148" H 14025 12925 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 14025 12875 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14025 13050 50  0001 C CNN
+	1    14025 13050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 617006D7
+P 14025 13450
+F 0 "D8" H 14025 13666 50  0000 C CNN
+F 1 "1N4148" H 14025 13575 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 14025 13275 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14025 13450 50  0001 C CNN
+	1    14025 13450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C22
+U 1 1 617006DD
+P 14575 13000
+F 0 "C22" H 14690 13046 50  0000 L CNN
+F 1 "10uf" H 14690 12955 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_5*11" H 14575 13000 50  0001 C CNN
+F 3 "~" H 14575 13000 50  0001 C CNN
+	1    14575 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C23
+U 1 1 617006E3
+P 14575 13500
+F 0 "C23" H 14690 13546 50  0000 L CNN
+F 1 "10uf" H 14690 13455 50  0000 L CNN
+F 2 "00_Mes_empreintes:CP_Radial_5*11" H 14575 13500 50  0001 C CNN
+F 3 "~" H 14575 13500 50  0001 C CNN
+	1    14575 13500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14175 13050 14325 13050
+Wire Wire Line
+	14175 13450 14325 13450
+$Comp
+L Device:C C25
+U 1 1 617006EF
+P 15075 13500
+F 0 "C25" H 15190 13546 50  0000 L CNN
+F 1 "100nf" H 15190 13455 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 15113 13350 50  0001 C CNN
+F 3 "~" H 15075 13500 50  0001 C CNN
+	1    15075 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 617006F5
+P 15075 13000
+F 0 "C24" H 15190 13046 50  0000 L CNN
+F 1 "100nf" H 15190 12955 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 15113 12850 50  0001 C CNN
+F 3 "~" H 15075 13000 50  0001 C CNN
+	1    15075 13000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15075 12850 14575 12850
+Connection ~ 14575 12850
+Wire Wire Line
+	14575 13650 15075 13650
+Connection ~ 14575 13650
+Connection ~ 15075 13650
+Connection ~ 15075 12850
+Wire Wire Line
+	14575 13150 14575 13250
+Wire Wire Line
+	15075 13150 15075 13250
+Connection ~ 14575 13250
+Wire Wire Line
+	14575 13250 14575 13350
+Wire Wire Line
+	14575 13250 15075 13250
+Connection ~ 15075 13250
+Wire Wire Line
+	15075 13250 15075 13350
+Wire Wire Line
+	15575 13650 15575 13550
+Wire Wire Line
+	15075 13650 15575 13650
+Wire Wire Line
+	15575 12950 15575 12850
+Wire Wire Line
+	15075 12850 15575 12850
+Text Notes 12000 12000 0    157  ~ 31
+POWER
+Wire Wire Line
+	13375 13450 13525 13450
+Connection ~ 13375 13450
+Wire Wire Line
+	12875 13050 12875 12900
+Wire Wire Line
+	12875 13050 13375 13050
+Connection ~ 12875 13050
+Wire Wire Line
+	13875 13050 13525 13050
+Connection ~ 13375 13050
+Wire Wire Line
+	12875 13450 13375 13450
+Wire Wire Line
+	12875 13450 12875 13600
+Connection ~ 12875 13450
+Wire Wire Line
+	13525 13600 13525 13450
+Connection ~ 13525 13450
+Wire Wire Line
+	13525 13450 13875 13450
+Wire Wire Line
+	13525 13050 13525 12900
+Wire Wire Line
+	13525 12900 12875 12900
+Connection ~ 13525 13050
+Wire Wire Line
+	13525 13050 13375 13050
+Wire Wire Line
+	12875 13600 13525 13600
+Wire Wire Line
+	12875 13350 12875 13250
+Wire Wire Line
+	12875 13250 12875 13150
+Connection ~ 12875 13250
+Wire Wire Line
+	12875 13150 13375 13150
+Connection ~ 12875 13150
+Wire Wire Line
+	13375 13350 13375 13250
+Wire Wire Line
+	13375 13250 13375 13150
+Connection ~ 13375 13250
+Connection ~ 13375 13150
+Wire Wire Line
+	13375 13350 12875 13350
+Connection ~ 13375 13350
+Connection ~ 12875 13350
+Wire Wire Line
+	13375 13250 12875 13250
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61700733
+P 12575 13050
+F 0 "TP2" H 12633 13168 50  0000 L CNN
+F 1 "TestPoint" H 12425 13250 50  0000 L CNN
+F 2 "00_Mes_empreintes:Test-Point_3x3" H 12775 13050 50  0001 C CNN
+F 3 "~" H 12775 13050 50  0001 C CNN
+	1    12575 13050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12575 13250 12875 13250
+Connection ~ 12575 13250
+Wire Wire Line
+	12575 13250 12575 13450
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6170073C
+P 12475 13250
+F 0 "#FLG01" H 12475 13325 50  0001 C CNN
+F 1 "PWR_FLAG" H 12325 13450 50  0000 L CNN
+F 2 "" H 12475 13250 50  0001 C CNN
+F 3 "~" H 12475 13250 50  0001 C CNN
+	1    12475 13250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12475 13250 12575 13250
+$Comp
+L power:GND #PWR027
+U 1 1 61700743
+P 12575 13450
+F 0 "#PWR027" H 12575 13200 50  0001 C CNN
+F 1 "GND" H 12580 13277 50  0000 C CNN
+F 2 "" H 12575 13450 50  0001 C CNN
+F 3 "" H 12575 13450 50  0001 C CNN
+	1    12575 13450
+	1    0    0    -1  
+$EndComp
+Connection ~ 14325 13950
+Wire Wire Line
+	14325 13950 14175 13950
+Wire Wire Line
+	14325 14150 14325 13950
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 6170074E
+P 14175 13950
+F 0 "#FLG03" H 14175 14025 50  0001 C CNN
+F 1 "PWR_FLAG" H 14025 14150 50  0000 L CNN
+F 2 "" H 14175 13950 50  0001 C CNN
+F 3 "~" H 14175 13950 50  0001 C CNN
+	1    14175 13950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR033
+U 1 1 61700754
+P 14325 14150
+F 0 "#PWR033" H 14325 14250 50  0001 C CNN
+F 1 "-12V" H 14340 14323 50  0000 C CNN
+F 2 "" H 14325 14150 50  0001 C CNN
+F 3 "" H 14325 14150 50  0001 C CNN
+	1    14325 14150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14325 12500 14325 12350
+Connection ~ 14325 12500
+Wire Wire Line
+	14175 12500 14325 12500
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 6170075F
+P 14175 12500
+F 0 "#FLG02" H 14175 12575 50  0001 C CNN
+F 1 "PWR_FLAG" H 14025 12700 50  0000 L CNN
+F 2 "" H 14175 12500 50  0001 C CNN
+F 3 "~" H 14175 12500 50  0001 C CNN
+	1    14175 12500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR032
+U 1 1 61700765
+P 14325 12350
+F 0 "#PWR032" H 14325 12200 50  0001 C CNN
+F 1 "+12V" H 14340 12523 50  0000 C CNN
+F 2 "" H 14325 12350 50  0001 C CNN
+F 3 "" H 14325 12350 50  0001 C CNN
+	1    14325 12350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12575 13050 12575 13250
+Connection ~ 8350 8300
+Wire Wire Line
+	8350 8300 8150 8300
+Wire Wire Line
+	8350 8300 8525 8300
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61724CD2
+P 8350 8300
+F 0 "TP1" H 8408 8418 50  0000 L CNN
+F 1 "TestPoint" H 8200 8500 50  0000 L CNN
+F 2 "00_Mes_empreintes:Test-Point_3x3" H 8550 8300 50  0001 C CNN
+F 3 "~" H 8550 8300 50  0001 C CNN
+	1    8350 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 617BD87F
+P 12950 9800
+F 0 "TP3" H 13008 9918 50  0000 L CNN
+F 1 "TestPoint" H 12800 10000 50  0000 L CNN
+F 2 "00_Mes_empreintes:Test-Point_3x3" H 13150 9800 50  0001 C CNN
+F 3 "~" H 13150 9800 50  0001 C CNN
+	1    12950 9800
+	1    0    0    -1  
+$EndComp
+Connection ~ 12950 9800
+Wire Wire Line
+	12950 9800 13275 9800
+$Comp
+L Amplifier_Operational:TL074 U5
+U 5 1 617CA554
+P 17675 13250
+F 0 "U5" H 17675 13475 50  0000 C CNN
+F 1 "TL074" H 17725 13400 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 17675 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 17675 13250 50  0001 C CNN
+	5    17675 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14325 12500 14325 12850
+Wire Wire Line
+	14325 13450 14325 13650
+Wire Wire Line
+	13375 13250 14575 13250
+Wire Wire Line
+	14325 13650 14575 13650
+Connection ~ 14325 13650
+Wire Wire Line
+	14325 13650 14325 13950
+Wire Wire Line
+	14325 12850 14575 12850
+Connection ~ 14325 12850
+Wire Wire Line
+	14325 12850 14325 13050
+$Comp
+L Amplifier_Operational:TL072 U4
+U 3 1 617C3BA5
+P 16675 13250
+F 0 "U4" H 16675 13475 50  0000 C CNN
+F 1 "TL072" H 16725 13400 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-8_Socket" H 16675 13250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 16675 13250 50  0001 C CNN
+	3    16675 13250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15575 12850 16075 12850
+Connection ~ 15575 12850
+Wire Wire Line
+	16075 13650 15575 13650
+Connection ~ 15575 13650
+$Comp
+L Device:C C29
+U 1 1 61C11C69
+P 16075 13000
+F 0 "C29" H 16190 13046 50  0000 L CNN
+F 1 "100nf" H 16190 12955 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 16113 12850 50  0001 C CNN
+F 3 "~" H 16075 13000 50  0001 C CNN
+	1    16075 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 61C12979
+P 16075 13500
+F 0 "C30" H 16190 13546 50  0000 L CNN
+F 1 "100nf" H 16190 13455 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 16113 13350 50  0001 C CNN
+F 3 "~" H 16075 13500 50  0001 C CNN
+	1    16075 13500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16075 12850 16575 12850
+Wire Wire Line
+	16575 12850 16575 12950
+Connection ~ 16075 12850
+Wire Wire Line
+	16075 13650 16575 13650
+Wire Wire Line
+	16575 13650 16575 13550
+Connection ~ 16075 13650
+Wire Wire Line
+	16075 13150 16075 13250
+Wire Wire Line
+	15075 13250 16075 13250
+Connection ~ 16075 13250
+Wire Wire Line
+	16075 13250 16075 13350
+$Comp
+L Device:C C31
+U 1 1 61CFF37F
+P 17075 13000
+F 0 "C31" H 17190 13046 50  0000 L CNN
+F 1 "100nf" H 17190 12955 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 17113 12850 50  0001 C CNN
+F 3 "~" H 17075 13000 50  0001 C CNN
+	1    17075 13000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 61CFFE47
+P 17075 13500
+F 0 "C32" H 17190 13546 50  0000 L CNN
+F 1 "100nf" H 17190 13455 50  0000 L CNN
+F 2 "00_Mes_empreintes:C_Ceramic_Disc" H 17113 13350 50  0001 C CNN
+F 3 "~" H 17075 13500 50  0001 C CNN
+	1    17075 13500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17075 13650 16575 13650
+Connection ~ 16575 13650
+Wire Wire Line
+	17075 13350 17075 13250
+Wire Wire Line
+	17075 12850 16575 12850
+Connection ~ 16575 12850
+Wire Wire Line
+	16075 13250 17075 13250
+Connection ~ 17075 13250
+Wire Wire Line
+	17075 13250 17075 13150
+Wire Wire Line
+	17575 12950 17575 12850
+Wire Wire Line
+	17575 12850 17075 12850
+Connection ~ 17075 12850
+Wire Wire Line
+	17075 13650 17575 13650
+Wire Wire Line
+	17575 13650 17575 13550
+Connection ~ 17075 13650
+Wire Notes Line
+	11500 11500 11500 15275
+Text Notes 11750 15000 0    50   ~ 0
+The decoupling capacitors should be as close as possible from the power pins of ICs
+Text Notes 3175 12025 0    129  ~ 0
+Other useful and inspiring links :
+Text Notes 3425 12575 0    90   ~ 18
+http://www.skullandcircuits.com/percussion-metal-o-tron\nhttps://www.youtube.com/watch?v=abUMAo_ODv0\nhttps://library.vcvrack.com/Hora-treasureFree/HiHat\n
+Wire Wire Line
+	4425 6975 4425 7275
+Wire Wire Line
+	3650 8075 3900 8075
+Wire Wire Line
+	3900 8075 3900 7925
+Connection ~ 3900 7925
+Wire Wire Line
+	3900 7925 4425 7925
+Wire Wire Line
+	4125 9025 4425 9025
+Connection ~ 4425 9025
+Wire Wire Line
+	4425 9025 4425 9525
+Wire Wire Line
+	4125 7275 4425 7275
+Connection ~ 4425 7275
+Wire Wire Line
+	4425 7275 4425 7925
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 61FF19DD
+P 13275 9350
+F 0 "#FLG04" H 13275 9425 50  0001 C CNN
+F 1 "PWR_FLAG" H 13125 9550 50  0000 L CNN
+F 2 "" H 13275 9350 50  0001 C CNN
+F 3 "~" H 13275 9350 50  0001 C CNN
+	1    13275 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13275 9350 13275 9475
+Connection ~ 13275 9475
+Text GLabel 7750 2600 2    50   Input ~ 0
+White_Noise
+$Comp
+L Diode:1N4148 D2
+U 1 1 60C664E3
+P 11250 6525
+F 0 "D2" H 11250 6741 50  0000 C CNN
+F 1 "1N4148" H 11250 6650 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 11250 6350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11250 6525 50  0001 C CNN
+	1    11250 6525
+	0    -1   1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 60C6E863
+P 11250 2575
+F 0 "D1" H 11250 2791 50  0000 C CNN
+F 1 "1N4148" H 11250 2700 50  0000 C CNN
+F 2 "00_Mes_empreintes:Diode_1N4148" H 11250 2400 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11250 2575 50  0001 C CNN
+	1    11250 2575
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_POT RV6
+U 1 1 60C99AC6
+P 4675 2500
+F 0 "RV6" V 4560 2500 50  0000 C CNN
+F 1 "10k Tone" V 4469 2500 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(1Nc)_Drill-1.5mm" H 4675 2500 50  0001 C CNN
+F 3 "~" H 4675 2500 50  0001 C CNN
+	1    4675 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4675 2350 4675 2225
+Wire Wire Line
+	4675 2225 5000 2225
+Wire Wire Line
+	5000 2225 5000 2500
+Text Notes 4375 1950 0    90   Italic 18
+Cutoff
+Connection ~ 12375 2225
+Wire Wire Line
+	12375 2225 12725 2225
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 60C0D24D
+P 12275 4050
+F 0 "Q2" H 12100 4275 50  0000 L CNN
+F 1 "2N3904" H 12025 4200 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 12475 3975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 12275 4050 50  0001 L CNN
+	1    12275 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60C0F1A4
+P 11200 4150
+F 0 "SW1" H 11200 4435 50  0000 C CNN
+F 1 "Interaction" H 11200 4344 50  0000 C CNN
+F 2 "00_Mes_empreintes:Wire_Pad_1x03_(1Nc)_Drill-1.5mm" H 11200 4150 50  0001 C CNN
+F 3 "~" H 11200 4150 50  0001 C CNN
+	1    11200 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 60C11088
+P 11750 4050
+F 0 "R16" V 11543 4050 50  0000 C CNN
+F 1 "680ohm" V 11634 4050 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 11680 4050 50  0001 C CNN
+F 3 "~" H 11750 4050 50  0001 C CNN
+	1    11750 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10500 4150 11000 4150
+Wire Wire Line
+	11400 4250 11500 4250
+Wire Wire Line
+	11500 4250 11500 4400
+NoConn ~ 11500 4400
+Wire Wire Line
+	11600 4050 11400 4050
+Wire Wire Line
+	11900 4050 12075 4050
+$Comp
+L power:GND #PWR026
+U 1 1 60D64D3D
+P 12375 4675
+F 0 "#PWR026" H 12375 4425 50  0001 C CNN
+F 1 "GND" H 12380 4502 50  0000 C CNN
+F 2 "" H 12375 4675 50  0001 C CNN
+F 3 "" H 12375 4675 50  0001 C CNN
+	1    12375 4675
+	-1   0    0    -1  
+$EndComp
+Text Notes 16725 7400 0    50   ~ 0
+Interaction  mean the closed hat will cancel the open hat (like a real one does)\nIf it switched to NC the open hat's decay will not be affected by the closed hat
+Text Notes 16725 7550 0    50   ~ 10
+https://delptronics.com/documents/LDB1seSchematic.pdf
+Text Notes 10050 4025 0    89   Italic 18
+INTERACTION
+$Comp
+L Amplifier_Operational:TL074 U5
+U 3 1 60D90A30
+P 17550 9350
+F 0 "U5" H 17600 9175 50  0000 C CNN
+F 1 "TL074" H 17550 9075 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 17550 9350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 17550 9350 50  0001 C CNN
+	3    17550 9350
+	1    0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:TL074 U5
+U 4 1 60D97063
+P 17550 10050
+F 0 "U5" H 17600 10225 50  0000 C CNN
+F 1 "TL074" H 17550 10325 50  0000 C CNN
+F 2 "00_Mes_empreintes:DIP-14-Socket" H 17550 10050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 17550 10050 50  0001 C CNN
+	4    17550 10050
+	1    0    0    -1  
+$EndComp
+Text GLabel 18250 10050 2    89   Input ~ 0
+Mix_2
+Wire Wire Line
+	17250 9700 17250 9450
+Wire Wire Line
+	16775 9700 17250 9700
+Wire Wire Line
+	17250 9700 17250 9950
+Connection ~ 17250 9700
+Wire Wire Line
+	17250 10150 17250 10450
+Wire Wire Line
+	17250 10450 17850 10450
+Wire Wire Line
+	17850 10450 17850 10050
+Wire Wire Line
+	17850 10050 18250 10050
+Connection ~ 17850 10050
+Wire Wire Line
+	18250 9350 17850 9350
+Wire Wire Line
+	17850 9350 17850 8950
+Wire Wire Line
+	17850 8950 17250 8950
+Wire Wire Line
+	17250 8950 17250 9250
+Connection ~ 17850 9350
+Text Notes 4275 14650 0    129  ~ 0
+There is a topic about this circuit here :
+Text Notes 4250 14900 0    89   ~ 18
+https://lookmumnocomputer.discourse.group/t/hi-hat-design-what-do-you-think/3569/10
+Wire Wire Line
+	7250 2600 7750 2600
+Wire Notes Line
+	14850 11500 14850 7750
+Wire Wire Line
+	12375 2225 12375 3850
+Wire Wire Line
+	12375 4250 12375 4675
+Wire Wire Line
+	10500 4150 10500 5000
+Text GLabel 10500 1375 2    50   Input ~ 0
+OH_Trigg
+Wire Wire Line
+	10500 1375 10500 2225
+Text GLabel 10775 5000 2    50   Input ~ 0
+CH_Trigg
+Wire Wire Line
+	10775 5000 10500 5000
+Connection ~ 10500 5000
+Wire Wire Line
+	10500 5000 10500 6175
+$Comp
+L Device:LED D10
+U 1 1 615BD0F2
+P 10975 13675
+F 0 "D10" V 11014 13558 50  0000 R CNN
+F 1 "Green_CH" V 10923 13558 50  0000 R CNN
+F 2 "00_Mes_empreintes:LED_5.0mm" H 10975 13675 50  0001 C CNN
+F 3 "~" H 10975 13675 50  0001 C CNN
+	1    10975 13675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 615BD0F8
+P 10450 13200
+F 0 "R34" V 10243 13200 50  0000 C CNN
+F 1 "100k" V 10334 13200 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 10380 13200 50  0001 C CNN
+F 3 "~" H 10450 13200 50  0001 C CNN
+	1    10450 13200
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q6
+U 1 1 615BD0FE
+P 10875 13200
+F 0 "Q6" H 11065 13246 50  0000 L CNN
+F 1 "2N3904" H 11065 13155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11075 13125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10875 13200 50  0001 L CNN
+	1    10875 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 615BD104
+P 10975 12450
+F 0 "#PWR0101" H 10975 12300 50  0001 C CNN
+F 1 "+12V" H 10990 12623 50  0000 C CNN
+F 2 "" H 10975 12450 50  0001 C CNN
+F 3 "" H 10975 12450 50  0001 C CNN
+	1    10975 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 615BD10A
+P 10975 12700
+F 0 "R35" H 10905 12654 50  0000 R CNN
+F 1 "4.7k" H 10905 12745 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 10905 12700 50  0001 C CNN
+F 3 "~" H 10975 12700 50  0001 C CNN
+	1    10975 12700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10975 12550 10975 12450
+Wire Wire Line
+	10675 13200 10600 13200
+Wire Wire Line
+	10975 13400 10975 13525
+$Comp
+L power:GND #PWR0102
+U 1 1 615BD113
+P 10975 13950
+F 0 "#PWR0102" H 10975 13700 50  0001 C CNN
+F 1 "GND" H 10980 13777 50  0000 C CNN
+F 2 "" H 10975 13950 50  0001 C CNN
+F 3 "" H 10975 13950 50  0001 C CNN
+	1    10975 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10975 13950 10975 13825
+Wire Wire Line
+	10975 13000 10975 12850
+$Comp
+L Device:LED D9
+U 1 1 615BD11B
+P 9100 13675
+F 0 "D9" V 9139 13558 50  0000 R CNN
+F 1 "Green_OH" V 9048 13558 50  0000 R CNN
+F 2 "00_Mes_empreintes:LED_5.0mm" H 9100 13675 50  0001 C CNN
+F 3 "~" H 9100 13675 50  0001 C CNN
+	1    9100 13675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 615BD121
+P 8575 13200
+F 0 "R32" V 8368 13200 50  0000 C CNN
+F 1 "100k" V 8459 13200 50  0000 C CNN
+F 2 "00_Mes_empreintes:Resistor" V 8505 13200 50  0001 C CNN
+F 3 "~" H 8575 13200 50  0001 C CNN
+	1    8575 13200
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q5
+U 1 1 615BD127
+P 9000 13200
+F 0 "Q5" H 9190 13246 50  0000 L CNN
+F 1 "2N3904" H 9190 13155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9200 13125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 9000 13200 50  0001 L CNN
+	1    9000 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0103
+U 1 1 615BD12D
+P 9100 12450
+F 0 "#PWR0103" H 9100 12300 50  0001 C CNN
+F 1 "+12V" H 9115 12623 50  0000 C CNN
+F 2 "" H 9100 12450 50  0001 C CNN
+F 3 "" H 9100 12450 50  0001 C CNN
+	1    9100 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R33
+U 1 1 615BD133
+P 9100 12700
+F 0 "R33" H 9030 12654 50  0000 R CNN
+F 1 "4.7k" H 9030 12745 50  0000 R CNN
+F 2 "00_Mes_empreintes:Resistor" V 9030 12700 50  0001 C CNN
+F 3 "~" H 9100 12700 50  0001 C CNN
+	1    9100 12700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9100 12550 9100 12450
+Wire Wire Line
+	8800 13200 8725 13200
+Wire Wire Line
+	9100 13400 9100 13525
+$Comp
+L power:GND #PWR0104
+U 1 1 615BD13C
+P 9100 13950
+F 0 "#PWR0104" H 9100 13700 50  0001 C CNN
+F 1 "GND" H 9105 13777 50  0000 C CNN
+F 2 "" H 9100 13950 50  0001 C CNN
+F 3 "" H 9100 13950 50  0001 C CNN
+	1    9100 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 13950 9100 13825
+Wire Wire Line
+	9100 13000 9100 12850
+Text Notes 7975 11975 0    157  ~ 31
+LED Drivers
+Wire Notes Line
+	11475 14300 7850 14300
+Wire Notes Line
+	7850 14300 7850 11500
+Text GLabel 10300 13200 0    50   Input ~ 0
+CH_Trigg
+Text GLabel 8425 13200 0    50   Input ~ 0
+OH_Trigg
+Text Notes 12025 12125 0    50   Italic 0
+(Bring it to the people)
+$EndSCHEMATC
