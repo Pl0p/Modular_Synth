@@ -27,7 +27,7 @@ Independant output for the open hat and the closed hat
  - [ ] Closed hat Decay CV
 
 
-[Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-H/Drum_H_v2.pdf)
+# [Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-H/Drum_H_v2.pdf)
 
 ### Front of the PCB 
 ![Here is the front](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-H/Sources/Front.png)
