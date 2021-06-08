@@ -24,11 +24,11 @@ This is the second module i've done, the PCB is being delivered
  - [ ] Tune CV
  - [ ] Volume
 
-[Here is the schematic](https://github.com/Pl0p/Drum_S/blob/main/Sources/Drum-S.pdf)
+[Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-S/Drum-S.pdf)
 
 ### Front of the PCB 
-![Here is the front](https://github.com/Pl0p/Drum_S/blob/main/Sources/PCB_View_front.jpg)
+![Here is the front](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-S/Sources/PCB_View_front.jpg)
 
 ### Back of the PCB
 
-![Here is the back](https://github.com/Pl0p/Drum_S/blob/main/Sources/PCB_View_back.jpg)
+![Here is the back](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-S/Sources/PCB_View_back.jpg)
