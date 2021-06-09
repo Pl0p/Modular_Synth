@@ -1,7 +1,7 @@
  - [x] List for all gitHub repo
  - [ ] List for all gitLab repo
  - [ ] Lisr for all non gitHub repo
- - [ ] List cool things frome related
+ - [ ] List cool things from related
 
 
 # VCA
