@@ -61,6 +61,7 @@ List of awesome eurorack diy and opensource projects
  * [Non Linear Circuits](https://www.nonlinearcircuits.com/modules)
  * [Music Thing Modular](https://www.musicthing.co.uk/)
  * [Befaco](https://www.befaco.org/)
+ * [Rebel Tech](https://www.rebeltech.org/)
  * [Look Mum No Computer](https://www.lookmumnocomputer.com/projects#null)
  * [AI-Synthesis](https://aisynthesis.com/)
  * [Castle Rocktronics](http://castlerocktronics.com/modular.html)
