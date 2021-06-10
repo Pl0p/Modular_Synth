@@ -1,14 +1,15 @@
 
+
  - [x] List for all gitHub repo
  - [x] List for all gitLab repo
 
  - [ ] List for all non gitHub repo
 	 - [x] Sound Force
 	 - [x] Non Linear Circuits
-	 - [ ] Music Thing Modular
+	 - [x] Music Thing Modular
 	 - [ ] Befaco
-	 - [ ] Rebel Tech
-	 - [ ] Look Mum No Computer
+	 - [x] Rebel Tech
+	 - [x] Look Mum No Computer
 	 - [ ] AI-Synthesis
 	 - [ ] Castle Rocktronics
 	 - [ ] Synsi
@@ -65,10 +66,10 @@
  - [Dazzle](https://github.com/Shayshez/Dazzle) : Rotatable Dual VC-Polarizer and VCA, Based on MI "Blinds".
  - [1U-VCA](https://github.com/kraakenstuff/1U-VCA) : 1U Eurorack VCA module adapted from Scott Bernardi's schematic
 - [VCAs](https://www.nonlinearcircuits.com/modules/p/vcas) : This 8HP module contains 3 VCAs and a fuzz/distortion
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [4710-safety-valve](https://www.lookmumnocomputer.com/4710-safety-valve) : Look Mum No Computer
+ - [1181 Dual VCA](https://www.lookmumnocomputer.com/1181-dual-vca) : The 1181. 2xVCA is a dual VCA based on the AS3360
+ - [The safety valve](https://www.lookmumnocomputer.com/the-safety-valve) : Look Mum No Computer
+ - [valve-distorting-vca](https://www.lookmumnocomputer.com/valve-distorting-vca) : The safety Valve 2.0 pretty much!
  - [O](A)
  - [O](A)
  - [O](A)
@@ -105,6 +106,16 @@
  - [kareishuu-vco](https://www.nonlinearcircuits.com/modules/p/kareishuu-vco) : This VCO was mainly designed as an upgrade for the dual OTA VCO with mods
  - [plague-of-demons](https://www.nonlinearcircuits.com/modules/p/plague-of-demons) : This VCO uses DG202 (or equivalents) analogue switches to achieve the thru-0 function
  - [Vac-pill](https://www.nonlinearcircuits.com/modules/p/vac-pill) : a simple circuit that is capable of making a wide variety of sounds
+ - [APCAPCAPC](https://www.lookmumnocomputer.com/apcapcapc) : The AAAPPPCCC or APCAPCAPC or AtariAtariAtari PunkPunkPunk ConsoleConsoleConsole ( i like the last one it has a ring to it) is basically the atari punk console idea tripled, where 6 555 timer oscillators modulate or reset the next making it just more functionable etc
+ - [2000-megadrone](https://www.lookmumnocomputer.com/2000-megadrone) : It is a bank of 10 super simple style oscillators with a simple tone control and a rather lofi CV control
+ - [1222 performance VCO](https://www.lookmumnocomputer.com/1222-performance-vco) : Born from frustration of playing shows, or not having a tuner to hand and getting in tune enough to get going, instead of sitting around being out of tune
+ - [cem-3340-diy-simple](https://www.lookmumnocomputer.com/cem-3340-diy-simple) : This is the CORE of a VCO module made with a CEM3340 chip.
+ - [hundred-oscillator-mega-drone](https://www.lookmumnocomputer.com/hundred-oscillator-mega-drone) : basically a bunch of saw/square wave oscillators in a box, that can be modulated and all that jazz!
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
@@ -150,9 +161,9 @@
  - [Noir0-ze](https://www.nonlinearcircuits.com/modules/p/noir0-ze) : The VCF is based on the Steiner diode VCF but this one uses LDRs rather than diodes
  - [resonate](https://www.nonlinearcircuits.com/modules/p/resonate) : This uses the core circuit of the Korg 3100 Resonator with mods
  - [serious filter](https://www.nonlinearcircuits.com/modules/p/serious-filter) : Serious? well... it is based on the Arp4023 and will make the room shake or scream like nails on chalkboard and everything in between
- - [O](A)
- - [O](A)
- - [O](A)
+ - [1114 Funky filter](https://www.lookmumnocomputer.com/1114-funky-filter) : So this is a right weirdo!!!! Was looking into the LM13700 chip i began with the datasheet lowpass filter and went from there until i found some very funky sounds indeed
+ - [Performance filter](https://www.lookmumnocomputer.com/performance-filter) : Look Mum No Computer
+ - [Simple Filter](https://www.lookmumnocomputer.com/simple-filter) : Simple analog Low Pass Filter
  - [O](A)
  - [O](A)
  - [O](A)
@@ -186,7 +197,7 @@
  - [badum-tisss](https://www.nonlinearcircuits.com/modules/p/badum-tisss) : BadumTisss is a snare/hi-hat module
  - [Bong0](https://www.nonlinearcircuits.com/modules/p/bong0) : a twin-T based drum module with a LED acting as a nonlinear resistor to give it some interesting characteristics
  - [Doof](https://www.nonlinearcircuits.com/modules/p/doof) : The design is typical of early 80s drum modules
- - [O](A)
+ - [2700 Twin-T drummer](https://www.lookmumnocomputer.com/2700-twin-t-drummer) : This specific module is using the approach of nand gates to make a dulled sine wave circuit to make the drums, you can adjust how they decay with the front knobs
  - [O](A)
  - [O](A)
  - [O](A)
@@ -198,8 +209,8 @@
  - [Bassline](https://github.com/erica-synths/diy-eurorack/blob/master/Bassline%20DIY.zip) : all in one synth voice for acid basslines and drones
  - [AJH_Benjolin](https://github.com/forestcaver/Benjolin) : 0603 version of Rob Hordijk's Benjolin
 - [Null-a²](https://www.nonlinearcircuits.com/modules/p/null-a) : Nonlinearcircuits
- - [O](A)
- - [O](A)
+ - [Owl-modular](https://www.rebeltech.org/product/owl-modular/) : The OWL Modular is a fully programmable digital audio device
+ - [Fart-box](https://www.lookmumnocomputer.com/fart-box) : Look Mum No Computer
  - [O](A)
  - [O](A)
  - [O](A)
@@ -217,7 +228,7 @@
  - [1U-LFO](https://github.com/kraakenstuff/1U-LFO) : 1U Eurorack LFO module
  - [MFOS VC LFO](https://github.com/holmesrichards/MFOS_VC_LFO) : couple of modifications for the MFOS VC LFO and a Kosmo format
  - [Dual-LFO](https://www.nonlinearcircuits.com/modules/p/dual-lfo) : The circuit is based on the thru-hole dual VCO but can be switched to operate in 3 ranges
- - [O](A)
+ - [1145 kosmo VCLFO](https://www.lookmumnocomputer.com/vclfo) : Based on the Electric Druid VCLFO10
  - [O](A)
  - [O](A)
  - [O](A)
@@ -264,6 +275,13 @@
  - [mixer](https://www.nonlinearcircuits.com/modules/p/mixer) : Simple and super useful mixer and line level output with added headphone monitor
  - [MOGUE](https://www.nonlinearcircuits.com/modules/p/mogue) : a VCA and Mixer based on early Moog designs with mods
  - [Segue](https://www.nonlinearcircuits.com/modules/p/segue) : This is a VC panner, VC cross-fader, VCA and VC attenuator, process CV and audio
+ - [Mix](https://github.com/pingdynasty/Mix) Mix 01 is an extensible 4 in / 2 out matrix mixer with dedicated stereo headphone output (mix 01, Mix 02, mix 03, and mix 04 on the same page)
+ - [1183/1184 quad VCA Mixer](https://www.lookmumnocomputer.com/11831184-quad-vca-mixer) : This is a quad mixer built on 2 AS3360 dual VCA chips the
+ - [1163 mini mixer](https://www.lookmumnocomputer.com/1163-mini-mixer) : Its very very simple, 6 channel inputs with a mute and a level for each input, and a single output. thats it!
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
@@ -280,22 +298,22 @@
 - [cellular-automata](https://www.nonlinearcircuits.com/modules/p/cellular-automata) : This is a 16 cell gate and pattern generator using cellular automata rules 90 & 150
  - [4seq](https://www.nonlinearcircuits.com/modules/p/4seq) : This sequencer has 4 stages with a forwards/backwards control allowing the development of quite complex sequences and patterns
  - [Bindubba](https://www.nonlinearcircuits.com/modules/p/bindubba) : This is a re-boot of the Bindubba3 sequencer, tho there have been a few changes
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [Tonic](https://www.rebeltech.org/product/tonic/) : Tonic is an additive interval pitch sequencer that turns triggers into melodies.
+ - [Klasmata](https://www.rebeltech.org/product/klasmata/) : Κλάσματα is a single channel, voltage controlled Euclidean sequencer
+ - [Stoicheia](https://www.rebeltech.org/product/stoicheia/) : Στοιχεῖα is a dual Euclidean Sequencer. It algorithmically generates rhythmic sequences from an input trigger signal
+ - [The BIG button](https://www.lookmumnocomputer.com/big-button) : A drum trigger sequencer all powered by 1 button. Inside is 1 Arduino nano controlling the whole Shabang.
+ - [Arduino 8 steps sequencer keyboard](https://www.lookmumnocomputer.com/sequencer-keyboard) : Look Mum No Computer
  - [O](A)
  - [O](A)
 
-# CLOCK GENERATOR
+# CLOCKS
  - [temps_utile-](https://github.com/mxmxmx/temps_utile-) : 6 x clock generator
  - [1U temp_utile](https://github.com/Shayshez/1uT_u) : 1u Version (Pulp Logic) of Temps Utile, 30HP.
  - [clock-generator](https://github.com/michd/modular-synth/tree/master/modules/clock-generator) : MichD
 - [Clocky](https://sound-force.nl/?page_id=2183) : This module is an Arduino Nano based clock mangler
- - [O](A)
- - [O](A)
- - [O](A)
+ - [CLK](https://www.rebeltech.org/product/clk/) : CLK is a 4HP triple clock generator that outputs three synchronised clocks
+ - [Chronos](https://www.rebeltech.org/product/chronos/) : Χρόνος is an advanced time-keeping module with dual tap tempo clock, and dual tempo synced LFO
+ - [Logoi](https://www.rebeltech.org/product/logoi/) : Λόγοι is a voltage controlled clock divider, counter, and delay.
  - [O](A)
  - [O](A)
  - [O](A)
@@ -329,6 +347,14 @@
  - [trackydacks](https://www.nonlinearcircuits.com/modules/p/trackydacks) : Basically grabbed the NLC Triad and replaced the pots for Attack & Decay with vactrols
  - [Triad](https://www.nonlinearcircuits.com/modules/p/triad) : These are AR or AD generators that will fire on a trigger or a gate, giving envelopes up to approx 25 seconds
  - [VC-ADSR](https://www.nonlinearcircuits.com/modules/p/vc-adsr) : Basically grabbed the classic Jacky/Kirschman 555 ADSR circuit from 1980 and replaced the pots for Attack, Decay and Release with LDRs inside black boxes (BBX)
+ - [Gonies](https://www.rebeltech.org/product/gonies/) : Γωνίες is a dual envelope generator with unprecedented range and precision, thanks to its unique tempo scaling ability
+ - [1153 Bounce](https://www.lookmumnocomputer.com/1153bounce) : The 1153 BOUNCE BOUNCE BOUN... is an enevelope generator module with a difference, instead of your usual ADSR mallarky this replicated the bouncing ball simulator patch on old analog computers
+ - [1157 mini ADSR](https://www.lookmumnocomputer.com/1157-mini-adsr) : Look Mum No cOMPUTER
+ - [Simple evenlope generator](https://www.lookmumnocomputer.com/simple-envelope-generator) : Very cut down envelope generator, down to the bare bones. but still extremely useful! ADSR’s are overrated!
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
@@ -378,8 +404,8 @@
  - [Timbre](https://www.nonlinearcircuits.com/modules/p/timbre) : basically a clone of the Buchla timbre found in the Easel. and added a simple tri2sine converter input, along with the regular input, and buffered output
  - [Shat-Noir](https://www.nonlinearcircuits.com/modules/p/shat-noir) : The core of the Shat-noir phaser is based on classic LDR based phaser designs
  - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
- - [O](A)
- - [O](A)
+ - [Bit-reactor](https://www.rebeltech.org/product/bit-reactor/) : Bit Reactor is a hardware bit crusher and downsampler. It has no program or CPU, it digitises without software
+ - [2399 triple splashback](https://www.lookmumnocomputer.com/2399-triple-splashback) : it is largely a triple pt2399 delay largely based on the datasheet but no stone left unturned, resulting in some sounds i haven’t heard come from a pt2399 project.
  - [O](A)
  - [O](A)
  - [O](A)
@@ -413,7 +439,7 @@
  - [StereoOutKosmo](https://github.com/holmesrichards/StereoOutKosmo) : Stereo output synthesizer module in Kosmo format.
 - [SMT32DUINO](https://sound-force.nl/?page_id=2212) : STM32DUINO dual trigger/gate to CV is a module based on a low-cost Arduino-compatible STM32F103
  - [1U-Diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect) : It is great for mixing audio and/or CV signals to get all kinds of unexpected and interesting results
- - [O](A)
+ - [1171 Offset Boos Atenuvert](https://www.lookmumnocomputer.com/1171-oba) : Look Mum No Computer
  - [O](A)
  - [O](A)
  - [O](A)
@@ -422,7 +448,7 @@
  - [O](A)
  - [O](A)
 
-# LOGIC/ROUTER
+# LOGIC/ROUTER/GATE
  - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
  - [Analog logic module](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/analog%20logic%20module)
  - [TrurhTable](https://github.com/attoparsec/TruthTable) Analogue logic module
@@ -436,8 +462,8 @@
  - [numberwang](https://www.nonlinearcircuits.com/modules/p/numberwang) : This module is basically a 4:16 decoder with sync and async modes
  - [statues](https://www.nonlinearcircuits.com/modules/p/statues) : a 1 to 8 multiplexor with a thru and hold circuit attached to each output
  - [Router](https://www.nonlinearcircuits.com/modules/p/router) : periodically switch around the CV signals to create new patches
- - [O](A)
- - [O](A)
+ - [Phoreo](https://www.rebeltech.org/product/phoreo/) : Φορέω is a triple function processor for triggers, gates and clocks
+ - [123ADC](https://www.lookmumnocomputer.com/123adc) : 8 bit analog to digital converter in modular synth format using an ADC0820-N
  - [O](A)
  - [O](A)
  - [O](A)
@@ -508,7 +534,7 @@
  - [Active Multiples](https://github.com/jacobbarssbailey/active-multiples) : 5HP Eurorack-format Dual 1→3 Active Buffer
  - [Links](http://mutable-instruments.net/modules/links): Utility module - buffer, mixer
  - [32 to 1](https://www.nonlinearcircuits.com/modules/p/32to1) : a 1:32 or 32:1 mux. It can split one input signal into 32 outputs or switch 32 inputs into 1 output
- - [O](A)
+ - [1161 buffered multiple](https://www.lookmumnocomputer.com/1161-buffered-multiple) : Look Mum No Computer
  - [O](A)
  - [O](A)
  - [O](A)
@@ -559,8 +585,8 @@
  - [Midi-In](https://github.com/michd/modular-synth/tree/master/modules/midi-in) : MichD
  - [MCVI](https://github.com/holmesrichards/MCVI) : MIDI to CV synth module in Kosmo format. It provides pitch and velocity CV, gate, and trigger for Note
  - [MIDIsnoop](https://github.com/holmesrichards/midisnoop) : A little circuit and script for looking at incoming MIDI messages. Simple enough to build on a stripboard
-- [O](A)
- - [O](A)
+- [1007 Midimuso Midi-CV](https://www.lookmumnocomputer.com/1007-midi-cv) : This module all in all has 12 CV outputs and 6 Trigger outputs. 2 MIDI THRU’s and also a MIDI SIGNAL LED
+ - [MIDI DARTS](https://www.lookmumnocomputer.com/synth-darts) : Its Pretty much what you think it is! a dartboard thats MIDI
  - [O](A)
  - [O](A)
  - [O](A)
@@ -587,6 +613,12 @@
  - [Wangernumb](https://www.nonlinearcircuits.com/modules/p/wangernumb) : Wangernumb is 3 modules in one…or 4
  - [LDrama](https://www.nonlinearcircuits.com/modules/p/ldrama) : The idea is to play a video on your phone and place the phone on the LDR array. The module will generate CVs in response to what is happening in your video
  - [Lux](https://www.nonlinearcircuits.com/modules/p/lux) : an ambience and movement sensor to reflect changing light conditions
+ - [Open-sound module](https://www.rebeltech.org/product/open-sound-module/) : The Open Sound Module is a WiFi connectivity module. It sets up a wireless network connection directly with your modular synthesizer
+ - [PowerGlove](https://www.lookmumnocomputer.com/powerglove) : Look Mum No Computer
+ - [Kosmo face](https://www.lookmumnocomputer.com/kosmos-face) : is kosmo the first modular synth with a face??????
+ - [Flamethrower-module](https://www.lookmumnocomputer.com/flamethrower-module) : built with an arduino, some copper pipe, a solenoid and a couple of relays! and runs off lighter fluid!
+ - [lightsaber-theremin](https://www.lookmumnocomputer.com/lightsaber-theremin) : Look Mum No Computer
+ - [Solar panel](https://www.lookmumnocomputer.com/solar-panels) : Its exactly what it looks like! probably the EASIEST thing you could possibly do. to plug into any CV input
  - [O](A)
  - [O](A)
  - [O](A)
