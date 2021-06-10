@@ -1,5 +1,6 @@
+
  - [x] List for all gitHub repo
- - [ ] List for all gitLab repo
+ - [x] List for all gitLab repo
  - [ ] Lisr for all non gitHub repo
  - [ ] List cool things from related
 
@@ -24,6 +25,16 @@
  - [VCA1](https://github.com/spielhuus/elektrophon/tree/master/modules/vca1) : VCA built around the CA3080 OTA chip
  - [Dazzle](https://github.com/Shayshez/Dazzle) : Rotatable Dual VC-Polarizer and VCA, Based on MI "Blinds".
  - [1U-VCA](https://github.com/kraakenstuff/1U-VCA) : 1U Eurorack VCA module adapted from Scott Bernardi's schematic
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # OSCILLATOR
  - [Braids](http://mutable-instruments.net/modules/braids) : Macro-oscillator
@@ -49,6 +60,16 @@
  - [VCO-Minimus](https://github.com/kraakenstuff/VCO-Minimus) : 3U Eurorack 3340 based VCO
  - [VCO3340](https://github.com/jacobbarssbailey/vco3340) : Simple 6HP Eurorack-format CEM3340 VCO
  - [SubOSC](https://github.com/holmesrichards/subosc) : Kosmo or Eurorack format sub oscillator. Circuit design by Analog Lab Swiss
+- [Braids through-hole](https://sound-force.nl/?page_id=3179) :  A through hole version of briads by MI
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # FILTER
  - [Ripples](http://mutable-instruments.net/modules/ripples): Liquid 2-pole BP, 2-pole LP and 4-pole LP filter
@@ -80,6 +101,26 @@
  - [Wavelet](https://github.com/Shayshez/Wavelet) : Rotatable multimode filter based on MI "Ripples"
  - [Buchla292c](https://github.com/kraakenstuff/Buchla292c) : 3U Eurorack Buchla 292c clone, based on Dave Brown's schematic
  - [MFOS-SVF](https://github.com/holmesrichards/MFOS-SVF) : Eurorack adaptation of the MFOS "Oldie But Goody" state variable filte
+ - [BBX291](https://www.nonlinearcircuits.com/modules/p/bbx291) : based on the Buchla 291 vari-bandwidth bandpass filter, tho it uses the blackbox rather than vactrols
+ - [Dispersion delay](https://www.nonlinearcircuits.com/modules/p/dispersion-delay) : It is three vactrol based bandpass filters in parallel, each filter is fed into a voltage controlled delay stage
+ - [Digital filter simulator](https://www.nonlinearcircuits.com/modules/p/digital-filter-simulator) : This module is based on ideas presented in a 1969 IEEE paper titled - Hybrid Implementation for Sampled-data controllers
+ - [Double Penetration (DP) Filter](https://www.nonlinearcircuits.com/modules/p/double-penetration-dp-filter) : Moog ladder filter & EMS diode ladder filter in coitus
+ - [feague](https://www.nonlinearcircuits.com/modules/p/feague) : a 4 pole VCF and quadrature oscillator with 0, 90, 180 & 270 degree outputs
+ - [fk1t-vcf](https://www.nonlinearcircuits.com/modules/p/fk1t-vcf) : This has a core based on the Korg FK-1 pedal, which is a similar VCF to the ones found in the 800dv, 770 and 700 synths
+ - [I can’t believe it’s not a VCO](https://www.nonlinearcircuits.com/modules/p/i-cant-believe-its-not-a-vco) : This module is based on ideas presented in Electronotes #132. It is a VCF with a 'filter exciter' section to allow a wide variety of acoustic, semi-acoustic and not-acoustic-at-all sounds
+ - [Noir0-ze](https://www.nonlinearcircuits.com/modules/p/noir0-ze) : The VCF is based on the Steiner diode VCF but this one uses LDRs rather than diodes
+ - [resonate](https://www.nonlinearcircuits.com/modules/p/resonate) : This uses the core circuit of the Korg 3100 Resonator with mods
+ - [serious filter](https://www.nonlinearcircuits.com/modules/p/serious-filter) : Serious? well... it is based on the Arp4023 and will make the room shake or scream like nails on chalkboard and everything in between
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # DRUM VOICE
  - [O](A)
@@ -99,11 +140,34 @@
  - [Metal](https://github.com/LazareLive/AnalogDrumMachine/tree/master/AnalogDrum_Modules/AnalogDrum_Metal) : LazareLive
  - [Snare](https://github.com/LazareLive/AnalogDrumMachine/tree/master/AnalogDrum_Modules/AnalogDrum_Snare) : LazareLive
  - [Noise Bells](https://github.com/holmesrichards/NoiseBells) : This is a percussion and drone synth module based on Logic noise : More CMOS cowbell!
+ - [Shapeshifter](https://gitlab.com/Faselunare/shapeshifter) : Shapeshifter is an Open Source and Open Hardware drum machine with the powerful Teensy 3.6 development board at his core.
+ - [808 Kick](https://sound-force.nl/?page_id=2009) : His take on the legendary kick sound
+ - [808 Snare](https://sound-force.nl/?page_id=1980) : His take on the legendary snare sound
+ - [Bongo fury](https://www.nonlinearcircuits.com/modules/p/bongo-fury) : A triple version of the Bong0, one of those simple modules that pumps out way more character than it should
+ - [badum-tisss](https://www.nonlinearcircuits.com/modules/p/badum-tisss) : BadumTisss is a snare/hi-hat module
+ - [Bong0](https://www.nonlinearcircuits.com/modules/p/bong0) : a twin-T based drum module with a LED acting as a nonlinear resistor to give it some interesting characteristics
+ - [Doof](https://www.nonlinearcircuits.com/modules/p/doof) : The design is typical of early 80s drum modules
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SYNTH VOICE
  - [Elements](http://mutable-instruments.net/modules/elements): Modal synthesizer
  - [Bassline](https://github.com/erica-synths/diy-eurorack/blob/master/Bassline%20DIY.zip) : all in one synth voice for acid basslines and drones
  - [AJH_Benjolin](https://github.com/forestcaver/Benjolin) : 0603 version of Rob Hordijk's Benjolin
+- [Null-a²](https://www.nonlinearcircuits.com/modules/p/null-a) : Nonlinearcircuits
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # LOW FREQUENCIE OSCILLATOR
  - [Util_LFO](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/util_LFO) : Design: Tim Parkhurst: Magic Smoke Electronics
@@ -113,10 +177,30 @@
  - [Utility LFO](https://github.com/spielhuus/elektrophon/tree/master/modules/Utility%20LFO) : Simple but fancy LFO from Ken Stone
  - [1U-LFO](https://github.com/kraakenstuff/1U-LFO) : 1U Eurorack LFO module
  - [MFOS VC LFO](https://github.com/holmesrichards/MFOS_VC_LFO) : couple of modifications for the MFOS VC LFO and a Kosmo format
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # LOW PASS GATE
  - [AJH_LPG](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_LPG) : Buchla-esque LPG
  - [Low Pass Gate](https://github.com/jacobbarssbailey/low-pass-gate) : Dual Low Pass Gate
+- [Dual low pass gate](https://www.nonlinearcircuits.com/modules/p/dual-lpg) : pretty standard except it uses the black box vactrol method
+ - [Low pass gate](https://www.nonlinearcircuits.com/modules/p/low-pass-gate) : Based on the Buchla 292
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  
 # MIXER
  - [Frames](http://mutable-instruments.net/modules/frames): Keyframer/mixer
@@ -134,6 +218,16 @@
  - [Hands of Svarog](https://github.com/kraakenstuff/Hands-of-Svarog) : A 6HP Eurorack panning mixer and phones output
  - [Hexapod](https://github.com/kraakenstuff/Hexapod) : 3U Eurorack mixer
  - [DC_Mixer](https://github.com/holmesrichards/dc_mixer) : This is a DC coupled 3-input mixer, designed mainly for mixing control voltage signals
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SEQUENCER
  - [Grids](http://mutable-instruments.net/modules/grids): Topographic drum sequencer
@@ -144,11 +238,31 @@
  - [Sequencer](https://github.com/michd/modular-synth/tree/master/modules/sequencer)
  - [3channel Triggers](https://github.com/benjiao/ThreeChannelTriggers) : An 8-Step Sequencer with 3 independent trigger output channels
  - [8Step Sequencer](https://github.com/holmesrichards/8StepSequencer) : 8 step control voltage sequencer based on LMNC design, with mods
+- [cellular-automata](https://www.nonlinearcircuits.com/modules/p/cellular-automata) : This is a 16 cell gate and pattern generator using cellular automata rules 90 & 150
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # CLOCK GENERATOR
  - [temps_utile-](https://github.com/mxmxmx/temps_utile-) : 6 x clock generator
  - [1U temp_utile](https://github.com/Shayshez/1uT_u) : 1u Version (Pulp Logic) of Temps Utile, 30HP.
  - [clock-generator](https://github.com/michd/modular-synth/tree/master/modules/clock-generator) : MichD
+- [Clocky](https://sound-force.nl/?page_id=2183) : This module is an Arduino Nano based clock mangler
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # ENVELOPE
  - [Envelope](https://github.com/erica-synths/diy-eurorack/blob/master/Envelope%20DIY.zip) : recreation of Polivoks envelope generator with loop and end of attack functions
@@ -169,6 +283,16 @@
  - [Skis](https://github.com/kraakenstuff/PolivoksVCF) : This is smd version of Bastl Skis v1 with mods
  - [ADSR](https://github.com/kraakenstuff/ADSR) : 2HP ADSR module based on "Fastest Envelope in the West" by René Schmitz
  - [1U-ADSR](https://github.com/kraakenstuff/1U-ADSR) : 1U Eurorack ADSR module based on René Schmitz' schematic
+- [envelope-follower](https://www.nonlinearcircuits.com/modules/p/4hp-envelope-follower) : it is based on the design in the Buchla Easel with mods
+ - [ADSR312](https://www.nonlinearcircuits.com/modules/p/asdr312) : This circuit is based on the Aries 312 envelope generator
+ - [ARSEq](https://www.nonlinearcircuits.com/modules/p/arseq) : The ARSEq ( = _A_ttack _R_elease _SEq_uencer) is, as the name implies, a hybrid sequencer and AR envelope generator
+ - [Sly gorgan](https://www.nonlinearcircuits.com/modules/p/sly-grogan) : SLY GROGAN is an envelope generator based on the design in Electronotes #86
+ - [trackydacks](https://www.nonlinearcircuits.com/modules/p/trackydacks) : Basically grabbed the NLC Triad and replaced the pots for Attack & Decay with vactrols
+ - [Triad](https://www.nonlinearcircuits.com/modules/p/triad) : These are AR or AD generators that will fire on a trigger or a gate, giving envelopes up to approx 25 seconds
+ - [VC-ADSR](https://www.nonlinearcircuits.com/modules/p/vc-adsr) : Basically grabbed the classic Jacky/Kirschman 555 ADSR circuit from 1980 and replaced the pots for Attack, Decay and Release with LDRs inside black boxes (BBX)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # EFFECTS
  - [Clouds](http://mutable-instruments.net/modules/clouds) : Texture synthesizer
@@ -201,19 +325,28 @@
  - [KinkyNoChop](https://github.com/kraakenstuff/KinkyNoChop) : 3U Eurorack quad wavefolder based on Befaco's Chopping Kinky
  - [Megamodule](https://github.com/holmesrichards/megamodule) : Circuit bending a toy voice changing megaphone into a synth module
  - [WaveShaper](https://github.com/holmesrichards/WaveShaper) : Holmes Richards
+- [Product](https://www.nonlinearcircuits.com/modules/p/product) : It is similar in concept to other diode based wavefolders out there, but as this one uses two different nonlinear stages
+ - [Phase-flange](https://www.nonlinearcircuits.com/modules/p/329-phase-flange) : This module is based on the Aries 329 Phase/Flange with mods
+ - [Choral Generator](https://www.nonlinearcircuits.com/modules/p/choralgen) : this is a BBD based triple chorus generator
+ - [Delay-no-more](https://www.nonlinearcircuits.com/modules/p/delay-no-more) : Two PT2399 chips roped together in series, one with vactrol control and 4 different feedback paths…
+ - [Delay-no-more 3](https://www.nonlinearcircuits.com/modules/p/delay-no-more-3) : This module contains three PT2399 delay chips that feed into each other to create a loop
+ - [Divine CMOS](https://www.nonlinearcircuits.com/modules/p/divine-cmos) : It can be used as a CV pattern generator with slew, frequency divider, gate pattern generator, envelope follower and a ring modulator that provides sub-harmonics that can be mixed together to create new sounds
+ - [Genie](https://www.nonlinearcircuits.com/modules/p/genie) : GEneralized Nonlinear Extrapolator This module is made of 3 neuron circuits and a difference rectifier
+ - [Giant b0n0](https://www.nonlinearcircuits.com/modules/p/giant-b0n0) : Pretty much does whatever it wants most of the time
+ - [Let's splosh](https://www.nonlinearcircuits.com/modules/p/lets-splosh) : This is 8 different rectifiers processing 4 input signals.
+ - [Multiband distortion processor](https://www.nonlinearcircuits.com/modules/p/multiband-distortion-processor) : Basically it splits the input signals into 4 frequency bands, these go into fuzz circuits and vactrol based VCAs
+ - [Timbre & Timbre](https://www.nonlinearcircuits.com/modules/p/timbre-and-timbre) : This is simply a dual version of the Timbre!, which was based on the Buchla circuit
+ - [Timbre](https://www.nonlinearcircuits.com/modules/p/timbre) : basically a clone of the Buchla timbre found in the Easel. and added a simple tri2sine converter input, along with the regular input, and buffered output
+ - [O](A)
+ - [O](A)
 
 # UTILITY
- - [Links](http://mutable-instruments.net/modules/links): Utility module - buffer, mixer
- - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
  - [Shades](http://mutable-instruments.net/modules/shades): Triple attenuverter
- - [AJH_module_tester](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_module_tester) : SMT module tester module with four added precision voltage outputs (set with trimmers)
- - [Analog logic module](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/analog%20logic%20module)
  - [Startup](https://www.musicthing.co.uk/pages/startup.html) : headphone amp, six-input mixer, tap tempo clock, divider & multiplier
  - [Axo control](https://www.musicthing.co.uk/pages/axo.html) : is an easy passive control panel for the Axoloti sound board.
  - [Octaver](https://github.com/covertneko/MMIModular/tree/master/Octaverter) : 8 attenuverters in 12hp
  - [Passive Attenuators](https://github.com/covertneko/MMIModular/tree/master/Passive%20Attenuator) : Covertneko
  - [Planks](https://github.com/covertneko/MMIModular/tree/master/Planks) : Slim and simple dual precision adder
- - [TrurhTable](https://github.com/attoparsec/TruthTable) Analogue logic module
  - [Inverter](https://github.com/michd/modular-synth/tree/master/modules/inverter) : MichD
  - [Audiometer](https://https//github.com/sonosus/audiometer) : A VU style meter board with the Electric Druid Audiometer chip
  - [kosmicsuperspreader](https://github.com/sonosus/kosmicsuperspreader) : A CV splitter/processing module in Kosmo format
@@ -229,6 +362,41 @@
  - [1U-Headphone](https://github.com/kraakenstuff/1U-Headphone) : 1U Eurorack headphone output module based on Befaco Output v3
  - [Output](https://github.com/jacobbarssbailey/output) : Eurorack module for stereo line-level output + headphones
  - [StereoOutKosmo](https://github.com/holmesrichards/StereoOutKosmo) : Stereo output synthesizer module in Kosmo format.
+- [SMT32DUINO](https://sound-force.nl/?page_id=2212) : STM32DUINO dual trigger/gate to CV is a module based on a low-cost Arduino-compatible STM32F103
+ - [1U-Diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect) : It is great for mixing audio and/or CV signals to get all kinds of unexpected and interesting results
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+
+# LOGIC/ROUTER
+ - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
+ - [Analog logic module](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/analog%20logic%20module)
+ - [TrurhTable](https://github.com/attoparsec/TruthTable) Analogue logic module
+ - [1/n (Divide by n)](https://www.nonlinearcircuits.com/modules/p/1slashn) : t is simply a CMOS 4018 with buffers on all of its inputs and outputs, along with a 4081 to enable further divisions
+ - [Balter](https://www.nonlinearcircuits.com/modules/p/balter) : CV controlled delay ranges from 7 milli-seconds to 1 minute
+ - [beat-freq](https://www.nonlinearcircuits.com/modules/p/beat-freq) : nonlinearcircuits
+ - [Bool](https://www.nonlinearcircuits.com/modules/p/bools) : This module is like a hybrid between the NLC quad logic module and the Sauce of Unce
+ - [chopper](https://www.nonlinearcircuits.com/modules/p/chopper) : Bottom section is a normal gate controlled bi-directional router. Top section is based on a 70s delta modulator, at least in concept
+ - [divide and conquer](https://www.nonlinearcircuits.com/modules/p/divide-and-conquer) : This is a clock divider module containing 4 different dividers
+ - [numberwang](https://www.nonlinearcircuits.com/modules/p/numberwang) : This module is basically a 4:16 decoder with sync and async modes
+ - [statues](https://www.nonlinearcircuits.com/modules/p/statues) : a 1 to 8 multiplexor with a thru and hold circuit attached to each output
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  
 # SAMPLE & HOLD
  - [Kinks](http://mutable-instruments.net/modules/kinks): Utility module - rectifier, analog logic, S&H, noise
@@ -236,6 +404,16 @@
  - [Jinx_AJH](https://github.com/forestcaver/Jinx) : 4hp triple S+H/noise
  - [Noise Clock and S&H](https://github.com/gerb-ster/Noise-Clock-Sample-and-Hold) : 3-in-1 module, containing 4 types of noise, a clock generator and a sample-and-hold
  - [Omnitool](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/Omnitool) : inspired by the MS-20. It features a glide, S&H and manual button
+- [Heletica scenario](https://www.nonlinearcircuits.com/modules/p/helvetica-scenario) : This module is a dual sample & hold with voltage controlled slew for each channel
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # RANDOMNESS
  - [Branches](http://mutable-instruments.net/modules/branches) : Dual Bernoulli gate
@@ -248,6 +426,30 @@
  - [Turing Pulses expander](https://www.musicthing.co.uk/pages/pulses.html) : adds eleven rhythmic outputs to the Turing Machine
  - [Vactrolmix](https://www.musicthing.co.uk/pages/vactrolmix.html) : is a unique matrix mixer controlled by the Turing Machine
  - [noise](https://github.com/spielhuus/elektrophon/tree/master/modules/noise) : white/pink noise and random voltage
+- [1U-Pill](https://www.nonlinearcircuits.com/modules/p/1u-pill) : This is a raw 12HP 1U version of the Mobius PiLL
+ - [1U-Sloth chaos](https://www.nonlinearcircuits.com/modules/p/1u-sloth-chaos) : These are Sloth chaos modules available in 1U 6HP panels
+ - [1U-Signum](https://www.nonlinearcircuits.com/modules/p/1u-signum) : this is a switching module. It is a little different though because it has 3 states rather than just on/off
+ - [Big jobs](https://www.nonlinearcircuits.com/modules/p/bigjobs) : This module is an audio rate chaotic signal generator
+ - [Stooges](https://www.nonlinearcircuits.com/modules/p/stooges) : This module contains three individual jerk chaos circuits
+ - [Brain-custard](https://www.nonlinearcircuits.com/modules/p/brain-custard) : Brain Custard is nine audio rate chaotic signals mixed to form 'neuron clusters'
+ - [Flipflop-chaos](https://www.nonlinearcircuits.com/modules/p/flipflop-chaos) : FF Chaos (flip-flop) - This is another chaos module but designed to supply a variety of gates and triggers
+ - [hyperchaos-deluxe](https://www.nonlinearcircuits.com/modules/p/hyperchaos-deluxe) : Hyperchaos Deluxe is based on the description in A UNIQUE SIGNUM SWITCH FOR CHAOS AND HYPERCHAOS by C. Li et al and is an expansion of the circuit used in Primal Hyperchaos
+ - [Ian-fritz-hypster](https://www.nonlinearcircuits.com/modules/p/ian-fritz-hypster) : This is Ian's introduction in his article on the circuit: The Hypster is an electronic fourth-order hyperchaos generator
+ - [primal-hyperchaos](https://www.nonlinearcircuits.com/modules/p/primal-hyperchaos) : Hyperchaos circuit based on a paper by C Li, et al. It can be built to run at different speeds simply by installing different capacitors
+ - [signum-hyperchaos](https://www.nonlinearcircuits.com/modules/p/signum-hyperchaos) : This is an expansion of Primal Hyperchaos, based on the description in a paper by C Li, et al
+ - [Sloth Chaos](https://www.nonlinearcircuits.com/modules/p/4hp-sloth-chaos) : This is a very simple to build chaos module that can be built in 4 ways: 1 cycle every 15 seconds (regular), 1 cycle per minute (slow), 1 cycle every 15 minutes (slooow) or 1 every 2 hours or so (sloooooow)
+ - [Sloth-DK](https://www.nonlinearcircuits.com/modules/p/sloth-dk) : For those that have not seen the Sloth before - this module is a simple chaos circuit that puts out 3 slowly varying and never repeating CV signals
+ - [Spasm](https://www.nonlinearcircuits.com/modules/p/spasm) : his module takes the classic Sprott jerk circuit and replaces all the resistors with LDRs…..a 7 way vactrol. This means the brightness of the LED in the giant vactrol controls the frequency of the circuit
+ - [Squid axon](https://www.nonlinearcircuits.com/modules/p/squid-axon) : Just the module everybody has been waiting for! A squid brain cell simulator!
+ - [triple-sloth](https://www.nonlinearcircuits.com/modules/p/triple-sloth) : This module contains 3 Sloth chaos circuits. Each one runs at a different rate; Torpor takes approx. 15-30 seconds to travel around 2 strange attractors, Apathy takes 60-90 seconds and Inertia takes 30-40 minutes
+ - [8bit-cipher](https://www.nonlinearcircuits.com/modules/p/8bit-cipher) : based on the one part of the Buchla Source of Uncertainty/Random Voltage source, although it has been modded to obtain 4 CV and 9 gate outputs
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # MULTIPLE
  - [Minx_AJH](https://github.com/forestcaver/Minx_AJH) : 4hp buffered mult
@@ -256,17 +458,47 @@
  - [2x3 - 1x7 Buffer](https://github.com/gerb-ster/1x7-2x3-Buffer) : An active buffer build around the TL074 & TL072 IC’s
  - [Buffers](https://github.com/Shayshez/Buffers) : 6 Individual Buffers / Buffered multiple based on links
  - [Active Multiples](https://github.com/jacobbarssbailey/active-multiples) : 5HP Eurorack-format Dual 1→3 Active Buffer
+ - [Links](http://mutable-instruments.net/modules/links): Utility module - buffer, mixer
+ - [32 to 1](https://www.nonlinearcircuits.com/modules/p/32to1) : a 1:32 or 32:1 mux. It can split one input signal into 32 outputs or switch 32 inputs into 1 output
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # QUANTIZER
  - [Telefuncen](https://github.com/mxmxmx/telefuncen) :  4-channel quantizer
  - [Chord Organ](https://www.musicthing.co.uk/pages/chord.html) : Sequence chord shapes and root notes
  - [Quantizer Module](https://github.com/holmesrichards/QuantizerModule) : This is a dual quantizer based on the dac/ino board
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SAMPLER
  - [Marbles](http://mutable-instruments.net/modules/marbles): Random sampler
  - [Eurotrash_mkII](https://github.com/mxmxmx/eurotrash_mkII) : teensy 3.x / pcm5102a eurorack wav file player
  - [Radio Music](https://www.musicthing.co.uk/pages/radio.html) : sampler pretending to be a radio
  - [Magnetophon](https://www.musicthing.co.uk/pages/magnetophon.html) : is a cassette player without the transport mechanism
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # MIDI
  - [Yarns](http://mutable-instruments.net/modules/yarns): MIDI interface
@@ -279,6 +511,16 @@
  - [Midi-In](https://github.com/michd/modular-synth/tree/master/modules/midi-in) : MichD
  - [MCVI](https://github.com/holmesrichards/MCVI) : MIDI to CV synth module in Kosmo format. It provides pitch and velocity CV, gate, and trigger for Note
  - [MIDIsnoop](https://github.com/holmesrichards/midisnoop) : A little circuit and script for looking at incoming MIDI messages. Simple enough to build on a stripboard
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # OTHER
  - [Ears](http://mutable-instruments.net/modules/ears): Contact microphone
@@ -294,6 +536,16 @@
  - [Apex4ROBOTS](https://github.com/Shayshez/Apex4ROBOTS) : 1u Peaks for Intellijel format
  - [Mikrokosmos](https://github.com/holmesrichards/Mikrokosmos) : Kosmo format version of Music Thing Modular's Mikrophonie
  - [Electrophone](https://github.com/holmesrichards/Electrophone) : Electrophone is a Eurorack module containing a full-sized single coil guitar pickup
+ - [Wangernumb](https://www.nonlinearcircuits.com/modules/p/wangernumb) : Wangernumb is 3 modules in one…or 4
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # POWER SUPPLY
 
@@ -305,6 +557,16 @@
  - [Busboards](https://github.com/holmesrichards/busboard) : Eurorack/Kosmo Busboards
  - [PowerBreakout](https://github.com/holmesrichards/powerbreakout) : A little board for connecting Eurorack or Kosmo power distribution systems to non Euro/Kosmo module
  - [WW_Suply](https://github.com/holmesrichards/ww_supply) : This is a power supply based on the MFOS wall wart supply with mods
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # ARDUINO BASED THINGS
 
@@ -324,10 +586,21 @@
  - [Ardrando](https://github.com/tensiontides/eurorack_arduino/tree/master/ardrando) : Arduino turing-style quantized random sequence generator
  - [Random Triggers](https://github.com/benjiao/RandomTriggers) : sample and hold program that takes in white noise and produce random signals (+9v)
  - [MIDI to DMX](https://github.com/matthova/arduino_midi_to_dmx) : Arduino program that converts MIDI to DMX
- - [Eurorack Clock](https://github.com/JerrySievert/EurorackClock) : Clock module that can act as a master clock for Eurorack modules.
+ - [Eurorack Clock](https://github.com/JerrySievert/EurorackClock) : Clock module that can act as a master clock for Eurorack modules
+- [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # Non-musical
-  - [Open EuroBoard](https://github.com/sensai7/OpenEuroBoard) : Kicad and Gerber files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application.
-
+  - [Open EuroBoard](https://github.com/sensai7/OpenEuroBoard) : Kicad and Gerber files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application
+ - [AJH_module_tester](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_module_tester) : SMT module tester module with four added precision voltage outputs (set with trimmers)
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
+  - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
