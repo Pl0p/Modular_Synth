@@ -43,47 +43,6 @@
 
  - [ ] List cool things from related
 
- - [ ] List for all non gitHub repo
-	 - [x] Sound Force
-	 - [x] Non Linear Circuits
-	 - [ ] Music Thing Modular
-	 - [ ] Befaco
-	 - [ ] Rebel Tech
-	 - [ ] Look Mum No Computer
-	 - [ ] AI-Synthesis
-	 - [ ] Castle Rocktronics
-	 - [ ] Synsi
-	 - [ ] Yusynth
-	 - [ ] SOWA
-	 - [ ] Niklas Rönnberg
-	 - [ ] Harald Antes
-	 - [ ] Scott Stites
-	 - [ ] Thomas Henry
-	 - [ ] Schmitzbits
-	 - [ ] Kassutronics
-	 - [ ] Barton musical circuits
-	 - [ ] Dintree
-	 - [ ] Music from outer space
-	 - [ ] Eddy Bergman
-	 - [ ] David Haillant
-	 - [ ] Astro
-	 - [ ] Solorb
-	 - [ ] North coast synthesis
-	 - [ ] Ken Stone
-	 - [ ] Hagiwo
-	 - [ ] O-Zoe
-	 - [ ] Megaloceros
-	 - [ ] Papareil
-	 - [ ] Jürgen Haible
-	 - [ ] La roue tourne
-	 - [ ] Stickney synthyard
-	 - [ ] Seb's synth
-	 - [ ] NOR Eurorack
-	 - [ ] Soundbender
-	 - [ ] Les portes logiques
-
-
-
 
 # VCA
  - [Blinds](http://mutable-instruments.net/modules/blinds) : Quad VC-polarizer
