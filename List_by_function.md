@@ -1,8 +1,88 @@
 
  - [x] List for all gitHub repo
  - [x] List for all gitLab repo
- - [ ] Lisr for all non gitHub repo
+
+ - [ ] List for all non gitHub repo
+	 - [x] Sound Force
+	 - [x] Non Linear Circuits
+	 - [ ] Music Thing Modular
+	 - [ ] Befaco
+	 - [ ] Rebel Tech
+	 - [ ] Look Mum No Computer
+	 - [ ] AI-Synthesis
+	 - [ ] Castle Rocktronics
+	 - [ ] Synsi
+	 - [ ] Yusynth
+	 - [ ] SOWA
+	 - [ ] Niklas Rönnberg
+	 - [ ] Harald Antes
+	 - [ ] Scott Stites
+	 - [ ] Thomas Henry
+	 - [ ] Schmitzbits
+	 - [ ] Kassutronics
+	 - [ ] Barton musical circuits
+	 - [ ] Dintree
+	 - [ ] Music from outer space
+	 - [ ] Eddy Bergman
+	 - [ ] David Haillant
+	 - [ ] Astro
+	 - [ ] Solorb
+	 - [ ] North coast synthesis
+	 - [ ] Ken Stone
+	 - [ ] Hagiwo
+	 - [ ] O-Zoe
+	 - [ ] Megaloceros
+	 - [ ] Papareil
+	 - [ ] Jürgen Haible
+	 - [ ] La roue tourne
+	 - [ ] Stickney synthyard
+	 - [ ] Seb's synth
+	 - [ ] NOR Eurorack
+	 - [ ] Soundbender
+	 - [ ] Les portes logiques
+
  - [ ] List cool things from related
+
+ - [ ] List for all non gitHub repo
+	 - [x] Sound Force
+	 - [x] Non Linear Circuits
+	 - [ ] Music Thing Modular
+	 - [ ] Befaco
+	 - [ ] Rebel Tech
+	 - [ ] Look Mum No Computer
+	 - [ ] AI-Synthesis
+	 - [ ] Castle Rocktronics
+	 - [ ] Synsi
+	 - [ ] Yusynth
+	 - [ ] SOWA
+	 - [ ] Niklas Rönnberg
+	 - [ ] Harald Antes
+	 - [ ] Scott Stites
+	 - [ ] Thomas Henry
+	 - [ ] Schmitzbits
+	 - [ ] Kassutronics
+	 - [ ] Barton musical circuits
+	 - [ ] Dintree
+	 - [ ] Music from outer space
+	 - [ ] Eddy Bergman
+	 - [ ] David Haillant
+	 - [ ] Astro
+	 - [ ] Solorb
+	 - [ ] North coast synthesis
+	 - [ ] Ken Stone
+	 - [ ] Hagiwo
+	 - [ ] O-Zoe
+	 - [ ] Megaloceros
+	 - [ ] Papareil
+	 - [ ] Jürgen Haible
+	 - [ ] La roue tourne
+	 - [ ] Stickney synthyard
+	 - [ ] Seb's synth
+	 - [ ] NOR Eurorack
+	 - [ ] Soundbender
+	 - [ ] Les portes logiques
+
+
 
 
 # VCA
@@ -25,7 +105,7 @@
  - [VCA1](https://github.com/spielhuus/elektrophon/tree/master/modules/vca1) : VCA built around the CA3080 OTA chip
  - [Dazzle](https://github.com/Shayshez/Dazzle) : Rotatable Dual VC-Polarizer and VCA, Based on MI "Blinds".
  - [1U-VCA](https://github.com/kraakenstuff/1U-VCA) : 1U Eurorack VCA module adapted from Scott Bernardi's schematic
-- [O](A)
+- [VCAs](https://www.nonlinearcircuits.com/modules/p/vcas) : This 8HP module contains 3 VCAs and a fuzz/distortion
  - [O](A)
  - [O](A)
  - [O](A)
@@ -61,11 +141,11 @@
  - [VCO3340](https://github.com/jacobbarssbailey/vco3340) : Simple 6HP Eurorack-format CEM3340 VCO
  - [SubOSC](https://github.com/holmesrichards/subosc) : Kosmo or Eurorack format sub oscillator. Circuit design by Analog Lab Swiss
 - [Braids through-hole](https://sound-force.nl/?page_id=3179) :  A through hole version of briads by MI
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [CEM3340-vco](https://www.nonlinearcircuits.com/modules/p/cem3340-vco) : Has phase modulated sync & pan-pulse output based on the Aries PMS-338 VCO
+ - [it's 555](https://www.nonlinearcircuits.com/modules/p/its-555) : It's 555 Resonator, this is a set of five 555 based one shot circuits
+ - [kareishuu-vco](https://www.nonlinearcircuits.com/modules/p/kareishuu-vco) : This VCO was mainly designed as an upgrade for the dual OTA VCO with mods
+ - [plague-of-demons](https://www.nonlinearcircuits.com/modules/p/plague-of-demons) : This VCO uses DG202 (or equivalents) analogue switches to achieve the thru-0 function
+ - [Vac-pill](https://www.nonlinearcircuits.com/modules/p/vac-pill) : a simple circuit that is capable of making a wide variety of sounds
  - [O](A)
  - [O](A)
  - [O](A)
@@ -177,7 +257,7 @@
  - [Utility LFO](https://github.com/spielhuus/elektrophon/tree/master/modules/Utility%20LFO) : Simple but fancy LFO from Ken Stone
  - [1U-LFO](https://github.com/kraakenstuff/1U-LFO) : 1U Eurorack LFO module
  - [MFOS VC LFO](https://github.com/holmesrichards/MFOS_VC_LFO) : couple of modifications for the MFOS VC LFO and a Kosmo format
-- [O](A)
+ - [Dual-LFO](https://www.nonlinearcircuits.com/modules/p/dual-lfo) : The circuit is based on the thru-hole dual VCO but can be switched to operate in 3 ranges
  - [O](A)
  - [O](A)
  - [O](A)
@@ -218,13 +298,13 @@
  - [Hands of Svarog](https://github.com/kraakenstuff/Hands-of-Svarog) : A 6HP Eurorack panning mixer and phones output
  - [Hexapod](https://github.com/kraakenstuff/Hexapod) : 3U Eurorack mixer
  - [DC_Mixer](https://github.com/holmesrichards/dc_mixer) : This is a DC coupled 3-input mixer, designed mainly for mixing control voltage signals
-- [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [1050MixSeq](https://www.nonlinearcircuits.com/modules/p/1050mixseq) : This module is based on the Arp 1050 mix sequencer with mods
+ - [4hp Mix](https://www.nonlinearcircuits.com/modules/p/4hp-mix) : The simplest module in the NLC range - a 4 input mixer
+ - [Clump](https://www.nonlinearcircuits.com/modules/p/clump) : a 4x4 CV controlled matrix mixer
+ - [Cluster](https://www.nonlinearcircuits.com/modules/p/cluster) : a 8x4 CV controlled matrix mixer
+ - [mixer](https://www.nonlinearcircuits.com/modules/p/mixer) : Simple and super useful mixer and line level output with added headphone monitor
+ - [MOGUE](https://www.nonlinearcircuits.com/modules/p/mogue) : a VCA and Mixer based on early Moog designs with mods
+ - [Segue](https://www.nonlinearcircuits.com/modules/p/segue) : This is a VC panner, VC cross-fader, VCA and VC attenuator, process CV and audio
  - [O](A)
  - [O](A)
  - [O](A)
@@ -239,8 +319,8 @@
  - [3channel Triggers](https://github.com/benjiao/ThreeChannelTriggers) : An 8-Step Sequencer with 3 independent trigger output channels
  - [8Step Sequencer](https://github.com/holmesrichards/8StepSequencer) : 8 step control voltage sequencer based on LMNC design, with mods
 - [cellular-automata](https://www.nonlinearcircuits.com/modules/p/cellular-automata) : This is a 16 cell gate and pattern generator using cellular automata rules 90 & 150
- - [O](A)
- - [O](A)
+ - [4seq](https://www.nonlinearcircuits.com/modules/p/4seq) : This sequencer has 4 stages with a forwards/backwards control allowing the development of quite complex sequences and patterns
+ - [Bindubba](https://www.nonlinearcircuits.com/modules/p/bindubba) : This is a re-boot of the Bindubba3 sequencer, tho there have been a few changes
  - [O](A)
  - [O](A)
  - [O](A)
@@ -337,6 +417,16 @@
  - [Multiband distortion processor](https://www.nonlinearcircuits.com/modules/p/multiband-distortion-processor) : Basically it splits the input signals into 4 frequency bands, these go into fuzz circuits and vactrol based VCAs
  - [Timbre & Timbre](https://www.nonlinearcircuits.com/modules/p/timbre-and-timbre) : This is simply a dual version of the Timbre!, which was based on the Buchla circuit
  - [Timbre](https://www.nonlinearcircuits.com/modules/p/timbre) : basically a clone of the Buchla timbre found in the Easel. and added a simple tri2sine converter input, along with the regular input, and buffered output
+ - [Shat-Noir](https://www.nonlinearcircuits.com/modules/p/shat-noir) : The core of the Shat-noir phaser is based on classic LDR based phaser designs
+ - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
 
@@ -382,10 +472,11 @@
  - [beat-freq](https://www.nonlinearcircuits.com/modules/p/beat-freq) : nonlinearcircuits
  - [Bool](https://www.nonlinearcircuits.com/modules/p/bools) : This module is like a hybrid between the NLC quad logic module and the Sauce of Unce
  - [chopper](https://www.nonlinearcircuits.com/modules/p/chopper) : Bottom section is a normal gate controlled bi-directional router. Top section is based on a 70s delta modulator, at least in concept
+ - [Bi-di choppers](https://www.nonlinearcircuits.com/modules/p/bi-di-choppers) : This is a dual stripped version of the original Chopper
  - [divide and conquer](https://www.nonlinearcircuits.com/modules/p/divide-and-conquer) : This is a clock divider module containing 4 different dividers
  - [numberwang](https://www.nonlinearcircuits.com/modules/p/numberwang) : This module is basically a 4:16 decoder with sync and async modes
  - [statues](https://www.nonlinearcircuits.com/modules/p/statues) : a 1 to 8 multiplexor with a thru and hold circuit attached to each output
- - [O](A)
+ - [Router](https://www.nonlinearcircuits.com/modules/p/router) : periodically switch around the CV signals to create new patches
  - [O](A)
  - [O](A)
  - [O](A)
@@ -443,10 +534,8 @@
  - [Squid axon](https://www.nonlinearcircuits.com/modules/p/squid-axon) : Just the module everybody has been waiting for! A squid brain cell simulator!
  - [triple-sloth](https://www.nonlinearcircuits.com/modules/p/triple-sloth) : This module contains 3 Sloth chaos circuits. Each one runs at a different rate; Torpor takes approx. 15-30 seconds to travel around 2 strange attractors, Apathy takes 60-90 seconds and Inertia takes 30-40 minutes
  - [8bit-cipher](https://www.nonlinearcircuits.com/modules/p/8bit-cipher) : based on the one part of the Buchla Source of Uncertainty/Random Voltage source, although it has been modded to obtain 4 CV and 9 gate outputs
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [Sauce of unce](https://www.nonlinearcircuits.com/modules/p/sauce-of-unce) : Based on the Buchla SOU265, but all the rare components replaced with regular parts
+ - [Neuron](https://www.nonlinearcircuits.com/modules/p/8hp-neuron) : The Neuron was inspired by a paper on neural computing and is a variation of a typical analogue neuron circuit
  - [O](A)
  - [O](A)
  - [O](A)
@@ -537,8 +626,8 @@
  - [Mikrokosmos](https://github.com/holmesrichards/Mikrokosmos) : Kosmo format version of Music Thing Modular's Mikrophonie
  - [Electrophone](https://github.com/holmesrichards/Electrophone) : Electrophone is a Eurorack module containing a full-sized single coil guitar pickup
  - [Wangernumb](https://www.nonlinearcircuits.com/modules/p/wangernumb) : Wangernumb is 3 modules in one…or 4
- - [O](A)
- - [O](A)
+ - [LDrama](https://www.nonlinearcircuits.com/modules/p/ldrama) : The idea is to play a video on your phone and place the phone on the LDR array. The module will generate CVs in response to what is happening in your video
+ - [Lux](https://www.nonlinearcircuits.com/modules/p/lux) : an ambience and movement sensor to reflect changing light conditions
  - [O](A)
  - [O](A)
  - [O](A)
@@ -557,8 +646,8 @@
  - [Busboards](https://github.com/holmesrichards/busboard) : Eurorack/Kosmo Busboards
  - [PowerBreakout](https://github.com/holmesrichards/powerbreakout) : A little board for connecting Eurorack or Kosmo power distribution systems to non Euro/Kosmo module
  - [WW_Suply](https://github.com/holmesrichards/ww_supply) : This is a power supply based on the MFOS wall wart supply with mods
-- [O](A)
- - [O](A)
+ - [Covfefe](https://www.nonlinearcircuits.com/modules/p/covfefe) : This buss is designed for use with the small PSU board
+ - [Small-PSU](https://www.nonlinearcircuits.com/modules/p/small-psu) : its about a simple PSU as you can get. Runs on 7812 and 7912 to give +/-12V bolt them to a nice big heatsink
  - [O](A)
  - [O](A)
  - [O](A)
