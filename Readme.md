@@ -11,7 +11,7 @@ All modules in the list are not necessarily in eurorack format, but all have the
 
 And 
 
-### [A list (not yet finish) of modules by category](https://github.com/Pl0p/Modular_Synth/blob/main/List_by_function.md)
+### [A list (in progress) of modules by category](https://github.com/Pl0p/Modular_Synth/blob/main/List_by_function.md)
 These are the schematics available in the list above but classified by category
 
 Don't hesitate to participate if you find other sources of music/video schematics
