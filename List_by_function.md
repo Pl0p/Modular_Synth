@@ -10,8 +10,8 @@
 	 - [ ] Befaco
 	 - [x] Rebel Tech
 	 - [x] Look Mum No Computer
-	 - [ ] AI-Synthesis
-	 - [ ] Castle Rocktronics
+	 - [x] AI-Synthesis
+	 - [x] Castle Rocktronics
 	 - [ ] Synsi
 	 - [ ] Yusynth
 	 - [ ] SOWA
@@ -111,8 +111,8 @@
  - [1222 performance VCO](https://www.lookmumnocomputer.com/1222-performance-vco) : Born from frustration of playing shows, or not having a tuner to hand and getting in tune enough to get going, instead of sitting around being out of tune
  - [cem-3340-diy-simple](https://www.lookmumnocomputer.com/cem-3340-diy-simple) : This is the CORE of a VCO module made with a CEM3340 chip.
  - [hundred-oscillator-mega-drone](https://www.lookmumnocomputer.com/hundred-oscillator-mega-drone) : basically a bunch of saw/square wave oscillators in a box, that can be modulated and all that jazz!
- - [O](A)
- - [O](A)
+ - [AI011 Analog Voltage Controlled Oscillator](https://aisynthesis.com/product/ai011-voltage-controlled-oscillator/) : The AI011 Analog VCO is a robust and stable analog Eurorack VCO. Using the legendary curtis 3340 IC
+ - [0001 4xSquare](http://castlerocktronics.com/modular.html#001) : This is a slight twist on popular 40106 oscilator bank, with very simple CV control of the oscillators added with diodes
  - [O](A)
  - [O](A)
  - [O](A)
@@ -164,7 +164,7 @@
  - [1114 Funky filter](https://www.lookmumnocomputer.com/1114-funky-filter) : So this is a right weirdo!!!! Was looking into the LM13700 chip i began with the datasheet lowpass filter and went from there until i found some very funky sounds indeed
  - [Performance filter](https://www.lookmumnocomputer.com/performance-filter) : Look Mum No Computer
  - [Simple Filter](https://www.lookmumnocomputer.com/simple-filter) : Simple analog Low Pass Filter
- - [O](A)
+ - [AI004 OTA Voltage Controlled Filter](https://aisynthesis.com/product/diy-ms-20-filter/) : his OTA Voltage Controlled Filter uses the same filter structure as the venerable Korg MS 20 Filter
  - [O](A)
  - [O](A)
  - [O](A)
@@ -229,7 +229,7 @@
  - [MFOS VC LFO](https://github.com/holmesrichards/MFOS_VC_LFO) : couple of modifications for the MFOS VC LFO and a Kosmo format
  - [Dual-LFO](https://www.nonlinearcircuits.com/modules/p/dual-lfo) : The circuit is based on the thru-hole dual VCO but can be switched to operate in 3 ranges
  - [1145 kosmo VCLFO](https://www.lookmumnocomputer.com/vclfo) : Based on the Electric Druid VCLFO10
- - [O](A)
+ - [003 4xLFO](http://castlerocktronics.com/modular.html#003) : Four square wave LFOs with little blinky lights to show you how fast they are going
  - [O](A)
  - [O](A)
  - [O](A)
@@ -278,10 +278,10 @@
  - [Mix](https://github.com/pingdynasty/Mix) Mix 01 is an extensible 4 in / 2 out matrix mixer with dedicated stereo headphone output (mix 01, Mix 02, mix 03, and mix 04 on the same page)
  - [1183/1184 quad VCA Mixer](https://www.lookmumnocomputer.com/11831184-quad-vca-mixer) : This is a quad mixer built on 2 AS3360 dual VCA chips the
  - [1163 mini mixer](https://www.lookmumnocomputer.com/1163-mini-mixer) : Its very very simple, 6 channel inputs with a mute and a level for each input, and a single output. thats it!
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [AI002 Audio and CV Mixer](https://aisynthesis.com/product/eurorack-audio-and-cv-mixer/) : classic utility audio or cv mixer
+ - [AI007 Quad VCA Mixer](https://aisynthesis.com/product/ai007-quad-vca-mixer/) : The AI007 Quad VCA Mixer is a compact, high quality, and flexible way to control voltage (audio or cv) in your modular system.
+ - [AI008 Eurorack Matrix Mixer](https://aisynthesis.com/product/ai008-eurorack-matrix-mixer/) : A four in, 4 out Eurorack Matrix Mixer. The mixer is buffered and DC coupled, so that it can be used to mix both Audio and CV signals to multiple outputs, or at the combined output
+ - [002 Output Mixer](http://castlerocktronics.com/modular.html#002) : a little added extra: built in overdrive! 4 channels that are summed together and stepped down to line-level
  - [O](A)
  - [O](A)
  - [O](A)
@@ -314,7 +314,7 @@
  - [CLK](https://www.rebeltech.org/product/clk/) : CLK is a 4HP triple clock generator that outputs three synchronised clocks
  - [Chronos](https://www.rebeltech.org/product/chronos/) : Χρόνος is an advanced time-keeping module with dual tap tempo clock, and dual tempo synced LFO
  - [Logoi](https://www.rebeltech.org/product/logoi/) : Λόγοι is a voltage controlled clock divider, counter, and delay.
- - [O](A)
+ - [006 Dual divider](http://castlerocktronics.com/modular.html#006) : Another simple double dose module, pretty much just a chip wired up to jacks and LEDs. It is a very useful chip though: the 74HC393. This little guy has two "binary ripple counters" which are sometimes also called frequency dividers.
  - [O](A)
  - [O](A)
  - [O](A)
@@ -351,7 +351,7 @@
  - [1153 Bounce](https://www.lookmumnocomputer.com/1153bounce) : The 1153 BOUNCE BOUNCE BOUN... is an enevelope generator module with a difference, instead of your usual ADSR mallarky this replicated the bouncing ball simulator patch on old analog computers
  - [1157 mini ADSR](https://www.lookmumnocomputer.com/1157-mini-adsr) : Look Mum No cOMPUTER
  - [Simple evenlope generator](https://www.lookmumnocomputer.com/simple-envelope-generator) : Very cut down envelope generator, down to the bare bones. but still extremely useful! ADSR’s are overrated!
- - [O](A)
+ - [AI003 Looping ADSR Envelope generator](https://aisynthesis.com/product/looping-adsr-envelope-generator-diy-kit/) : An easy to build looping ADSR module
  - [O](A)
  - [O](A)
  - [O](A)
@@ -406,7 +406,7 @@
  - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
  - [Bit-reactor](https://www.rebeltech.org/product/bit-reactor/) : Bit Reactor is a hardware bit crusher and downsampler. It has no program or CPU, it digitises without software
  - [2399 triple splashback](https://www.lookmumnocomputer.com/2399-triple-splashback) : it is largely a triple pt2399 delay largely based on the datasheet but no stone left unturned, resulting in some sounds i haven’t heard come from a pt2399 project.
- - [O](A)
+ - [AI016 Eurorack Tape Echo Interface](https://aisynthesis.com/product/ai016-eurorack-tape-echo-interface/) : The AI016 Eurorack Tape Echo Interface module that allows you to use a standard three head tape recorder as an analog tape echo unit
  - [O](A)
  - [O](A)
  - [O](A)
@@ -440,7 +440,7 @@
 - [SMT32DUINO](https://sound-force.nl/?page_id=2212) : STM32DUINO dual trigger/gate to CV is a module based on a low-cost Arduino-compatible STM32F103
  - [1U-Diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect) : It is great for mixing audio and/or CV signals to get all kinds of unexpected and interesting results
  - [1171 Offset Boos Atenuvert](https://www.lookmumnocomputer.com/1171-oba) : Look Mum No Computer
- - [O](A)
+ - [AI010 Switching Attenuator](https://aisynthesis.com/product/eurorack-attenuator/) : The AI010 Eurorack Attenuator is a 2hp dual passive attenuator with switched jacks that allow the attenuator to also work as a multiple.
  - [O](A)
  - [O](A)
  - [O](A)
@@ -464,8 +464,8 @@
  - [Router](https://www.nonlinearcircuits.com/modules/p/router) : periodically switch around the CV signals to create new patches
  - [Phoreo](https://www.rebeltech.org/product/phoreo/) : Φορέω is a triple function processor for triggers, gates and clocks
  - [123ADC](https://www.lookmumnocomputer.com/123adc) : 8 bit analog to digital converter in modular synth format using an ADC0820-N
- - [O](A)
- - [O](A)
+ - [004 Dual Shift register](http://castlerocktronics.com/modular.html#004) : Two deceptively powerful and useful little tools tucked in nice and tight on a small panel. Chain them together for a larger 8-bit register!
+ - [005 R-2R](http://castlerocktronics.com/modular.html#005) : R-2R is two "R-2R ladders" in a tight 6HP package. The four inputs act as a 4-bit digital-to-analogue converter
  - [O](A)
  - [O](A)
  - [O](A)
@@ -535,7 +535,7 @@
  - [Links](http://mutable-instruments.net/modules/links): Utility module - buffer, mixer
  - [32 to 1](https://www.nonlinearcircuits.com/modules/p/32to1) : a 1:32 or 32:1 mux. It can split one input signal into 32 outputs or switch 32 inputs into 1 output
  - [1161 buffered multiple](https://www.lookmumnocomputer.com/1161-buffered-multiple) : Look Mum No Computer
- - [O](A)
+ - [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/) : AI Synthesis
  - [O](A)
  - [O](A)
  - [O](A)
@@ -619,7 +619,7 @@
  - [Flamethrower-module](https://www.lookmumnocomputer.com/flamethrower-module) : built with an arduino, some copper pipe, a solenoid and a couple of relays! and runs off lighter fluid!
  - [lightsaber-theremin](https://www.lookmumnocomputer.com/lightsaber-theremin) : Look Mum No Computer
  - [Solar panel](https://www.lookmumnocomputer.com/solar-panels) : Its exactly what it looks like! probably the EASIEST thing you could possibly do. to plug into any CV input
- - [O](A)
+ - [AI006 Eurorack Stomp Box Adapter](https://aisynthesis.com/product/ai006-eurorack-stomp-box-adapter/) : The AI006 Eurorack Stomp box Adapter converts the higher signal levels of a modular system to the lower level signals that most stomp boxes are designed for
  - [O](A)
  - [O](A)
  - [O](A)
@@ -639,7 +639,7 @@
  - [WW_Suply](https://github.com/holmesrichards/ww_supply) : This is a power supply based on the MFOS wall wart supply with mods
  - [Covfefe](https://www.nonlinearcircuits.com/modules/p/covfefe) : This buss is designed for use with the small PSU board
  - [Small-PSU](https://www.nonlinearcircuits.com/modules/p/small-psu) : its about a simple PSU as you can get. Runs on 7812 and 7912 to give +/-12V bolt them to a nice big heatsink
- - [O](A)
+ - [000 PWR](http://castlerocktronics.com/modular.html#000) : It's slightly dishonest to call it a power supply though, as really you use a DC wall-wart as the power supply, this is just a switch, an LED and a bus board
  - [O](A)
  - [O](A)
  - [O](A)
@@ -667,7 +667,7 @@
  - [Random Triggers](https://github.com/benjiao/RandomTriggers) : sample and hold program that takes in white noise and produce random signals (+9v)
  - [MIDI to DMX](https://github.com/matthova/arduino_midi_to_dmx) : Arduino program that converts MIDI to DMX
  - [Eurorack Clock](https://github.com/JerrySievert/EurorackClock) : Clock module that can act as a master clock for Eurorack modules
-- [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
