@@ -1,3 +1,6 @@
+
+
+
  - [x] List for all gitHub repo
  - [x] List for all gitLab repo
 
@@ -31,7 +34,7 @@
 	 - [ ] Hagiwo
 	 - [ ] O-Zoe
 	 - [ ] Megaloceros
-	 - [ ] Papareil
+	 - [x] Papareil
 	 - [ ] Jürgen Haible
 	 - [x] La roue tourne
 	 - [x] Stickney synthyard
@@ -82,8 +85,8 @@
  - [Even VCO](https://www.befaco.org/even-vco/) : The EVEN VCO is a voltage-controlled oscillator that offers stability and high precision tuning over 10 octaves
  - [NANDulator](http://www.stickneysynthyards.000space.com/NANDulator/index.html) : The NANDulator is a simple digital circuit capable of producing rather complex squarewaves. It is designed to be used as a little synthesizer producing a wide array of sounds
  - [Bark or bleat](http://www.stickneysynthyards.000space.com/bark_or_bleat/index.html) : Bark or Bleat is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces a dog or sheep sound (depending on the installed chip)
- - [Astro alarm](http://www.stickneysynthyards.000space.com/astro_alarm/index.html) : Astro Alarm is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces 4 different alarm/siren sounds
- - [O](A)
+ - [Astro alarm](http://www.stickneysynthyards.000space.com/astro_alarm/index.html) : Astro Alarm is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces 4 different alarm/siren sounds and more ...
+ - [ASM "Ultra" VCO](http://m.bareille.free.fr/modular1/vco_asmultra/vco_asmultra.htm) : The idea with this VCO design was to made a very "musical" and warm module like ASM1 VCOs but with a much better stability and more vwaveform outputs
  - [O](A)
  - [O](A)
  - [O](A)
@@ -103,7 +106,7 @@
  - [1145 kosmo VCLFO](https://www.lookmumnocomputer.com/vclfo) : Based on the Electric Druid VCLFO10
  - [003 4xLFO](http://castlerocktronics.com/modular.html#003) : Four square wave LFOs with little blinky lights to show you how fast they are going
  - [Quad LFO](https://www.la-roue-tourne.fr/index.php/modulaire/272-module-quad-lfo) Four LFO, each has two output
- - [O](A)
+ - [CV-Sync LFO](http://m.bareille.free.fr/modular1/cvsynclfo/cv_lfo.htm) : The CV-Sync LFO is a pure analogic Low Frequency Oscillator with wide speed ranges, two advanced sync modes with threshold and more ...
  - [O](A)
  - [O](A)
  - [O](A)
@@ -161,8 +164,8 @@
  - [Comb Filter](https://github.com/cutlasses/CombFilter) : Teensy based Comb Filter, or resonator
  - [Synthacon VCF](https://github.com/spielhuus/elektrophon/tree/master/modules/Synthacon%20VCF) : The Synthacon VCF is a popular VCF design by Steiner-Parker
  - [VCF-Q](https://github.com/spielhuus/elektrophon/tree/master/modules/VCFQ) : CGS Serge voltage controlled resonance filter
- - [O](A)
- - [O](A)
+ - [Polivoks Filter clone](http://m.bareille.free.fr/modular1/vcf_polivoks/vcf_polivoks.htm) : This filter is a clone of the famous vintage russian analog synthetiser invented by Vladimir Kuzmin
+ - [Extrapole - multimode for LP4P VCF](http://m.bareille.free.fr/modular1/vcf_multimode/extrapole.htm) : The project proposed here is an extension board to add 15 functions to the MOTM 440 VCF and more generaly to almost all 4 poles Low Pass VCFs with a similar topology ...
  - [O](A)
  - [O](A)
  - [O](A)
@@ -223,7 +226,7 @@
  - [Percall](https://www.befaco.org/percall/) : Percall is a percussive oriented module that will shape four different sound sources into percussive sounds
  - [Slew limiter](https://www.befaco.org/slew-limiter/) : Slew limiter is a device that smoothes an incoming signal, limiting the maximum rate of the output voltage over time
  - [Rampage](https://www.befaco.org/rampage-2/) : Rampage is Befaco’s approach to an old invention: the Serge/Buchla ramp generator
- - [O](A)
+ - [Dual linear CV-ADSR](http://m.bareille.free.fr/modular1/adsr/mb_cvadsr2.htm) : The Dual ADSR module is adapted from the "EnvyLope" schematic of Mr Aaron Cram with mods
  - [O](A)
  - [O](A)
  - [O](A)
@@ -260,8 +263,8 @@
  - [The safety valve](https://www.lookmumnocomputer.com/the-safety-valve) : Look Mum No Computer
  - [valve-distorting-vca](https://www.lookmumnocomputer.com/valve-distorting-vca) : The safety Valve 2.0 pretty much!
  - [Hexmix VCA](https://www.befaco.org/hexmix-vca/) : Hexmix VCA is a compact six channel VCA with an unique response curve range from logarithmic to linear and to exponential using a pot
- - [O](A)
- - [O](A)
+ - [Dual VCA](http://m.bareille.free.fr/modular1/vca_dbx/mb_dbxvca.htm) : It is a hi-quality audio VCA module designed with THAT2150A circuits
+ - [Quad VCA](http://m.bareille.free.fr/modular1/quadvca/quadvca.htm) : This module is a hi-quality, all purpose Quad VCA/CV-Mixer
  - [O](A)
  - [O](A)
  - [O](A)
@@ -370,8 +373,8 @@
  - [Doof](https://www.nonlinearcircuits.com/modules/p/doof) : The design is typical of early 80s drum modules
  - [2700 Twin-T drummer](https://www.lookmumnocomputer.com/2700-twin-t-drummer) : This specific module is using the approach of nand gates to make a dulled sine wave circuit to make the drums, you can adjust how they decay with the front knobs
  - [KickAll](https://www.befaco.org/kickall-2/) : Kickall is a 6HP compact synth voice that features everything needed to make a big fat Kick sound
- - [O](A)
- - [O](A)
+ - [CORON DS7 Drum Synce Clone](http://m.bareille.free.fr/ds7clone/ds7.htm) : M Bareille
+ - [CORON DS8 Percussion & Drum Synthe Clone](http://m.bareille.free.fr/ds7clone/ds8.htm) : M Bareille
  - [O](A)
  - [O](A)
  - [O](A)
@@ -389,9 +392,8 @@
  - [Owl-modular](https://www.rebeltech.org/product/owl-modular/) : The OWL Modular is a fully programmable digital audio device
  - [Fart-box](https://www.lookmumnocomputer.com/fart-box) : Look Mum No Computer
  - [Noizbox](https://burnit.co.uk/sdiy/index.php?page=noizbox) : The core of the NoizBox is a very cool, but simple circuit I found on Ray Wilson
- - [O](A)
- - [O](A)
- - [O](A)
+ - [X2 Thyratron](http://m.bareille.free.fr/x2ts/x2ts.htm) : Monophonic Vacuum Tube Analog Synthesizer
+ - [ASM-1X](http://m.bareille.free.fr/asm1/asm1x.htm) : is a music analog synthesizer controled by MIDI and CV/Gate (1V/Oct). It is a "half modular with patch matrix" builded around an ASM-1 pcb and many additional modules
  - [O](A)
  - [O](A)
  - [O](A)
@@ -403,7 +405,7 @@
  - [Telefuncen](https://github.com/mxmxmx/telefuncen) :  4-channel quantizer
  - [Chord Organ](https://www.musicthing.co.uk/pages/chord.html) : Sequence chord shapes and root notes
  - [Quantizer Module](https://github.com/holmesrichards/QuantizerModule) : This is a dual quantizer based on the dac/ino board
- - [O](A)
+ - [Quantix 8](http://m.bareille.free.fr/modular1/quantix8/quantix8.htm) : The Quantix-8 module is a CV Quantizer / Wavetable Oscillator based on a 4Mbits Static RAM memory and a PIC microcontroler with a full MIDI implementation.
  - [O](A)
  - [O](A)
  - [O](A)
@@ -424,7 +426,6 @@
  - [Ctag-tbd](https://github.com/ctag-fh-kiel/ctag-tbd) : The eierlegende Wollmilchsau (German for swiss army) audio processing module
  - [Octave switch](https://github.com/minisystem/Eurorack/tree/master/Octave%20Switch) : Minisystem
  - [Cirrus](https://github.com/covertneko/MMIModular/tree/master/Cirrus) : rework of the popular Clouds module
- - [Ring-Mod](https://github.com/gerb-ster/RingMod) : based on the design from YuSynth
  - [FreqDoubler](https://github.com/spielhuus/elektrophon/tree/master/modules/freqdoubler) : Elektrophon
  - [Megamodule](https://github.com/holmesrichards/megamodule) : Circuit bending a toy voice changing megaphone into a synth module
  - [Choral Generator](https://www.nonlinearcircuits.com/modules/p/choralgen) : this is a BBD based triple chorus generator
@@ -498,7 +499,7 @@
  - [O](A)
  - [O](A)
 
-# WAVE FOLDER/SHAPER
+# WAVE FOLDER/SHAPER & RING MODULATOR
  - [Wave-Folder](https://github.com/gerb-ster/WaveFolder) : module is based on a design/schematic by a guy named Adamski
  - [Metalizer](https://github.com/spielhuus/elektrophon/tree/master/modules/metall) : Metalizer is the wavefolder module from Yvess Usson
  - [WaveFolder](https://github.com/spielhuus/elektrophon/tree/master/modules/vco) : based on the design by Jürgen Haible
@@ -509,7 +510,8 @@
  - [chopping-kinky](https://www.befaco.org/chopping-kinky/) : Chopping kinky is a voltage controllable, dual channel wavefolder
  - [KinkyNoChop](https://github.com/kraakenstuff/KinkyNoChop) : 3U Eurorack quad wavefolder based on Befaco's Chopping Kinky
  - [Wavewiper](http://www.stickneysynthyards.000space.com/wavewiper/index.html) :  The WaveWiper consists of 3 sections : the CV processing section, the voltage splitting sections, the merge sections
- - [O](A)
+ - [Warp633](http://m.bareille.free.fr/modular1/warp633/warp633.htm) : a Ring Modulator /Warper based on the 4 quadrant multiplier chip AD633 made by Analog Devices
+ - [Ring-Mod](https://github.com/gerb-ster/RingMod) : based on the design from YuSynth
  - [O](A)
  - [O](A)
  - [O](A)
@@ -522,7 +524,7 @@
 # PHASER/FLANGER
  - [Phase-flange](https://www.nonlinearcircuits.com/modules/p/329-phase-flange) : This module is based on the Aries 329 Phase/Flange with mods
  - [Shat-Noir](https://www.nonlinearcircuits.com/modules/p/shat-noir) : The core of the Shat-noir phaser is based on classic LDR based phaser designs
- - [O](A)
+ - [Mutron BiPhase clone 2](http://m.bareille.free.fr/biphase/biphase.htm) : The Mutron Biphase Biphase is a 1x12 stages or 2x6 stages optical phasor with 2 sweep generators ( LFOs) for square and triangle modulations
  - [O](A)
  - [O](A)
  - [O](A)
