@@ -1,5 +1,3 @@
-
-
  - [x] List for all gitHub repo
  - [x] List for all gitLab repo
 
@@ -35,9 +33,9 @@
 	 - [ ] Megaloceros
 	 - [ ] Papareil
 	 - [ ] Jürgen Haible
-	 - [ ] La roue tourne
-	 - [ ] Stickney synthyard
-	 - [ ] Seb's synth
+	 - [x] La roue tourne
+	 - [x] Stickney synthyard
+	 - [x] Seb's synth
 	 - [ ] NOR Eurorack
 	 - [ ] Soundbender
 	 - [ ] Les portes logiques
@@ -82,6 +80,16 @@
  - [AI011 Analog Voltage Controlled Oscillator](https://aisynthesis.com/product/ai011-voltage-controlled-oscillator/) : The AI011 Analog VCO is a robust and stable analog Eurorack VCO. Using the legendary curtis 3340 IC
  - [0001 4xSquare](http://castlerocktronics.com/modular.html#001) : This is a slight twist on popular 40106 oscilator bank, with very simple CV control of the oscillators added with diodes
  - [Even VCO](https://www.befaco.org/even-vco/) : The EVEN VCO is a voltage-controlled oscillator that offers stability and high precision tuning over 10 octaves
+ - [NANDulator](http://www.stickneysynthyards.000space.com/NANDulator/index.html) : The NANDulator is a simple digital circuit capable of producing rather complex squarewaves. It is designed to be used as a little synthesizer producing a wide array of sounds
+ - [Bark or bleat](http://www.stickneysynthyards.000space.com/bark_or_bleat/index.html) : Bark or Bleat is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces a dog or sheep sound (depending on the installed chip)
+ - [Astro alarm](http://www.stickneysynthyards.000space.com/astro_alarm/index.html) : Astro Alarm is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces 4 different alarm/siren sounds
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # LOW FREQUENCIE OSCILLATOR
  - [Util_LFO](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/util_LFO) : Design: Tim Parkhurst: Magic Smoke Electronics
@@ -94,6 +102,16 @@
  - [Dual-LFO](https://www.nonlinearcircuits.com/modules/p/dual-lfo) : The circuit is based on the thru-hole dual VCO but can be switched to operate in 3 ranges
  - [1145 kosmo VCLFO](https://www.lookmumnocomputer.com/vclfo) : Based on the Electric Druid VCLFO10
  - [003 4xLFO](http://castlerocktronics.com/modular.html#003) : Four square wave LFOs with little blinky lights to show you how fast they are going
+ - [Quad LFO](https://www.la-roue-tourne.fr/index.php/modulaire/272-module-quad-lfo) Four LFO, each has two output
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # FILTER
  - [Ripples](http://mutable-instruments.net/modules/ripples): Liquid 2-pole BP, 2-pole LP and 4-pole LP filter
@@ -143,12 +161,32 @@
  - [Comb Filter](https://github.com/cutlasses/CombFilter) : Teensy based Comb Filter, or resonator
  - [Synthacon VCF](https://github.com/spielhuus/elektrophon/tree/master/modules/Synthacon%20VCF) : The Synthacon VCF is a popular VCF design by Steiner-Parker
  - [VCF-Q](https://github.com/spielhuus/elektrophon/tree/master/modules/VCFQ) : CGS Serge voltage controlled resonance filter
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # LOW PASS GATE
  - [AJH_LPG](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_LPG) : Buchla-esque LPG
  - [Low Pass Gate](https://github.com/jacobbarssbailey/low-pass-gate) : Dual Low Pass Gate
 - [Dual low pass gate](https://www.nonlinearcircuits.com/modules/p/dual-lpg) : pretty standard except it uses the black box vactrol method
  - [Low pass gate](https://www.nonlinearcircuits.com/modules/p/low-pass-gate) : Based on the Buchla 292
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # ENVELOPE
  - [Envelope](https://github.com/erica-synths/diy-eurorack/blob/master/Envelope%20DIY.zip) : recreation of Polivoks envelope generator with loop and end of attack functions
@@ -185,6 +223,16 @@
  - [Percall](https://www.befaco.org/percall/) : Percall is a percussive oriented module that will shape four different sound sources into percussive sounds
  - [Slew limiter](https://www.befaco.org/slew-limiter/) : Slew limiter is a device that smoothes an incoming signal, limiting the maximum rate of the output voltage over time
  - [Rampage](https://www.befaco.org/rampage-2/) : Rampage is Befaco’s approach to an old invention: the Serge/Buchla ramp generator
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # VCA
  - [Blinds](http://mutable-instruments.net/modules/blinds) : Quad VC-polarizer
@@ -212,6 +260,16 @@
  - [The safety valve](https://www.lookmumnocomputer.com/the-safety-valve) : Look Mum No Computer
  - [valve-distorting-vca](https://www.lookmumnocomputer.com/valve-distorting-vca) : The safety Valve 2.0 pretty much!
  - [Hexmix VCA](https://www.befaco.org/hexmix-vca/) : Hexmix VCA is a compact six channel VCA with an unique response curve range from logarithmic to linear and to exponential using a pot
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  
 # MIXER
  - [Frames](http://mutable-instruments.net/modules/frames): Keyframer/mixer
@@ -247,6 +305,16 @@
  - [Stmix](https://www.befaco.org/stmix/) : STMix is a compact 4 channel stereo mixer with an auxiliar input. This input will allow us to chain a few of them or to insert an extra fifth input
  - [Hexmix](https://www.befaco.org/hexmix/) : Hexmix System is a six channel performance mixer specially designed for Eurorack
  - [Hexpander](https://www.befaco.org/hexpander-2/) : Hexpander adds great functionality to Hexmix module. Featuring Three aux send with stereo returns, individual outputs for each channel, complete PFL system and balanced output
+ - [Quad crossfader](https://www.la-roue-tourne.fr/index.php/modulaire/273-module-quad-crossfader) : La roue tourne
+ - [6 channel mixer](https://www.la-roue-tourne.fr/index.php/modulaire/270-module-6-channel-mixer) : La roue tourne
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SEQUENCER
  - [Grids](http://mutable-instruments.net/modules/grids): Topographic drum sequencer
@@ -265,6 +333,16 @@
  - [Stoicheia](https://www.rebeltech.org/product/stoicheia/) : Στοιχεῖα is a dual Euclidean Sequencer. It algorithmically generates rhythmic sequences from an input trigger signal
  - [The BIG button](https://www.lookmumnocomputer.com/big-button) : A drum trigger sequencer all powered by 1 button. Inside is 1 Arduino nano controlling the whole Shabang.
  - [Arduino 8 steps sequencer keyboard](https://www.lookmumnocomputer.com/sequencer-keyboard) : Look Mum No Computer
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # DRUM VOICE
  - [NoiseDrum](https://github.com/sonosus/noisedrumstripboard) : Buffered version of the Tiny Dazzler Noise Drum
@@ -292,6 +370,16 @@
  - [Doof](https://www.nonlinearcircuits.com/modules/p/doof) : The design is typical of early 80s drum modules
  - [2700 Twin-T drummer](https://www.lookmumnocomputer.com/2700-twin-t-drummer) : This specific module is using the approach of nand gates to make a dulled sine wave circuit to make the drums, you can adjust how they decay with the front knobs
  - [KickAll](https://www.befaco.org/kickall-2/) : Kickall is a 6HP compact synth voice that features everything needed to make a big fat Kick sound
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SYNTH VOICE
  - [Elements](http://mutable-instruments.net/modules/elements): Modal synthesizer
@@ -300,11 +388,31 @@
 - [Null-a²](https://www.nonlinearcircuits.com/modules/p/null-a) : Nonlinearcircuits
  - [Owl-modular](https://www.rebeltech.org/product/owl-modular/) : The OWL Modular is a fully programmable digital audio device
  - [Fart-box](https://www.lookmumnocomputer.com/fart-box) : Look Mum No Computer
+ - [Noizbox](https://burnit.co.uk/sdiy/index.php?page=noizbox) : The core of the NoizBox is a very cool, but simple circuit I found on Ray Wilson
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # QUANTIZER
  - [Telefuncen](https://github.com/mxmxmx/telefuncen) :  4-channel quantizer
  - [Chord Organ](https://www.musicthing.co.uk/pages/chord.html) : Sequence chord shapes and root notes
  - [Quantizer Module](https://github.com/holmesrichards/QuantizerModule) : This is a dual quantizer based on the dac/ino board
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # EFFECTS
  - [Clouds](http://mutable-instruments.net/modules/clouds) : Texture synthesizer
@@ -326,6 +434,16 @@
  - [Let's splosh](https://www.nonlinearcircuits.com/modules/p/lets-splosh) : This is 8 different rectifiers processing 4 input signals.
  - [Multiband distortion processor](https://www.nonlinearcircuits.com/modules/p/multiband-distortion-processor) : Basically it splits the input signals into 4 frequency bands, these go into fuzz circuits and vactrol based VCAs
 - [Bit-reactor](https://www.rebeltech.org/product/bit-reactor/) : Bit Reactor is a hardware bit crusher and downsampler. It has no program or CPU, it digitises without software
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # DELAY
  - [BBD delay/flanger](https://github.com/erica-synths/diy-eurorack/blob/master/BBD%20DIY.zip) : all analogue effects unit based on V3205 BBD IC
@@ -336,6 +454,16 @@
  - [2399 triple splashback](https://www.lookmumnocomputer.com/2399-triple-splashback) : it is largely a triple pt2399 delay largely based on the datasheet but no stone left unturned, resulting in some sounds i haven’t heard come from a pt2399 project
 - [AI016 Eurorack Tape Echo Interface](https://aisynthesis.com/product/ai016-eurorack-tape-echo-interface/) : The AI016 Eurorack Tape Echo Interface module that allows you to use a standard three head tape recorder as an analog tape echo unit
  - [Crush delay v3](https://www.befaco.org/crush-delay-v3/) : Crush Delay v3 is a special Echo-Delay unit based on the PT2399 IC, which is able to offer 400ms of clean delay and up to 2 seconds of dirty repetitions, having a special talent to generate noisy-glitch textures
+ - [4xD](https://burnit.co.uk/sdiy/index.php?page=4xd) : The 4xD started life because I wanted a number of simple, high quality, mono delays to create spatial effects for mix elements
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # REVERB/ECHO
  - [Spring](https://www.musicthing.co.uk/pages/spring.html) : spring reverb optimised for modular use
@@ -345,10 +473,30 @@
  - [Echo](https://github.com/spielhuus/elektrophon/tree/master/modules/echo) : PT2399 based
  - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
  - [Spring reverb](https://www.befaco.org/spring-reverb/) : an analog spring reverb module. Featuring VCAs for the two available inputs, CV control for DRY/WET and visual feedback for signal levels at input and output of the tank.
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # DISTORTION
  - [Distortion](https://github.com/michd/modular-synth/tree/master/modules/distortion) : MichD
  - [Distortion](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/Distortion) : A straight-forward distortion module to bring a bit more character to your boring oscillators
+ - [Boxotrix](https://burnit.co.uk/sdiy/index.php?page=boxotrix) : his is a modular compressor / limiter / distortion / gate unit
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # WAVE FOLDER/SHAPER
  - [Wave-Folder](https://github.com/gerb-ster/WaveFolder) : module is based on a design/schematic by a guy named Adamski
@@ -360,10 +508,30 @@
  - [Timbre & Timbre](https://www.nonlinearcircuits.com/modules/p/timbre-and-timbre) : This is simply a dual version of the Timbre!, which was based on the Buchla circuit
  - [chopping-kinky](https://www.befaco.org/chopping-kinky/) : Chopping kinky is a voltage controllable, dual channel wavefolder
  - [KinkyNoChop](https://github.com/kraakenstuff/KinkyNoChop) : 3U Eurorack quad wavefolder based on Befaco's Chopping Kinky
+ - [Wavewiper](http://www.stickneysynthyards.000space.com/wavewiper/index.html) :  The WaveWiper consists of 3 sections : the CV processing section, the voltage splitting sections, the merge sections
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # PHASER/FLANGER
  - [Phase-flange](https://www.nonlinearcircuits.com/modules/p/329-phase-flange) : This module is based on the Aries 329 Phase/Flange with mods
  - [Shat-Noir](https://www.nonlinearcircuits.com/modules/p/shat-noir) : The core of the Shat-noir phaser is based on classic LDR based phaser designs
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # CLOCKS
  - [temps_utile-](https://github.com/mxmxmx/temps_utile-) : 6 x clock generator
@@ -374,6 +542,16 @@
  - [Chronos](https://www.rebeltech.org/product/chronos/) : Χρόνος is an advanced time-keeping module with dual tap tempo clock, and dual tempo synced LFO
  - [Logoi](https://www.rebeltech.org/product/logoi/) : Λόγοι is a voltage controlled clock divider, counter, and delay.
  - [006 Dual divider](http://castlerocktronics.com/modular.html#006) : Another simple double dose module, pretty much just a chip wired up to jacks and LEDs. It is a very useful chip though: the 74HC393. This little guy has two "binary ripple counters" which are sometimes also called frequency dividers.
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # LOGIC/ROUTER/GATE
  - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
@@ -394,6 +572,16 @@
  - [004 Dual Shift register](http://castlerocktronics.com/modular.html#004) : Two deceptively powerful and useful little tools tucked in nice and tight on a small panel. Chain them together for a larger 8-bit register!
  - [005 R-2R](http://castlerocktronics.com/modular.html#005) : R-2R is two "R-2R ladders" in a tight 6HP package. The four inputs act as a 4-bit digital-to-analogue converter
  - [A*B+C](https://www.befaco.org/abc/) = A*B+C is a dual, four-quadrant multiplier with VC Offset that can act as Dual Ring Modulator, Dual VCA and Four Channel Mixer
+ - [Dual trigger to gate to trigger](https://www.la-roue-tourne.fr/index.php/modulaire/281-module-n-7-dual-trigger-to-gate-to-trigger) : La roue tourne
+ - [Quad delay](https://www.la-roue-tourne.fr/index.php/modulaire/282-module-n-7-quad-delay) :Four gates and trigger delay
+ - [Dual quad switch](https://www.la-roue-tourne.fr/index.php/modulaire/248-module-dual-quad-switch) A double quad switch for everything between -10v to +10v
+ - [Quad logic](https://www.la-roue-tourne.fr/index.php/modulaire/276-module-n-5-quad-logic) Quad logic voice which each has 9 functions
+ - [Sync_thync_euro](http://www.stickneysynthyards.000space.com/sync_thync_euro/index.html) : It's a bit of a cross between a (1 bit) S&H and an AND gate and although its original purpose is to create interesting rhythms that are in sync with a master Clock
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  
 # SAMPLE & HOLD
  - [Kinks](http://mutable-instruments.net/modules/kinks): Utility module - rectifier, analog logic, S&H, noise
@@ -403,6 +591,16 @@
  - [Omnitool](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/Omnitool) : inspired by the MS-20. It features a glide, S&H and manual button
 - [Heletica scenario](https://www.nonlinearcircuits.com/modules/p/helvetica-scenario) : This module is a dual sample & hold with voltage controlled slew for each channel
  - [Sampling Modulator](https://www.befaco.org/sampling-modulator/) : The Sampling Modulator is a multi-function module that lies somewhere between a VCO, a Sample & Hold, and an 8 step trigger sequencer
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # RANDOMNESS
  - [Branches](http://mutable-instruments.net/modules/branches) : Dual Bernoulli gate
@@ -435,6 +633,16 @@
  - [Sauce of unce](https://www.nonlinearcircuits.com/modules/p/sauce-of-unce) : Based on the Buchla SOU265, but all the rare components replaced with regular parts
  - [Neuron](https://www.nonlinearcircuits.com/modules/p/8hp-neuron) : The Neuron was inspired by a paper on neural computing and is a variation of a typical analogue neuron circuit
  - [Burst](https://www.befaco.org/burst-2/) : Burst is a trigger processor and generator, designed to add an organic chain of events to your modular setup
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # UTILITY
  - [Axo control](https://www.musicthing.co.uk/pages/axo.html) : is an easy passive control panel for the Axoloti sound board.
@@ -451,8 +659,18 @@
  - [SMT32DUINO](https://sound-force.nl/?page_id=2212) : STM32DUINO dual trigger/gate to CV is a module based on a low-cost Arduino-compatible STM32F103
  - [1U-Diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect) : It is great for mixing audio and/or CV signals to get all kinds of unexpected and interesting results
 - [Muxlicer](https://www.befaco.org/muxlicer-2/) : Muxlicer is a sequential signal processor designed for add a huge range of special functions to your modular setup in the minimum space
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
-#ATENUVERTER
+# ATENUVERTER
  - [Dual Atenuverter](https://www.befaco.org/dual-atenuverter/) : The Dual Atenuverter is a CV/Audio utility module designed to atenuate, invert and apply offset to an input signal.
  - [AI010 Switching Attenuator](https://aisynthesis.com/product/eurorack-attenuator/) : The AI010 Eurorack Attenuator is a 2hp dual passive attenuator with switched jacks that allow the attenuator to also work as a multiple.
  - [1171 Offset Boos Atenuvert](https://www.lookmumnocomputer.com/1171-oba) : Look Mum No Computer
@@ -461,6 +679,16 @@
  - [Octaver](https://github.com/covertneko/MMIModular/tree/master/Octaverter) : 8 attenuverters in 12hp
  - [Passive Attenuators](https://github.com/covertneko/MMIModular/tree/master/Passive%20Attenuator) : Covertneko
  - [Shades](http://mutable-instruments.net/modules/shades): Triple attenuverter
+ - [Quad atenuverters](https://www.la-roue-tourne.fr/index.php/modulaire/274-module-n-3-quad-attenuverter) : la roue tourne
+ - [Toggler](http://www.stickneysynthyards.000space.com/toggler/index.html) : The Toggler is a simple utility module and its main purpose is to remotely toggle/invert a (CV)signal. It can be used as a wavefolder, sub-oscillator, frequency doubler (for triangle waves), buffered attenuator + inverter, CLK divider, signal to square converter (with pulse width modulation) and more
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # OUTPUT/HEADPHONE
  - [StereoOutKosmo](https://github.com/holmesrichards/StereoOutKosmo) : Stereo output synthesizer module in Kosmo format.
@@ -468,6 +696,16 @@
  - [1U-Headphone](https://github.com/kraakenstuff/1U-Headphone) : 1U Eurorack headphone output module based on Befaco Output v3
  - [DOEI](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/HeadphoneOutV1) : Doei is a headphone amp, based on the CMoy schematic
  - [Startup](https://www.musicthing.co.uk/pages/startup.html) : headphone amp, six-input mixer, tap tempo clock, divider & multiplier
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # MULTIPLE
  - [Minx_AJH](https://github.com/forestcaver/Minx_AJH) : 4hp buffered mult
@@ -480,12 +718,32 @@
  - [32 to 1](https://www.nonlinearcircuits.com/modules/p/32to1) : a 1:32 or 32:1 mux. It can split one input signal into 32 outputs or switch 32 inputs into 1 output
  - [1161 buffered multiple](https://www.lookmumnocomputer.com/1161-buffered-multiple) : Look Mum No Computer
  - [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/) : AI Synthesis
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # SAMPLER
  - [Marbles](http://mutable-instruments.net/modules/marbles): Random sampler
  - [Eurotrash_mkII](https://github.com/mxmxmx/eurotrash_mkII) : teensy 3.x / pcm5102a eurorack wav file player
  - [Radio Music](https://www.musicthing.co.uk/pages/radio.html) : sampler pretending to be a radio
  - [Magnetophon](https://www.musicthing.co.uk/pages/magnetophon.html) : is a cassette player without the transport mechanism
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # MIDI
  - [Yarns](http://mutable-instruments.net/modules/yarns): MIDI interface
@@ -504,6 +762,16 @@
  - [VCMC](https://www.befaco.org/vcmc-2/) : VCMC is a voltage controlled MIDI controller.  
 A fully editable MIDI controller with eight faders and push buttons
  - [MIDI thing](https://www.befaco.org/midi-thing/) : MIDI Thing is a compact 4 channel Midi to CV/Gate interface featuring 12 bit conversion that allows V/Oct control with around 1 cent precision
+ - [Fatcrontroller](https://burnit.co.uk/sdiy/index.php?page=fatcontroller) : The basic idea is a PIC-based precision MIDI to CV converter with multiple outputs and lots of software features.
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # OTHER
  - [Ears](http://mutable-instruments.net/modules/ears): Contact microphone
@@ -534,6 +802,15 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Out V3](https://www.befaco.org/out-v3/) : Output Module is designed to be the master output for your modular system, providing balanced outputs, dedicated headphone amplifier and an extra Cue Input to monitor any signal
  - [inAmp](https://www.befaco.org/inamp/) : Inamp is a dual pre-amp in just 4 HPs. Featuring 6,3 Jacks inputs as well as Minijacks. Both inputs are summed so you can use them at the same time as an input mixer
  - [Joystick](https://www.befaco.org/joystick/) : A compact attenuverting joystick controller and Gate Generator. With it, you can generate and process two control voltages using only one hand
+ - [Joycontrol](https://burnit.co.uk/sdiy/index.php?page=joykontrol) : Too many knobs to tweak? Ever wish you had more hands? The JoyKontrol allows control of up to 12 parameters with just 2 hands
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # POWER
  - [PSU-30W](https://github.com/ctag-fh-kiel/PSU-30W) : Uses 9-12V 3A power adaptor (e.g. from LED power supply)
@@ -546,14 +823,34 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Small-PSU](https://www.nonlinearcircuits.com/modules/p/small-psu) : its about a simple PSU as you can get. Runs on 7812 and 7912 to give +/-12V bolt them to a nice big heatsink
  - [000 PWR](http://castlerocktronics.com/modular.html#000) : It's slightly dishonest to call it a power supply though, as really you use a DC wall-wart as the power supply, this is just a switch, an LED and a bus board
  - [Powskiff](https://www.befaco.org/powskiff/) : PowSkiff is a clean, compact, high-amperage power supply designed for demanding systems
+ - [Bench PSU](https://burnit.co.uk/sdiy/index.php?page=benchpsu) : PSU to power breadboard and play around with new circuits and ideas.
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
-#BUS BOARD
+# BUS BOARD
  - [Busboards](https://github.com/holmesrichards/busboard) : Eurorack/Kosmo Busboards
  - [Covfefe](https://www.nonlinearcircuits.com/modules/p/covfefe) : This buss is designed for use with the small PSU board
  - [Excalibus](https://www.befaco.org/excalibus/) : Excalibus is a skiff friendly compact power supply and bus. Specially designed for medium portable systems, offering a great balance between space, power and stability!
  - [Lunchbus](https://www.befaco.org/lunchbus/) : Lunchbus is an ultra-compact distribution bus with power supply.
  - [Power bus](https://www.befaco.org/power-bus/) : features linear regulators for each rail and guarantees up to 1.5A of current without voltage drops and with minimum noise leakage
  - [Passive Bus](https://www.befaco.org/passive-bus/) : Passive bus board designed to expand your power system
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # ARDUINO BASED THINGS
  - [Synapse](https://github.com/shaduzlabs/synapse) : Synapse is an Arduino shield (and the corresponding library) which provides CV and Gate I/O for Arduino boards.
@@ -573,6 +870,16 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Random Triggers](https://github.com/benjiao/RandomTriggers) : sample and hold program that takes in white noise and produce random signals (+9v)
  - [MIDI to DMX](https://github.com/matthova/arduino_midi_to_dmx) : Arduino program that converts MIDI to DMX
  - [Eurorack Clock](https://github.com/JerrySievert/EurorackClock) : Clock module that can act as a master clock for Eurorack modules
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
 
 # Non-musical
   - [Open EuroBoard](https://github.com/sensai7/OpenEuroBoard) : Kicad and Gerber files for the manufacturing of electronic synthesizers prototyping and developing, focusing on utilities to prototype Eurorack modules. All the sections in the board are independent from each other (except the Gate/CV generators) that need the 5V regulator part, and can be disregarded if they're not needed for the user application
@@ -580,3 +887,13 @@ A fully editable MIDI controller with eight faders and push buttons
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
   - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
