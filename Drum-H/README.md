@@ -1,9 +1,11 @@
 
 # Drum_H Hi Hats
 
-( /!\ NOT TESTED /!\ ) 
+    ( /!\ NOT TESTED /!\ ) 
+
 This is the third module I've done, the PCB is being delivered
- ( /!\ NOT TESTED /!\ )
+
+    ( /!\ NOT TESTED /!\ )
 
 Independant output for the open hat and the closed hat
 
@@ -17,7 +19,7 @@ Independant output for the open hat and the closed hat
  - White noise tone
  - Metal Caracter
  - Metal Tune
- - Interaction between Open/Closed hat (if switch ON, the Closed hat will cancel the open one (like a reel one)
+ - Interaction between Open/Closed hat (if switch ON, the Closed hat will cancel the open one (like a real one)
 
 ### Inputs
 
