@@ -14,7 +14,7 @@
 	 - [x] AI-Synthesis
 	 - [x] Castle Rocktronics
 	 - [ ] Synsi
-	 - [ ] Yusynth
+	 - [x] Yusynth
 	 - [x] SOWA
 	 - [ ] Niklas Rönnberg
 	 - [ ] Harald Antes
@@ -91,6 +91,16 @@
  - [Avalance VCO](https://kassu2000.blogspot.com/2018/07/avalance-vco.html) : based on the reverse avalance breakdown effect in normal transistors. I decided to experiment with this idea myself, and in particular see if I can add basic V/Oct control to it
  - [VCO part 1 : core](https://kassu2000.blogspot.com/2015/12/vco-part-1-core.html) & [VCO part 2 : waveshaping](https://kassu2000.blogspot.com/2016/02/vco-part-2-waveshaping.html) : Kassutronics
  - [Quad VCO](https://sowa.synth.net/modular/vco4mod.html) : This is SSM2164 based quad VCO module
+ - [VCOs](https://www.yusynth.net/Modular/EN/VCO/index.html) : Herein I propose, three different PCB designs that let the builder choose the solution that matches best his/her needs or budget
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
 
@@ -108,8 +118,8 @@
  - [Quad LFO](https://www.la-roue-tourne.fr/index.php/modulaire/272-module-quad-lfo) Four LFO, each has two output
  - [CV-Sync LFO](http://m.bareille.free.fr/modular1/cvsynclfo/cv_lfo.htm) : The CV-Sync LFO is a pure analogic Low Frequency Oscillator with wide speed ranges, two advanced sync modes with threshold and more ...
  - [Variable waveshape LFO](https://kassu2000.blogspot.com/2015/10/variable-waveshape-lfo.html) : This is a fairly simple LFO circuit, whose wave shape can be smoothly varied between downward ramp, triangle and upward ramp. In addition, a square/pulse wave and a sine wave output are given
- - [O](A)
- - [O](A)
+ - [VC-LFO](https://www.yusynth.net/Modular/EN/LFO/index.html) : I designed a VC-LFO that can be implemented into two variants. In fact these use the same PCB but some part of it is either used or not
+ - [Quadrature VC-LFO](https://www.yusynth.net/Modular/EN/QUAD-LFO/index.html) : Basically, it is a sinewave LFO with four outputs which are running at the same rate but are phase shifted by increment of 90°
  - [O](A)
  - [O](A)
  - [O](A)
@@ -169,6 +179,16 @@
  - [Transistor ladder filter](https://kassu2000.blogspot.com/2018/07/transistor-ladder-filter.html) : My version of the filter is not intended to be an exact replica of the Moog filter.
  - [KS-20 Filter](https://kassu2000.blogspot.com/2019/07/ks-20-filter.html) : This filter makes great basslines, with both strong bottom end which is not reduced at high resonance, and gnarly sound due to a nonlinear resonance path
  - [Dual multimode filter](https://sowa.synth.net/modular/vcf.html) : This is SSM2164 based dual state variable filter module. 2 filters are tuned with same knob, and CV, but can be detuned with either a knob or CV
+ - [Improved Steiner VCF](https://www.yusynth.net/Modular/EN/STEINERVCF/index-v2.html) : Steiner-Parker VCF, in which I tried to improve the design in order to correct some flaws of the original design : scratchy resonance potentiometer, untamed auto-oscillation
+ - [ARP VCF](https://www.yusynth.net/Modular/EN/ARPVCF/index.html) : The ARP4072 filter equipped mostly the famous ARP2600 semi-modular synthesizer.  
+I designed my own version of this filter. I have included in the design an input buffer stage and an ouptut buffer stage.
+ - [MiniMoog VCF](https://www.yusynth.net/Modular/EN/MOOGVCF/index.html) : This filter has a sound of its own that contributed to the success of many songs during the 70s and 80s
+ - [diode ladderVCF](https://www.yusynth.net/Modular/EN/EMSVCF/index.html) : My aim here was to design a quite faithful copy of this mythic filter while using components that minimize the burden of selecting a great number of matched transistors. This is why I used transistor arrays
+ - [# Fixed Filter Bank, FFB](https://www.yusynth.net/Modular/EN/BANK/index.html) : lthough this module is often missing in many modular set-ups, I think a fixed filters bank (FFB) is a really useful module and personally I could not imagine a decent set-up without one. The reference FFB is the 914 module from Moog
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
@@ -232,7 +252,7 @@
  - [Slope generator](https://kassu2000.blogspot.com/2016/04/slope-generator.html) : a module strongly influenced by the classic Serge voltage controlled slope module
  - [Slope](https://kassu2000.blogspot.com/2020/10/slope.html) : The Slope module is a voltage controlled slew limiter and modulation source
  - [Dual VC ADDSR](https://sowa.synth.net/modular/vcaddsr.html) : 5 stages, bipolar and voltage controlled. ADDSR stands for Attack, Decay 1, Decay 2, Sustain, Release
- - [O](A)
+ - [Envelope generator ADSR](https://www.yusynth.net/Modular/EN/ADSR/index.html) : This envelope generator is based on a classical monostable configuration of the 555
  - [O](A)
  - [O](A)
  - [O](A)
@@ -268,7 +288,7 @@
  - [Dual VCA](https://kassu2000.blogspot.com/2019/03/dual-vca.html) : linear, DC coupled VCAs, suitable for both audio and CV processing
  - [Discrete VCA](https://kassu2000.blogspot.com/2015/10/vca.html) : The design comes from Yusynth and I implemented it without significant changes
  - [Dual VC Amp/crossfader/panner](https://sowa.synth.net/modular/xvca.html) : This is dual voltage controlled amplifier. Both can be used independently, as cross-fader or panning amplifier. VCA core is made with discrete transistors
- - [O](A)
+ - [Simple VCA](https://www.yusynth.net/Modular/EN/VCA/index.html) : YuSynth
  - [O](A)
  - [O](A)
  - [O](A)
@@ -311,7 +331,7 @@
  - [Quad crossfader](https://www.la-roue-tourne.fr/index.php/modulaire/273-module-quad-crossfader) : La roue tourne
  - [6 channel mixer](https://www.la-roue-tourne.fr/index.php/modulaire/270-module-6-channel-mixer) : La roue tourne
  - [6 input CV/Audio mixer](https://sowa.synth.net/modular/m_mixer.html) : This is plain mixer, may be used also for DC signals, like control voltages. OP249 fast precision opamps were used for their low ofset and good dynamic parameters
- - [O](A)
+ - [Mixers](https://www.yusynth.net/Modular/EN/MIXER/index.html) : Two mixer from YuSynth
  - [O](A)
  - [O](A)
  - [O](A)
@@ -512,9 +532,9 @@
  - [Warp633](http://m.bareille.free.fr/modular1/warp633/warp633.htm) : a Ring Modulator /Warper based on the 4 quadrant multiplier chip AD633 made by Analog Devices
  - [Ring-Mod](https://github.com/gerb-ster/RingMod) : based on the design from YuSynth
  - [Ballanced Modulator](https://sowa.synth.net/modular/rm.html) : This is ballanced modulator, named usually as ring modulator. Based on AD633 multiplier
- - [O](A)
- - [O](A)
- - [O](A)
+ - [Wavefolder](https://www.yusynth.net/Modular/EN/WAVEFOLDER/index.html) : This module performs a non-linear transformation of a simple waveshape (triangle or sawtooth) into a complex waveform rich in overtones
+ - [Dual balanced modulator (ring modulator)](https://www.yusynth.net/Modular/EN/RINGMOD/index.html) : The balanced modulator or four quadrant multiplier, is a great classical module
+ - [Saw Animator](https://www.yusynth.net/Modular/EN/SAWANIM/index.html) : The Saw Animator module is a very interesting module when you whish to get that FAT sound, usually obtained with two or more sawtooth VCOs
  - [O](A)
  - [O](A)
  - [O](A)
@@ -524,6 +544,7 @@
  - [Phase-flange](https://www.nonlinearcircuits.com/modules/p/329-phase-flange) : This module is based on the Aries 329 Phase/Flange with mods
  - [Shat-Noir](https://www.nonlinearcircuits.com/modules/p/shat-noir) : The core of the Shat-noir phaser is based on classic LDR based phaser designs
  - [Mutron BiPhase clone 2](http://m.bareille.free.fr/biphase/biphase.htm) : The Mutron Biphase Biphase is a 1x12 stages or 2x6 stages optical phasor with 2 sweep generators ( LFOs) for square and triangle modulations
+ - [J. Haible's Tau Phase Shifter](https://www.yusynth.net/Modular/EN/JH-TAUPHASE/index.html) : This a great and powerful Phaser module redesigned by Jürgen Haible
  - [O](A)
  - [O](A)
  - [O](A)
@@ -544,7 +565,7 @@
  - [Logoi](https://www.rebeltech.org/product/logoi/) : Λόγοι is a voltage controlled clock divider, counter, and delay.
  - [006 Dual divider](http://castlerocktronics.com/modular.html#006) : Another simple double dose module, pretty much just a chip wired up to jacks and LEDs. It is a very useful chip though: the 74HC393. This little guy has two "binary ripple counters" which are sometimes also called frequency dividers.
  - [Frequency divider](https://sowa.synth.net/modular/divider.html) : This is frequency divider, giving mixed output of square waves at frequencies being input frequency divided by 1.5, 2, 3 and 4. Mixed analog and CMOS logic design
- - [O](A)
+ - [CLOCK DIVIDER](https://www.yusynth.net/Modular/EN/DIVIDER/index.html) : YuSynth
  - [O](A)
  - [O](A)
  - [O](A)
@@ -578,6 +599,18 @@
  - [Dual quad switch](https://www.la-roue-tourne.fr/index.php/modulaire/248-module-dual-quad-switch) A double quad switch for everything between -10v to +10v
  - [Quad logic](https://www.la-roue-tourne.fr/index.php/modulaire/276-module-n-5-quad-logic) Quad logic voice which each has 9 functions
  - [Sync_thync_euro](http://www.stickneysynthyards.000space.com/sync_thync_euro/index.html) : It's a bit of a cross between a (1 bit) S&H and an AND gate and although its original purpose is to create interesting rhythms that are in sync with a master Clock
+ - [Dual GATED SLEW](https://www.yusynth.net/Modular/EN/DUALSLEW/index.html) : This is an utility module that may find some use to create gated portamento effects or other slew limiting effect
+ - [Mini-Maxi Voltage Processor](https://www.yusynth.net/Modular/EN/MINMAX/index.html) : YuSynth
+ - [Dual GATE DELAY](https://www.yusynth.net/Modular/EN/GATEDELAY/index.html) : YuSynth
+ - [Dual PULSE DELAY](https://www.yusynth.net/Modular/EN/PULSEDELAY/index.html) : YuSynth
+ - [COMPARATORS](https://www.yusynth.net/Modular/EN/COMPARATORS/index.html) : YuSynth
+ - [LOGICAL GATES](https://www.yusynth.net/Modular/EN/LOGICAL/index.html) : YuSynth
+ - [Sequential Router](https://www.yusynth.net/Modular/EN/SEQROUTER/index.html) : YuSynth
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
+ - [O](A)
  - [O](A)
  - [O](A)
  - [O](A)
@@ -593,7 +626,7 @@
 - [Heletica scenario](https://www.nonlinearcircuits.com/modules/p/helvetica-scenario) : This module is a dual sample & hold with voltage controlled slew for each channel
  - [Sampling Modulator](https://www.befaco.org/sampling-modulator/) : The Sampling Modulator is a multi-function module that lies somewhere between a VCO, a Sample & Hold, and an 8 step trigger sequencer
  - [Sample & Hold](https://sowa.synth.net/modular/sh.html) : This is sample and hold module equipped with other minor circuitry to make it more versatile - clock and noise generator
- - [O](A)
+ - [Noise generator Sample & Hold](https://www.yusynth.net/Modular/EN/NOISE/index.html) : This single modules integrates two sub-modules : a noise voltage generator and a sample and hold (S&H) processor
  - [O](A)
  - [O](A)
  - [O](A)
@@ -634,7 +667,7 @@
  - [Sauce of unce](https://www.nonlinearcircuits.com/modules/p/sauce-of-unce) : Based on the Buchla SOU265, but all the rare components replaced with regular parts
  - [Neuron](https://www.nonlinearcircuits.com/modules/p/8hp-neuron) : The Neuron was inspired by a paper on neural computing and is a variation of a typical analogue neuron circuit
  - [Burst](https://www.befaco.org/burst-2/) : Burst is a trigger processor and generator, designed to add an organic chain of events to your modular setup
- - [O](A)
+ - [Octal Random Gates](https://www.yusynth.net/Modular/EN/RANDOMGATE/index.html) : The Octal Random Gate provides eight GATE OUT signals that are randomly sequenced
  - [O](A)
  - [O](A)
  - [O](A)
@@ -660,8 +693,8 @@
  - [SMT32DUINO](https://sound-force.nl/?page_id=2212) : STM32DUINO dual trigger/gate to CV is a module based on a low-cost Arduino-compatible STM32F103
  - [1U-Diff-rect](https://www.nonlinearcircuits.com/modules/p/1u-diff-rect) : It is great for mixing audio and/or CV signals to get all kinds of unexpected and interesting results
 - [Muxlicer](https://www.befaco.org/muxlicer-2/) : Muxlicer is a sequential signal processor designed for add a huge range of special functions to your modular setup in the minimum space
- - [O](A)
- - [O](A)
+ - [CV standards](https://www.yusynth.net/Modular/EN/STANDARDS/index.html) : This utility modules provides switchable discrete CVs with useful intervals such as :  octaves & semitones
+ - [AUTO-BEND](https://www.yusynth.net/Modular/EN/AUTOBEND/index.html) : This module is very useful utility module to simulate the transient frequency bend that can be heard at the onset of a note played by some instruments such as trumpets and oboes
  - [O](A)
  - [O](A)
  - [O](A)
@@ -698,7 +731,7 @@
  - [1U-Headphone](https://github.com/kraakenstuff/1U-Headphone) : 1U Eurorack headphone output module based on Befaco Output v3
  - [DOEI](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/HeadphoneOutV1) : Doei is a headphone amp, based on the CMoy schematic
  - [Startup](https://www.musicthing.co.uk/pages/startup.html) : headphone amp, six-input mixer, tap tempo clock, divider & multiplier
- - [O](A)
+ - [Mixout-VC Panner](https://www.yusynth.net/Modular/EN/MIXER/index.html) : This module is the combination of two utility modules : a quadruple VC-PANNER (and mixer, though not VC ) and an output module providing master volume control, tonality control and old-school vu-meters as well as a monitoring output for headphones
  - [O](A)
  - [O](A)
  - [O](A)
