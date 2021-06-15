@@ -15,13 +15,13 @@
 	 - [x] Castle Rocktronics
 	 - [ ] Synsi
 	 - [ ] Yusynth
-	 - [ ] SOWA
+	 - [x] SOWA
 	 - [ ] Niklas Rönnberg
 	 - [ ] Harald Antes
 	 - [ ] Scott Stites
 	 - [ ] Thomas Henry
 	 - [ ] Schmitzbits
-	 - [ ] Kassutronics
+	 - [x] Kassutronics
 	 - [ ] Barton musical circuits
 	 - [ ] Dintree
 	 - [ ] Music from outer space
@@ -87,10 +87,10 @@
  - [Bark or bleat](http://www.stickneysynthyards.000space.com/bark_or_bleat/index.html) : Bark or Bleat is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces a dog or sheep sound (depending on the installed chip)
  - [Astro alarm](http://www.stickneysynthyards.000space.com/astro_alarm/index.html) : Astro Alarm is a synthesizer module of the Stickney Synthyards L0F1 series which uses a soundchip that produces 4 different alarm/siren sounds and more ...
  - [ASM "Ultra" VCO](http://m.bareille.free.fr/modular1/vco_asmultra/vco_asmultra.htm) : The idea with this VCO design was to made a very "musical" and warm module like ASM1 VCOs but with a much better stability and more vwaveform outputs
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [VCO 3340](https://kassu2000.blogspot.com/2018/06/vco-3340.html) : For this module, I wanted to an easy to build VCO with good stability and basic features
+ - [Avalance VCO](https://kassu2000.blogspot.com/2018/07/avalance-vco.html) : based on the reverse avalance breakdown effect in normal transistors. I decided to experiment with this idea myself, and in particular see if I can add basic V/Oct control to it
+ - [VCO part 1 : core](https://kassu2000.blogspot.com/2015/12/vco-part-1-core.html) & [VCO part 2 : waveshaping](https://kassu2000.blogspot.com/2016/02/vco-part-2-waveshaping.html) : Kassutronics
+ - [Quad VCO](https://sowa.synth.net/modular/vco4mod.html) : This is SSM2164 based quad VCO module
  - [O](A)
  - [O](A)
 
@@ -107,7 +107,7 @@
  - [003 4xLFO](http://castlerocktronics.com/modular.html#003) : Four square wave LFOs with little blinky lights to show you how fast they are going
  - [Quad LFO](https://www.la-roue-tourne.fr/index.php/modulaire/272-module-quad-lfo) Four LFO, each has two output
  - [CV-Sync LFO](http://m.bareille.free.fr/modular1/cvsynclfo/cv_lfo.htm) : The CV-Sync LFO is a pure analogic Low Frequency Oscillator with wide speed ranges, two advanced sync modes with threshold and more ...
- - [O](A)
+ - [Variable waveshape LFO](https://kassu2000.blogspot.com/2015/10/variable-waveshape-lfo.html) : This is a fairly simple LFO circuit, whose wave shape can be smoothly varied between downward ramp, triangle and upward ramp. In addition, a square/pulse wave and a sine wave output are given
  - [O](A)
  - [O](A)
  - [O](A)
@@ -166,9 +166,9 @@
  - [VCF-Q](https://github.com/spielhuus/elektrophon/tree/master/modules/VCFQ) : CGS Serge voltage controlled resonance filter
  - [Polivoks Filter clone](http://m.bareille.free.fr/modular1/vcf_polivoks/vcf_polivoks.htm) : This filter is a clone of the famous vintage russian analog synthetiser invented by Vladimir Kuzmin
  - [Extrapole - multimode for LP4P VCF](http://m.bareille.free.fr/modular1/vcf_multimode/extrapole.htm) : The project proposed here is an extension board to add 15 functions to the MOTM 440 VCF and more generaly to almost all 4 poles Low Pass VCFs with a similar topology ...
- - [O](A)
- - [O](A)
- - [O](A)
+ - [Transistor ladder filter](https://kassu2000.blogspot.com/2018/07/transistor-ladder-filter.html) : My version of the filter is not intended to be an exact replica of the Moog filter.
+ - [KS-20 Filter](https://kassu2000.blogspot.com/2019/07/ks-20-filter.html) : This filter makes great basslines, with both strong bottom end which is not reduced at high resonance, and gnarly sound due to a nonlinear resonance path
+ - [Dual multimode filter](https://sowa.synth.net/modular/vcf.html) : This is SSM2164 based dual state variable filter module. 2 filters are tuned with same knob, and CV, but can be detuned with either a knob or CV
  - [O](A)
  - [O](A)
  - [O](A)
@@ -227,11 +227,11 @@
  - [Slew limiter](https://www.befaco.org/slew-limiter/) : Slew limiter is a device that smoothes an incoming signal, limiting the maximum rate of the output voltage over time
  - [Rampage](https://www.befaco.org/rampage-2/) : Rampage is Befaco’s approach to an old invention: the Serge/Buchla ramp generator
  - [Dual linear CV-ADSR](http://m.bareille.free.fr/modular1/adsr/mb_cvadsr2.htm) : The Dual ADSR module is adapted from the "EnvyLope" schematic of Mr Aaron Cram with mods
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+ - [ASR Envelope](https://kassu2000.blogspot.com/2018/10/asr-envelope.html) : I decided that it would be handy to have some envelope generators where the Decay and Release time combined in a single knob
+ - [Precision ADSR](https://kassu2000.blogspot.com/2015/05/precision-adsr.html) : The design is based around a 7555 timer (a CMOS version of the classic 555) to provide the logic, and three diodes to guide the charging (attack) and discharging (decay, release) currents of the timing capacitor through different potentiometers
+ - [Slope generator](https://kassu2000.blogspot.com/2016/04/slope-generator.html) : a module strongly influenced by the classic Serge voltage controlled slope module
+ - [Slope](https://kassu2000.blogspot.com/2020/10/slope.html) : The Slope module is a voltage controlled slew limiter and modulation source
+ - [Dual VC ADDSR](https://sowa.synth.net/modular/vcaddsr.html) : 5 stages, bipolar and voltage controlled. ADDSR stands for Attack, Decay 1, Decay 2, Sustain, Release
  - [O](A)
  - [O](A)
  - [O](A)
@@ -265,9 +265,9 @@
  - [Hexmix VCA](https://www.befaco.org/hexmix-vca/) : Hexmix VCA is a compact six channel VCA with an unique response curve range from logarithmic to linear and to exponential using a pot
  - [Dual VCA](http://m.bareille.free.fr/modular1/vca_dbx/mb_dbxvca.htm) : It is a hi-quality audio VCA module designed with THAT2150A circuits
  - [Quad VCA](http://m.bareille.free.fr/modular1/quadvca/quadvca.htm) : This module is a hi-quality, all purpose Quad VCA/CV-Mixer
- - [O](A)
- - [O](A)
- - [O](A)
+ - [Dual VCA](https://kassu2000.blogspot.com/2019/03/dual-vca.html) : linear, DC coupled VCAs, suitable for both audio and CV processing
+ - [Discrete VCA](https://kassu2000.blogspot.com/2015/10/vca.html) : The design comes from Yusynth and I implemented it without significant changes
+ - [Dual VC Amp/crossfader/panner](https://sowa.synth.net/modular/xvca.html) : This is dual voltage controlled amplifier. Both can be used independently, as cross-fader or panning amplifier. VCA core is made with discrete transistors
  - [O](A)
  - [O](A)
  - [O](A)
@@ -310,8 +310,7 @@
  - [Hexpander](https://www.befaco.org/hexpander-2/) : Hexpander adds great functionality to Hexmix module. Featuring Three aux send with stereo returns, individual outputs for each channel, complete PFL system and balanced output
  - [Quad crossfader](https://www.la-roue-tourne.fr/index.php/modulaire/273-module-quad-crossfader) : La roue tourne
  - [6 channel mixer](https://www.la-roue-tourne.fr/index.php/modulaire/270-module-6-channel-mixer) : La roue tourne
- - [O](A)
- - [O](A)
+ - [6 input CV/Audio mixer](https://sowa.synth.net/modular/m_mixer.html) : This is plain mixer, may be used also for DC signals, like control voltages. OP249 fast precision opamps were used for their low ofset and good dynamic parameters
  - [O](A)
  - [O](A)
  - [O](A)
@@ -336,7 +335,7 @@
  - [Stoicheia](https://www.rebeltech.org/product/stoicheia/) : Στοιχεῖα is a dual Euclidean Sequencer. It algorithmically generates rhythmic sequences from an input trigger signal
  - [The BIG button](https://www.lookmumnocomputer.com/big-button) : A drum trigger sequencer all powered by 1 button. Inside is 1 Arduino nano controlling the whole Shabang.
  - [Arduino 8 steps sequencer keyboard](https://www.lookmumnocomputer.com/sequencer-keyboard) : Look Mum No Computer
- - [O](A)
+ - [step sequencer](https://sowa.synth.net/modular/sequencer.html) : This is analog sequencer having 3 rows of 8 knobs. Mode switch determines step count. It can be 8-steps with 3 channels, 16-steps with 2 channels, but seccond channel repeats twice in each cycle (e.g. step 9 outputs the same voltage as step 1), or 24 steps with only one output
  - [O](A)
  - [O](A)
  - [O](A)
@@ -406,7 +405,7 @@
  - [Chord Organ](https://www.musicthing.co.uk/pages/chord.html) : Sequence chord shapes and root notes
  - [Quantizer Module](https://github.com/holmesrichards/QuantizerModule) : This is a dual quantizer based on the dac/ino board
  - [Quantix 8](http://m.bareille.free.fr/modular1/quantix8/quantix8.htm) : The Quantix-8 module is a CV Quantizer / Wavetable Oscillator based on a 4Mbits Static RAM memory and a PIC microcontroler with a full MIDI implementation.
- - [O](A)
+ - [Quantizer](https://kassu2000.blogspot.com/2019/10/quantizer.html) : two-channel Quantizer in 10hp Eurorack format
  - [O](A)
  - [O](A)
  - [O](A)
@@ -474,7 +473,7 @@
  - [Echo](https://github.com/spielhuus/elektrophon/tree/master/modules/echo) : PT2399 based
  - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
  - [Spring reverb](https://www.befaco.org/spring-reverb/) : an analog spring reverb module. Featuring VCAs for the two available inputs, CV control for DRY/WET and visual feedback for signal levels at input and output of the tank.
- - [O](A)
+ - [Spring reverb](https://kassu2000.blogspot.com/2015/10/spring-reverb.html) : Kassutronics
  - [O](A)
  - [O](A)
  - [O](A)
@@ -512,7 +511,7 @@
  - [Wavewiper](http://www.stickneysynthyards.000space.com/wavewiper/index.html) :  The WaveWiper consists of 3 sections : the CV processing section, the voltage splitting sections, the merge sections
  - [Warp633](http://m.bareille.free.fr/modular1/warp633/warp633.htm) : a Ring Modulator /Warper based on the 4 quadrant multiplier chip AD633 made by Analog Devices
  - [Ring-Mod](https://github.com/gerb-ster/RingMod) : based on the design from YuSynth
- - [O](A)
+ - [Ballanced Modulator](https://sowa.synth.net/modular/rm.html) : This is ballanced modulator, named usually as ring modulator. Based on AD633 multiplier
  - [O](A)
  - [O](A)
  - [O](A)
@@ -544,7 +543,7 @@
  - [Chronos](https://www.rebeltech.org/product/chronos/) : Χρόνος is an advanced time-keeping module with dual tap tempo clock, and dual tempo synced LFO
  - [Logoi](https://www.rebeltech.org/product/logoi/) : Λόγοι is a voltage controlled clock divider, counter, and delay.
  - [006 Dual divider](http://castlerocktronics.com/modular.html#006) : Another simple double dose module, pretty much just a chip wired up to jacks and LEDs. It is a very useful chip though: the 74HC393. This little guy has two "binary ripple counters" which are sometimes also called frequency dividers.
- - [O](A)
+ - [Frequency divider](https://sowa.synth.net/modular/divider.html) : This is frequency divider, giving mixed output of square waves at frequencies being input frequency divided by 1.5, 2, 3 and 4. Mixed analog and CMOS logic design
  - [O](A)
  - [O](A)
  - [O](A)
@@ -593,7 +592,7 @@
  - [Omnitool](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/Omnitool) : inspired by the MS-20. It features a glide, S&H and manual button
 - [Heletica scenario](https://www.nonlinearcircuits.com/modules/p/helvetica-scenario) : This module is a dual sample & hold with voltage controlled slew for each channel
  - [Sampling Modulator](https://www.befaco.org/sampling-modulator/) : The Sampling Modulator is a multi-function module that lies somewhere between a VCO, a Sample & Hold, and an 8 step trigger sequencer
- - [O](A)
+ - [Sample & Hold](https://sowa.synth.net/modular/sh.html) : This is sample and hold module equipped with other minor circuitry to make it more versatile - clock and noise generator
  - [O](A)
  - [O](A)
  - [O](A)
@@ -683,6 +682,7 @@
  - [Shades](http://mutable-instruments.net/modules/shades): Triple attenuverter
  - [Quad atenuverters](https://www.la-roue-tourne.fr/index.php/modulaire/274-module-n-3-quad-attenuverter) : la roue tourne
  - [Toggler](http://www.stickneysynthyards.000space.com/toggler/index.html) : The Toggler is a simple utility module and its main purpose is to remotely toggle/invert a (CV)signal. It can be used as a wavefolder, sub-oscillator, frequency doubler (for triangle waves), buffered attenuator + inverter, CLK divider, signal to square converter (with pulse width modulation) and more
+ - [Precision attenuverter / mixer](https://kassu2000.blogspot.com/2018/04/precision-attenuverter-mixer.html) : Kassutronics
  - [O](A)
  - [O](A)
  - [O](A)
@@ -765,7 +765,7 @@
 A fully editable MIDI controller with eight faders and push buttons
  - [MIDI thing](https://www.befaco.org/midi-thing/) : MIDI Thing is a compact 4 channel Midi to CV/Gate interface featuring 12 bit conversion that allows V/Oct control with around 1 cent precision
  - [Fatcrontroller](https://burnit.co.uk/sdiy/index.php?page=fatcontroller) : The basic idea is a PIC-based precision MIDI to CV converter with multiple outputs and lots of software features.
- - [O](A)
+ - [MIDI to CV](https://sowa.synth.net/modular/midi2cv.html) : This is simple MIDI2CV converter turning this modular into note-playing musical instrument
  - [O](A)
  - [O](A)
  - [O](A)
@@ -826,7 +826,7 @@ A fully editable MIDI controller with eight faders and push buttons
  - [000 PWR](http://castlerocktronics.com/modular.html#000) : It's slightly dishonest to call it a power supply though, as really you use a DC wall-wart as the power supply, this is just a switch, an LED and a bus board
  - [Powskiff](https://www.befaco.org/powskiff/) : PowSkiff is a clean, compact, high-amperage power supply designed for demanding systems
  - [Bench PSU](https://burnit.co.uk/sdiy/index.php?page=benchpsu) : PSU to power breadboard and play around with new circuits and ideas.
- - [O](A)
+ - [MSPS](https://sowa.synth.net/modular/power.html) : This one is my first decent power supply ever made. Sadly enough I made 2 very stupid mistakes on PCB (like reverse powering an opamp) so you can see kynar there too
  - [O](A)
  - [O](A)
  - [O](A)
@@ -899,3 +899,4 @@ A fully editable MIDI controller with eight faders and push buttons
  - [O](A)
  - [O](A)
  - [O](A)
+
