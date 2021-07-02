@@ -95,6 +95,7 @@ List of awesome eurorack diy and opensource projects
  * [NOR Eurorack](https://noreurorack.wordpress.com/category/diy/)
  * [Soundbender](https://soundbender36.wordpress.com/)
  * [Les portes logiques](http://www.lesporteslogiques.net/wiki/openatelier/projet/module-eurorack-diy)
+ * [Tim Stinchcombe](http://www.timstinchcombe.co.uk/index.php?pge=home)
 
 # Related
  * [Experimentalist anonymous](http://experimentalistsanonymous.com/diy/index.php?dir=Schematics)
