@@ -47,6 +47,7 @@ List of awesome eurorack diy and opensource projects
  * [Tensiontides](https://github.com/tensiontides/eurorack_arduino)
  * [This is not rocket science](https://github.com/ThisIsNotRocketScience/Eurorack-Modules)
  * [ThoEvans](https://github.com/ThoEvans/Eurorack)
+ * [TimMJN](https://github.com/TimMJN)
  * [TomWhitwell](https://github.com/TomWhitwell)
  * [Westlicht](https://github.com/westlicht/performer-hardware)
 
