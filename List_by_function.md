@@ -2,6 +2,7 @@
 
 
  - [x] List for all gitHub repo
+    	 - [] TimMJN
  - [x] List for all gitLab repo
 
  - [ ] List for all non gitHub repo
