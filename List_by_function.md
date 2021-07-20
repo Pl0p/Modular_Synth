@@ -43,6 +43,7 @@
 	 - [ ] NOR Eurorack
 	 - [ ] Soundbender
 	 - [ ] Les portes logiques
+	 - [ ] Tim Stinchcombe
 
  - [ ] List cool things from related
 
