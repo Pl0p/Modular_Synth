@@ -3,7 +3,7 @@
 
     ( /!\ NOT TESTED /!\ ) 
 
-This is the third module I've done, the PCB is being delivered
+This is the third module I've done, i'm curently soldering =)
 
     ( /!\ NOT TESTED /!\ )
 
