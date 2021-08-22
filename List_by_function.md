@@ -323,7 +323,6 @@ I designed my own version of this filter. I have included in the design an input
  - [Arduino-Sequencer](https://github.com/TimMJN/Arduino-Sequencer) : Arduino sequencer 8 Steps, 2 voices
  - [Arduino Euclidean Rhythm Generator](https://github.com/TimMJN/Arduino-Euclidean-Rhythm-Generator) : 4 channels 16 steps
  - [Euclidian sequencer](https://syinsi.com/projects/building-the-euclidean/) : Syinsi
- - [O](A)
 
 # DRUM VOICE
  - [NoiseDrum](https://github.com/sonosus/noisedrumstripboard) : Buffered version of the Tiny Dazzler Noise Drum
@@ -696,10 +695,7 @@ A fully editable MIDI controller with eight faders and push buttons
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
   - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
- - [O](A)
- - [O](A)
- - [O](A)
- - [O](A)
+
 
 
 
