@@ -16,7 +16,7 @@
 	 - [x] Synsi
 	 - [x] Yusynth
 	 - [x] SOWA
-	 - [ ] Niklas Rönnberg
+	 - [x] Niklas Rönnberg
 	 - [ ] Harald Antes
 	 - [ ] Scott Stites
 	 - [ ] Thomas Henry
@@ -95,6 +95,7 @@
  - [Quad VCO](https://sowa.synth.net/modular/vco4mod.html) : This is SSM2164 based quad VCO module
  - [VCOs](https://www.yusynth.net/Modular/EN/VCO/index.html) : Herein I propose, three different PCB designs that let the builder choose the solution that matches best his/her needs or budget
  - [VCO classic](https://syinsi.com/projects/building-the-vco-classic/) : Syinsi
+ - [VCO](http://familjenronnberg.se/~niklas/diy/eurorack/vco/) : This is a simple but yet reliable VCO. It has Sawtooth and Square wave outputs, based on Terry Mikulic's and Bernie Hutchins' designs for the late 70'ies,
 
 # LOW FREQUENCIE OSCILLATOR
  - [Util_LFO](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/util_LFO) : Design: Tim Parkhurst: Magic Smoke Electronics
@@ -113,6 +114,8 @@
  - [VC-LFO](https://www.yusynth.net/Modular/EN/LFO/index.html) : I designed a VC-LFO that can be implemented into two variants. In fact these use the same PCB but some part of it is either used or not
  - [Quadrature VC-LFO](https://www.yusynth.net/Modular/EN/QUAD-LFO/index.html) : Basically, it is a sinewave LFO with four outputs which are running at the same rate but are phase shifted by increment of 90°
  - [the LFO](https://syinsi.com/projects/building-the-lfo/) : Syinsi
+ - [Pseudorandom LFO](http://familjenronnberg.se/~niklas/diy/eurorack/prlfo/) : This is a neat module for random (or at least pseudorandom) control voltages
+ - [LFO](http://familjenronnberg.se/~niklas/diy/eurorack/lfo/) : It's a low frequency oscillator (LFO) that gives square and triangle out. There are three controls
 
 # FILTER
  - [Ripples](http://mutable-instruments.net/modules/ripples): Liquid 2-pole BP, 2-pole LP and 4-pole LP filter
@@ -175,6 +178,8 @@ I designed my own version of this filter. I have included in the design an input
  - [# Fixed Filter Bank, FFB](https://www.yusynth.net/Modular/EN/BANK/index.html) : lthough this module is often missing in many modular set-ups, I think a fixed filters bank (FFB) is a really useful module and personally I could not imagine a decent set-up without one. The reference FFB is the 914 module from Moog
  - [VCF](https://syinsi.com/projects/building-the-vcf-tile/) : Syinsi
  - [VCF v2](https://syinsi.com/projects/building-new-vcf-tile/) : Syinsi
+ - [Korg35 style VCF](http://familjenronnberg.se/~niklas/diy/eurorack/vcf3/) : This is a Korg35 style VCF. The Korg35 was found, for example, in the Korg MS10 and in the early Korg MS20
+ - [State variable VCF](http://familjenronnberg.se/~niklas/diy/eurorack/vcf2/) : This is a state variable VCF. It's a two pole 12dB/oct. filter originally designed by Bernie Hutchkins and then adapted by Ray Wilson
 
 # LOW PASS GATE
  - [AJH_LPG](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_LPG) : Buchla-esque LPG
@@ -225,6 +230,9 @@ I designed my own version of this filter. I have included in the design an input
  - [Dual VC ADDSR](https://sowa.synth.net/modular/vcaddsr.html) : 5 stages, bipolar and voltage controlled. ADDSR stands for Attack, Decay 1, Decay 2, Sustain, Release
  - [Envelope generator ADSR](https://www.yusynth.net/Modular/EN/ADSR/index.html) : This envelope generator is based on a classical monostable configuration of the 555
  - [AR - EG](https://syinsi.com/projects/building-the-areg/) Syinsi
+ - [AR](http://familjenronnberg.se/~niklas/diy/eurorack/ar/) : a simple dual envelope generator with Attack and Release (AR) with loop
+ - [ADSR](http://familjenronnberg.se/~niklas/diy/eurorack/adsr/) : It outputs two CVs, one inverted. The envelope generator is based on the ASM-1 ADSR
+ - [ADSR v2](http://familjenronnberg.se/~niklas/diy/eurorack/adsr2/) : There is a range switch for easier adjustment, as well as a loop-function so the envelope generator can be used as a LFO
 
 # VCA
  - [Blinds](http://mutable-instruments.net/modules/blinds) : Quad VC-polarizer
@@ -260,6 +268,8 @@ I designed my own version of this filter. I have included in the design an input
  - [Simple VCA](https://www.yusynth.net/Modular/EN/VCA/index.html) : YuSynth
  - [VCA](https://syinsi.com/projects/building-the-vca-tile/) : Syinsi
  - [VCA v2](https://syinsi.com/projects/building-new-vca-tile/) : Syinsi
+ - [VCA](http://familjenronnberg.se/~niklas/diy/eurorack/vca/) : A dual voltage controlled amplifier. Each has two signal inputs with level adjustment, and two CV inputs (one with level control)
+ - [VCA v2](http://familjenronnberg.se/~niklas/diy/eurorack/vca2/) : A dual voltage controlled amplifier. Each has two signal inputs with level adjustment, and two CV inputs (one with level control)
  
 # MIXER
  - [Frames](http://mutable-instruments.net/modules/frames): Keyframer/mixer
@@ -323,6 +333,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Arduino-Sequencer](https://github.com/TimMJN/Arduino-Sequencer) : Arduino sequencer 8 Steps, 2 voices
  - [Arduino Euclidean Rhythm Generator](https://github.com/TimMJN/Arduino-Euclidean-Rhythm-Generator) : 4 channels 16 steps
  - [Euclidian sequencer](https://syinsi.com/projects/building-the-euclidean/) : Syinsi
+ - [MiniSeq](http://familjenronnberg.se/~niklas/diy/eurorack/miniseq/) : a 8 step seuencer, based on the Baby 10 sequencer
 
 # DRUM VOICE
  - [NoiseDrum](https://github.com/sonosus/noisedrumstripboard) : Buffered version of the Tiny Dazzler Noise Drum
@@ -353,6 +364,7 @@ I designed my own version of this filter. I have included in the design an input
  - [CORON DS7 Drum Synce Clone](http://m.bareille.free.fr/ds7clone/ds7.htm) : M Bareille
  - [CORON DS8 Percussion & Drum Synthe Clone](http://m.bareille.free.fr/ds7clone/ds8.htm) : M Bareille
  - [The stomper 1U](https://syinsi.com/projects/building-the-stomper-1u-tile/) : Syinsi
+ - [Bleep drum](http://familjenronnberg.se/~niklas/diy/eurorack/bleep_drum/) : The Bleep Drum is a Arduino based 8-bit drum machine
 
 # SYNTH VOICE
  - [Elements](http://mutable-instruments.net/modules/elements): Modal synthesizer
@@ -392,6 +404,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Multiband distortion processor](https://www.nonlinearcircuits.com/modules/p/multiband-distortion-processor) : Basically it splits the input signals into 4 frequency bands, these go into fuzz circuits and vactrol based VCAs
 - [Bit-reactor](https://www.rebeltech.org/product/bit-reactor/) : Bit Reactor is a hardware bit crusher and downsampler. It has no program or CPU, it digitises without software
 - [The glide](https://syinsi.com/projects/building-the-glide/) : Syinsi
+- [Pitch shifter](http://familjenronnberg.se/~niklas/diy/eurorack/pitch_shift/) : This is not a nice sounding module, it's a pitch-shifter based on the HT8950chip
 
 # DELAY
  - [BBD delay/flanger](https://github.com/erica-synths/diy-eurorack/blob/master/BBD%20DIY.zip) : all analogue effects unit based on V3205 BBD IC
@@ -403,6 +416,7 @@ I designed my own version of this filter. I have included in the design an input
 - [AI016 Eurorack Tape Echo Interface](https://aisynthesis.com/product/ai016-eurorack-tape-echo-interface/) : The AI016 Eurorack Tape Echo Interface module that allows you to use a standard three head tape recorder as an analog tape echo unit
  - [Crush delay v3](https://www.befaco.org/crush-delay-v3/) : Crush Delay v3 is a special Echo-Delay unit based on the PT2399 IC, which is able to offer 400ms of clean delay and up to 2 seconds of dirty repetitions, having a special talent to generate noisy-glitch textures
  - [4xD](https://burnit.co.uk/sdiy/index.php?page=4xd) : The 4xD started life because I wanted a number of simple, high quality, mono delays to create spatial effects for mix elements
+ - [Digital Delay](http://familjenronnberg.se/~niklas/diy/eurorack/digital_delay/) : A rather nice sounding digital delay based on the HT8972 chip
 
 # REVERB/ECHO
  - [Spring](https://www.musicthing.co.uk/pages/spring.html) : spring reverb optimised for modular use
@@ -419,6 +433,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Distortion](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/Distortion) : A straight-forward distortion module to bring a bit more character to your boring oscillators
  - [Boxotrix](https://burnit.co.uk/sdiy/index.php?page=boxotrix) : his is a modular compressor / limiter / distortion / gate unit
  - [Tube overdrive](https://syinsi.com/projects/building-the-tube-overdrive/) : Syinsi
+ - [Distortion](http://familjenronnberg.se/~niklas/diy/eurorack/dist/) : A simple distortion module, simple but yet quite usable
 
 # WAVE FOLDER/SHAPER & RING MODULATOR
  - [Wave-Folder](https://github.com/gerb-ster/WaveFolder) : module is based on a design/schematic by a guy named Adamski
@@ -455,7 +470,9 @@ I designed my own version of this filter. I have included in the design an input
  - [006 Dual divider](http://castlerocktronics.com/modular.html#006) : Another simple double dose module, pretty much just a chip wired up to jacks and LEDs. It is a very useful chip though: the 74HC393. This little guy has two "binary ripple counters" which are sometimes also called frequency dividers.
  - [Frequency divider](https://sowa.synth.net/modular/divider.html) : This is frequency divider, giving mixed output of square waves at frequencies being input frequency divided by 1.5, 2, 3 and 4. Mixed analog and CMOS logic design
  - [CLOCK DIVIDER](https://www.yusynth.net/Modular/EN/DIVIDER/index.html) : YuSynth
- [Arduino clock divider](https://github.com/TimMJN/Arduino-Clock-Divider) : Internal clock division up to 199, 8 output and more...
+ -  [Arduino clock divider](https://github.com/TimMJN/Arduino-Clock-Divider) : Internal clock division up to 199, 8 output and more...
+ - [Master Clock](http://familjenronnberg.se/~niklas/diy/eurorack/master_clock/) : The master clock is intended as a master clock, but it can also act as a slave converting clock signals
+ - [Divider](http://familjenronnberg.se/~niklas/diy/eurorack/divider/) : original design was made by Mathias Herrmann for his inspiring FonitronikHowever, his design gives inverted outputs, which I changed to normalized outputs
 
 # LOGIC/ROUTER/GATE
  - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
@@ -488,6 +505,9 @@ I designed my own version of this filter. I have included in the design an input
  - [COMPARATORS](https://www.yusynth.net/Modular/EN/COMPARATORS/index.html) : YuSynth
  - [LOGICAL GATES](https://www.yusynth.net/Modular/EN/LOGICAL/index.html) : YuSynth
  - [Sequential Router](https://www.yusynth.net/Modular/EN/SEQROUTER/index.html) : YuSynth
+ - [Manual Gate](http://familjenronnberg.se/~niklas/diy/eurorack/manual_gate/) : This is a really convenient module! It's a manual gate, or a three keys keyboard
+ - [Dual quad sequential switch](http://familjenronnberg.se/~niklas/diy/eurorack/seq_switch/) : This module is really useful for switching between sequencer channels. It is based on Doepfer A-151
+ - [Clock to Gate](http://familjenronnberg.se/~niklas/diy/eurorack/clk2gate/) : It's a clock pulse or trigger to gate converter. It has a clock input, a buffered clock output, a duration control and two gate outputs. It has a LED that indicates a trig input when orange and the gate output when green
  
 # SAMPLE & HOLD
  - [Kinks](http://mutable-instruments.net/modules/kinks): Utility module - rectifier, analog logic, S&H, noise
@@ -500,6 +520,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Sample & Hold](https://sowa.synth.net/modular/sh.html) : This is sample and hold module equipped with other minor circuitry to make it more versatile - clock and noise generator
  - [Noise generator Sample & Hold](https://www.yusynth.net/Modular/EN/NOISE/index.html) : This single modules integrates two sub-modules : a noise voltage generator and a sample and hold (S&H) processor
  - [Sample and hold + noise](https://syinsi.com/projects/building-the-sample-and-hold-noise/) : Syinsi
+ - [Sample and hold + noise](http://familjenronnberg.se/~niklas/diy/eurorack/noise/) : The noise generator is inspired by Eric G with some changes
 
 # RANDOMNESS
  - [Branches](http://mutable-instruments.net/modules/branches) : Dual Bernoulli gate
@@ -555,6 +576,10 @@ I designed my own version of this filter. I have included in the design an input
  - [AUTO-BEND](https://www.yusynth.net/Modular/EN/AUTOBEND/index.html) : This module is very useful utility module to simulate the transient frequency bend that can be heard at the onset of a note played by some instruments such as trumpets and oboes
  - [Signal clone](https://syinsi.com/projects/building-new-vca-tile/) : Syinsi
  - [Pedal I/O](https://syinsi.com/projects/building-the-pedalio/) : Syinsi
+ - [CV wheel](http://familjenronnberg.se/~niklas/diy/eurorack/cv-wheel/) : A simple module! It outputs a voltage set by the wheel. The range of the CV is determined by the Range control from one semitone to one octave
+ - [CV wheel v2](http://familjenronnberg.se/~niklas/diy/eurorack/cv-wheel2/) : The clock signal controls a stepped triangle or ramp wave which is sent via the input to the wheel and then (buffered) to the output
+ - [Joystick](http://familjenronnberg.se/~niklas/diy/eurorack/joystick/) : Both the X and the Y axis have a range control setting the output volt between 2V and 10V, as well as an offset moving the voltage between the negative side and the positive side
+ - [Patch](http://familjenronnberg.se/~niklas/diy/eurorack/patch/) : From tele (6.3mm) to mini tele (3.5mm), therefore I made two patches. One of these takes 6.3mm tele in, buffers it and sends it to two identical (yet unbuffered) 3.5mm tele. The other mixes two 3.5mm tele to one 6.3mm tele.
 
 # ATENUVERTER
  - [Dual Atenuverter](https://www.befaco.org/dual-atenuverter/) : The Dual Atenuverter is a CV/Audio utility module designed to atenuate, invert and apply offset to an input signal.
@@ -570,6 +595,8 @@ I designed my own version of this filter. I have included in the design an input
  - [Precision attenuverter / mixer](https://kassu2000.blogspot.com/2018/04/precision-attenuverter-mixer.html) : Kassutronics
  - [CV scale offset](https://syinsi.com/projects/building-cv-scale-offset/) : Syinsi
  - [Dual CV scale offset](https://syinsi.com/projects/dual-cv-scaleoffset/) : Syinsi
+ - [CV tools](http://familjenronnberg.se/~niklas/diy/eurorack/cv-tools/) : A glide buffer, an attenuator and amplifier, and an offset. So, I made these three functions into one module
+ - [Passive attenuator](http://familjenronnberg.se/~niklas/diy/eurorack/attenuator/) : This is a three channel passive attenuator
 
 # OUTPUT/HEADPHONE
  - [StereoOutKosmo](https://github.com/holmesrichards/StereoOutKosmo) : Stereo output synthesizer module in Kosmo format.
@@ -578,6 +605,7 @@ I designed my own version of this filter. I have included in the design an input
  - [DOEI](https://github.com/BurningForceKin/ModularSynthStuff/tree/gh-pages/HeadphoneOutV1) : Doei is a headphone amp, based on the CMoy schematic
  - [Startup](https://www.musicthing.co.uk/pages/startup.html) : headphone amp, six-input mixer, tap tempo clock, divider & multiplier
  - [Mixout-VC Panner](https://www.yusynth.net/Modular/EN/MIXER/index.html) : This module is the combination of two utility modules : a quadruple VC-PANNER (and mixer, though not VC ) and an output module providing master volume control, tonality control and old-school vu-meters as well as a monitoring output for headphones
+ - [Mixer](http://familjenronnberg.se/~niklas/diy/eurorack/mixer/) : This is a 5-channel input mixer with two identical outputs
 
 # MULTIPLE
  - [Minx_AJH](https://github.com/forestcaver/Minx_AJH) : 4hp buffered mult
@@ -590,6 +618,10 @@ I designed my own version of this filter. I have included in the design an input
  - [32 to 1](https://www.nonlinearcircuits.com/modules/p/32to1) : a 1:32 or 32:1 mux. It can split one input signal into 32 outputs or switch 32 inputs into 1 output
  - [1161 buffered multiple](https://www.lookmumnocomputer.com/1161-buffered-multiple) : Look Mum No Computer
  - [AI001 Multiple](https://aisynthesis.com/product/multiple-eurorack-synthesizer-module/) : AI Synthesis
+ - [Muxtiple](http://familjenronnberg.se/~niklas/diy/eurorack/muxiple/) : This is a 1+4 to 4 buffered mixer and multiple. It mixes up to 4 signals and distributes the mix to 4 independent buffered outputs
+ - [Duple](http://familjenronnberg.se/~niklas/diy/eurorack/duple/) : 	Distribute a clock source to many other modules! There are two inputs, each goes to five outputs and also possible to patch this module as a 1 to 13 multiple
+ - [Multiples](http://familjenronnberg.se/~niklas/diy/eurorack/multiples/) : This is a 1 to 3 buffered multiple, so one input are copied to three outputs
+ - [Passive Multiple](http://familjenronnberg.se/~niklas/diy/eurorack/passive_multiple/) : a 1 to 8 un-buffered multiple, mechanically connected in a pretty smart way using switching jacks. It can be used as: 1 x 1 -> 8, 2 x 1 -> 4, 1 -> 5 & 1 -> 3, 4 x 1 -> 2, and so on...
 
 # SAMPLER
  - [Marbles](http://mutable-instruments.net/modules/marbles): Random sampler
@@ -695,7 +727,6 @@ A fully editable MIDI controller with eight faders and push buttons
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
   - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
-
 
 
 
