@@ -658,7 +658,7 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Arduino-euclid](https://github.com/katspaugh/arduino-modular-synth/tree/master/arduino-euclid) : Katpaugh
  - [Arduino-karplus-strong](https://github.com/katspaugh/arduino-modular-synth/tree/master/arduino-karplus-strong) : Katpaugh
  - [Arduino-recorder](https://github.com/katspaugh/arduino-modular-synth/tree/master/arduino-recorder) : Records and loops CV input with an adjustable sample rate
- - [Arduino-turing](https://github.com/katspaugh/arduino-modular-synth/tree/master/arduino-turing) : 00% inspired by the great Music Thing Modular's Turing Machine
+ - [Arduino-turing](https://github.com/katspaugh/arduino-modular-synth/tree/master/arduino-turing) : 100% inspired by the great Music Thing Modular's Turing Machine
  - [Arduino-bytebeat](https://github.com/katspaugh/arduino-modular-synth/tree/master/bytebeat) : Katpaugh
  - [Arduino-sample-player](https://github.com/katspaugh/arduino-modular-synth/tree/master/sample-player) : Katpaugh
  - [Arduino-shift-register](https://github.com/katspaugh/arduino-modular-synth/tree/master/shift-register) : Katpaugh
