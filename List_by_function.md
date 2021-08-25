@@ -32,17 +32,17 @@
 	 - [ ] North coast synthesis
 	 - [ ] Ken Stone
 	 - [ ] Hagiwo
-	 - [ ] O-Zoe
-	 - [ ] Megaloceros
+	 - [x] O-Zoe
+	 - [x] Megaloceros
 	 - [x] Papareil
 	 - [ ] Jürgen Haible
 	 - [x] La roue tourne
 	 - [x] Stickney synthyard
 	 - [x] Seb's synth
-	 - [ ] NOR Eurorack
-	 - [ ] Soundbender
-	 - [ ] Les portes logiques
-	 - [ ] Tim Stinchcombe
+	 - [x] NOR Eurorack			-> Clones of existing modules
+	 - [x] Soundbender 			-> Clones of existing modules
+	 - [x] Les portes logiques 	-> Clones of existing modules
+	 - [x] Tim Stinchcombe
 	 - [ ] Morocco Dave
 
  - [ ] List cool things from related
@@ -103,6 +103,7 @@
  - [VCO-566](https://www.schmitzbits.de/vco566.html) : This little VCO is made arround a NE566 VCO chip, that is used here as current controlled oscillator
  - [VCO-6](https://www.schmitzbits.de/vco6.html) : A thru zero oscillator is one that can go forward and backward. This allows for deeper frequency modulation
  - [Dronebox](https://www.schmitzbits.de/dronebox.html) : A complex textural sound generator
+ - [Transmission D4069-1TZAM VCO & Ring Modulato](https://www.infinitesimal.eu/synth/article44/transmission-4069-vco-am) : Megaloceros
 
 
 
@@ -126,6 +127,8 @@
  - [Pseudorandom LFO](http://familjenronnberg.se/~niklas/diy/eurorack/prlfo/) : This is a neat module for random (or at least pseudorandom) control voltages
  - [LFO](http://familjenronnberg.se/~niklas/diy/eurorack/lfo/) : It's a low frequency oscillator (LFO) that gives square and triangle out. There are three controls
  - [Three phase LFO](https://www.schmitzbits.de/triphase.html) : three modulation signals spaced 120 degrees apart from each other
+ - [Quad LFO](http://www.ozoe.fr/articles.php?lng=fr&pg=447&mnuid=316&tconfig=0) : Ozoe
+ - [LFO AM-FM](http://www.ozoe.fr/articles.php?lng=fr&pg=425&mnuid=316&tconfig=0) : Ce LFO dispose de deux réglages de fréquence et de deux autres réglages qui, selon le mode choisi, sont affectés à une gestion du niveau de sortie ou bien à une gestion de la durée du temps
 
 # FILTER
  - [Ripples](http://mutable-instruments.net/modules/ripples): Liquid 2-pole BP, 2-pole LP and 4-pole LP filter
@@ -196,6 +199,7 @@ I designed my own version of this filter. I have included in the design an input
  - [SMD SSM 2040 filter](https://www.schmitzbits.de/rs2040.html) : This VCF has been heavily influenced by Jürgen Haibles SSM 2040 filter clone
  - [WASP](https://www.schmitzbits.de/wasp.html) : Jürgen Haibles clone of the EDP Wasp VCF, a state variable filter build around one CD4069UB CMOS inverter
  - [4 poles lowpass filter](https://www.schmitzbits.de/filter.html) Schmitzbits's version of the famous Minimoog filter
+ - [LMF100 Switched-Capacitor Filter](http://www.timstinchcombe.co.uk/index.php?pge=lmf100) : Tim Stinchcombe
 
 # LOW PASS GATE
  - [AJH_LPG](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_LPG) : Buchla-esque LPG
@@ -252,6 +256,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Discrete ADSR](https://www.schmitzbits.de/adsr.html) : Design by Barry Klein. I started to expand it from the Original AD-envelope to an ADSR envelope
  - [VCADSR](https://www.schmitzbits.de/vcadsr.html) : arround an up-down integrator made from a half LM3900. The logic produces signals for each phase of the envelope, these can be made visible with LEDs
  - [Envelope Follower](https://www.schmitzbits.de/envf.html) : Unlike the usual envelope detectors using a diode and a lowpass this circuit is combined from a peak hold that is sampled and held after the zero crossing
+ - [ADSR Numérique V3](http://www.ozoe.fr/articles.php?lng=fr&pg=367&mnuid=316&tconfig=0) : Cette version est articulée autour d'un ATMEGA328P en configuration ARDUINO et permet tout types d'utilisations. Trois formes sont disponibles : Linéaire, Exponentielle et Logarithmique
 
 # VCA
  - [Blinds](http://mutable-instruments.net/modules/blinds) : Quad VC-polarizer
@@ -332,6 +337,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Mixers](https://www.yusynth.net/Modular/EN/MIXER/index.html) : Two mixer from YuSynth
  - [CV Mixer](https://syinsi.com/projects/building-the-cvmixer/) : Syinsi
  - [Mini audio Mixer](https://syinsi.com/projects/building-tile-audio-mixer/) : Syinsi
+ - [Cadavre Exquis Spatial](https://www.infinitesimal.eu/synth/article55/module-cadavre-exquis-spatial) : blind collage-mixage and spatialization automatic processor
 
 # SEQUENCER
  - [Grids](http://mutable-instruments.net/modules/grids): Topographic drum sequencer
@@ -355,6 +361,9 @@ I designed my own version of this filter. I have included in the design an input
  - [Arduino Euclidean Rhythm Generator](https://github.com/TimMJN/Arduino-Euclidean-Rhythm-Generator) : 4 channels 16 steps
  - [Euclidian sequencer](https://syinsi.com/projects/building-the-euclidean/) : Syinsi
  - [MiniSeq](http://familjenronnberg.se/~niklas/diy/eurorack/miniseq/) : a 8 step seuencer, based on the Baby 10 sequencer
+ - [Rhythm Composer](http://www.ozoe.fr/articles.php?lng=fr&pg=470&mnuid=316&tconfig=0) : Le module permet d'interfacer tous les modules de percussion par des Trigs ou des CV
+ - [Gate Sequencer](http://www.ozoe.fr/articles.php?lng=fr&pg=274&mnuid=316&tconfig=0) : L'idée de base est de faire un module avec une clock en entrée et huit sorties. A la 1ere impulsion un gate sort du OUT 1, à la seconde impulsion un gate sort du OUT 2 etc jusqu'à 8
+ - [Trig Sequencer](http://www.ozoe.fr/articles.php?lng=fr&pg=273&mnuid=316&tconfig=0) : Peut être utilisé comme séquenceur de trig ou bien pour contrôler des ADSR ou encore comme diviseur d'horloge
 
 # DRUM VOICE
  - [NoiseDrum](https://github.com/sonosus/noisedrumstripboard) : Buffered version of the Tiny Dazzler Noise Drum
@@ -404,6 +413,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Quantizer Module](https://github.com/holmesrichards/QuantizerModule) : This is a dual quantizer based on the dac/ino board
  - [Quantix 8](http://m.bareille.free.fr/modular1/quantix8/quantix8.htm) : The Quantix-8 module is a CV Quantizer / Wavetable Oscillator based on a 4Mbits Static RAM memory and a PIC microcontroler with a full MIDI implementation.
  - [Quantizer](https://kassu2000.blogspot.com/2019/10/quantizer.html) : two-channel Quantizer in 10hp Eurorack format
+ - [Quad Quantizer](http://www.ozoe.fr/articles.php?lng=fr&pg=413&mnuid=316&tconfig=0) : Permet de normaliser les tensions de commande (CV) selon des gammes définies
 
 # EFFECTS
  - [Clouds](http://mutable-instruments.net/modules/clouds) : Texture synthesizer
@@ -450,6 +460,7 @@ I designed my own version of this filter. I have included in the design an input
  - [The big room](https://www.nonlinearcircuits.com/modules/p/the-big-room) : This module merges the Polyfusion reverb driver circuit with the NLC Segue for VC panning between wet and dry signals. It also has a VC feedback circuit....be careful with that one ^^
  - [Spring reverb](https://www.befaco.org/spring-reverb/) : an analog spring reverb module. Featuring VCAs for the two available inputs, CV control for DRY/WET and visual feedback for signal levels at input and output of the tank.
  - [Spring reverb](https://kassu2000.blogspot.com/2015/10/spring-reverb.html) : Kassutronics
+ - [Révèrberation à ressort](http://www.ozoe.fr/articles.php?lng=fr&pg=252&mnuid=316&tconfig=0) : Le module dispose de deux entrées mélangées et pouvant être dosées indépendamment. Le niveau d'entrée est visualisée par un LED
 
 # DISTORTION/OVERDRIVE
  - [Distortion](https://github.com/michd/modular-synth/tree/master/modules/distortion) : MichD
@@ -496,6 +507,7 @@ I designed my own version of this filter. I have included in the design an input
  -  [Arduino clock divider](https://github.com/TimMJN/Arduino-Clock-Divider) : Internal clock division up to 199, 8 output and more...
  - [Master Clock](http://familjenronnberg.se/~niklas/diy/eurorack/master_clock/) : The master clock is intended as a master clock, but it can also act as a slave converting clock signals
  - [Divider](http://familjenronnberg.se/~niklas/diy/eurorack/divider/) : original design was made by Mathias Herrmann for his inspiring FonitronikHowever, his design gives inverted outputs, which I changed to normalized outputs
+ - [Master Clock + MIDI](http://www.ozoe.fr/articles.php?lng=fr&pg=308&mnuid=316&tconfig=0) : Ce module peux être utilisé en autonome et permet également de piloter ou d'être piloté par tout appareil/logiciel utilisant le standard MIDI
 
 # LOGIC/ROUTER/GATE
  - [Peaks](http://mutable-instruments.net/modules/peaks): Dual trigger converter
@@ -533,6 +545,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Clock to Gate](http://familjenronnberg.se/~niklas/diy/eurorack/clk2gate/) : It's a clock pulse or trigger to gate converter. It has a clock input, a buffered clock output, a duration control and two gate outputs. It has a LED that indicates a trig input when orange and the gate output when green
  - [MinMax](https://www.schmitzbits.de/minmax.html) : Maximum and minimum of several voltages, shree inputs are shown, but it can be extended to arbitrary lengths
  - [Signal Switchter](https://www.schmitzbits.de/switch.html) : This circuit can be used to switch a pair of audio or CV signals to a common output. It uses standard CMOS switches in a configuration that does eliminate most of the distortion, and allows for full voltage range to be processed
+ - [Gate to Trig](http://www.ozoe.fr/articles.php?lng=fr&pg=272&mnuid=316&tconfig=0) : Ce module utilitaire permet de transformer de longues impulsions en impulsions de courtes duréesF
  
 # SAMPLE & HOLD
  - [Kinks](http://mutable-instruments.net/modules/kinks): Utility module - rectifier, analog logic, S&H, noise
@@ -547,6 +560,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Sample and hold + noise](https://syinsi.com/projects/building-the-sample-and-hold-noise/) : Syinsi
  - [Sample and hold + noise](http://familjenronnberg.se/~niklas/diy/eurorack/noise/) : The noise generator is inspired by Eric G with some changes
  - [2 S&H](https://www.schmitzbits.de/sah.html) : 2 sample and hold from schmitzbits
+ - [Locked Sample and Hold](http://www.ozoe.fr/articles.php?lng=fr&pg=438&mnuid=316&tconfig=0) : La possibilité est laissée de mettre des pauses dans le flux continue de notes et il y a également la possibilité de bloquer tout ou partie des notes de la séquence aléatoire
 
 # RANDOMNESS
  - [Branches](http://mutable-instruments.net/modules/branches) : Dual Bernoulli gate
@@ -583,6 +597,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Arduino morse gate generator](https://github.com/TimMJN/Arduino-Morse-Gate-Generator) : a Morse code gate generator based on arduino nano
  - [Geiger counter module](https://github.com/TimMJN/Geiger-Counter-Module) : This is a fun little synthesizer module which generates decaying pulses of variable length based on a Geiger counter
  - [White noise source](https://www.schmitzbits.de/noise.html) : A circuit for a basic white noise source
+ - [Random Gates](http://www.ozoe.fr/articles.php?lng=fr&pg=404&mnuid=316&tconfig=0) : Ce module, clone du module YuSynth de même nom, est un séquenceur aléatoire sur 8 sorties
 
 # UTILITY
  - [Axo control](https://www.musicthing.co.uk/pages/axo.html) : is an easy passive control panel for the Axoloti sound board.
@@ -607,6 +622,18 @@ I designed my own version of this filter. I have included in the design an input
  - [CV wheel v2](http://familjenronnberg.se/~niklas/diy/eurorack/cv-wheel2/) : The clock signal controls a stepped triangle or ramp wave which is sent via the input to the wheel and then (buffered) to the output
  - [Joystick](http://familjenronnberg.se/~niklas/diy/eurorack/joystick/) : Both the X and the Y axis have a range control setting the output volt between 2V and 10V, as well as an offset moving the voltage between the negative side and the positive side
  - [Patch](http://familjenronnberg.se/~niklas/diy/eurorack/patch/) : From tele (6.3mm) to mini tele (3.5mm), therefore I made two patches. One of these takes 6.3mm tele in, buffers it and sends it to two identical (yet unbuffered) 3.5mm tele. The other mixes two 3.5mm tele to one 6.3mm tele.
+ - [Stepped CV Generator](http://www.timstinchcombe.co.uk/index.php?pge=stepcv) : Tim Stinchcombe
+ - [Phase Meter and Phase Shift Oscillator](http://www.timstinchcombe.co.uk/index.php?pge=phm) : Tim Stinchcombe
+ - [DC Voltmeter](http://www.timstinchcombe.co.uk/index.php?pge=dcm) : Tim Stinchcombe
+ - [LDR2Gate](https://www.infinitesimal.eu/synth/article31/diy-ldr2gate) : Light Controlled Voltage Source
+ - [Voltaflash](https://www.infinitesimal.eu/synth/article36/voltaflash-voltage-combiner) : VoltaFlash is a gate combiner, that allow to mix gates for creating complex rythmic patterns
+ - [Moniteur de tension](http://www.ozoe.fr/articles.php?lng=fr&pg=283&mnuid=316&tconfig=0) : Ce montage permet de surveiller une tension symétrique précisément et d'alerter en cas de dérive. Tout est signalé par les LEDs : Vert OK, autres couleurs : attention !
+ - [Joystick](http://www.ozoe.fr/articles.php?lng=fr&pg=455&mnuid=316&tconfig=0) : Le module JOYSTICK est un module contrôleur de signal de commande (Control Voltage)
+ - [CV Recorder](http://www.ozoe.fr/articles.php?lng=fr&pg=409&mnuid=316&tconfig=0) : Ce module permet d'enregistrer des tensions de commande afin de les restituer de manière séquencée.
+ - [CV Memory](http://www.ozoe.fr/articles.php?lng=fr&pg=299&mnuid=316&tconfig=0) : Le module CV Memory est un module permettant de mémoriser des séquences de notes ou de tensions de contrôle, puis de les restituer
+ - [CV Arpegiator](http://www.ozoe.fr/articles.php?lng=fr&pg=304&mnuid=316&tconfig=0) : Le module CV Arpeggiator est un module pour synthétiseur modulaire permettant de jouer des arpèges à partir d'accords plaqués sur un clavier midi
+ - [Easy Tuner](http://www.ozoe.fr/articles.php?lng=fr&pg=286&mnuid=316&tconfig=0) : Ce module permet d'accorder un VCO au standard volt/octave
+ - 
 
 # ATENUVERTER
  - [Dual Atenuverter](https://www.befaco.org/dual-atenuverter/) : The Dual Atenuverter is a CV/Audio utility module designed to atenuate, invert and apply offset to an input signal.
@@ -634,6 +661,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Mixout-VC Panner](https://www.yusynth.net/Modular/EN/MIXER/index.html) : This module is the combination of two utility modules : a quadruple VC-PANNER (and mixer, though not VC ) and an output module providing master volume control, tonality control and old-school vu-meters as well as a monitoring output for headphones
  - [Mixer](http://familjenronnberg.se/~niklas/diy/eurorack/mixer/) : This is a 5-channel input mixer with two identical outputs
  - [Microphone Preamp](https://www.schmitzbits.de/micpre.html) : This little preamp has a gain of about 100 to 1000, depending on the supply voltage, and the used FETs
+ - [101-EXT Amplification](https://www.infinitesimal.eu/synth/article57/101-module-ext-amplificiation) : Un petit module qui amplifie jusqu'à 101 fois un signal, pour pouvoir l'aligner sur le niveau modulaire
 
 # MULTIPLE
  - [Minx_AJH](https://github.com/forestcaver/Minx_AJH) : 4hp buffered mult
@@ -650,6 +678,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Duple](http://familjenronnberg.se/~niklas/diy/eurorack/duple/) : 	Distribute a clock source to many other modules! There are two inputs, each goes to five outputs and also possible to patch this module as a 1 to 13 multiple
  - [Multiples](http://familjenronnberg.se/~niklas/diy/eurorack/multiples/) : This is a 1 to 3 buffered multiple, so one input are copied to three outputs
  - [Passive Multiple](http://familjenronnberg.se/~niklas/diy/eurorack/passive_multiple/) : a 1 to 8 un-buffered multiple, mechanically connected in a pretty smart way using switching jacks. It can be used as: 1 x 1 -> 8, 2 x 1 -> 4, 1 -> 5 & 1 -> 3, 4 x 1 -> 2, and so on...
+ - [Multiple 4x3 - 8+4 - 1x12](http://www.ozoe.fr/articles.php?lng=fr&pg=271&mnuid=316&tconfig=0) : Ce module fonctionnera très bien avec des signaux de type "Gate" ou de type "Audio". Avec ce module, des pertes de tension sont inévitables et le rende incompatible pour une utilisation de type "CV"
 
 # SAMPLER
  - [Marbles](http://mutable-instruments.net/modules/marbles): Random sampler
@@ -676,6 +705,12 @@ A fully editable MIDI controller with eight faders and push buttons
  - [MIDI thing](https://www.befaco.org/midi-thing/) : MIDI Thing is a compact 4 channel Midi to CV/Gate interface featuring 12 bit conversion that allows V/Oct control with around 1 cent precision
  - [Fatcrontroller](https://burnit.co.uk/sdiy/index.php?page=fatcontroller) : The basic idea is a PIC-based precision MIDI to CV converter with multiple outputs and lots of software features.
  - [MIDI to CV](https://sowa.synth.net/modular/midi2cv.html) : This is simple MIDI2CV converter turning this modular into note-playing musical instrument
+ - [MIDI to Trig / Velocity](http://www.ozoe.fr/articles.php?lng=fr&pg=442&mnuid=316&tconfig=0) : Permet d'interfacer des claviers, des séquenceurs MIDI ou bien des logiciels MIDI, à un synthétiseur modulaire
+ - [Clavier MIDI](http://www.ozoe.fr/articles.php?lng=fr&pg=463&mnuid=316&tconfig=0) : Il s'agit de pouvoir raccorder un clavier matriciel nu à un convertisseur permettant de réaliser un clavier midi
+ - [Keyboard CV/GATE/MIDI](http://www.ozoe.fr/articles.php?lng=fr&pg=487&mnuid=316&tconfig=0) : Ce keyboard CV/GATE/MIDI permet d'interfacer un clavier avec un synthétiseur modulaire et avec des expanders MIDI
+ - [One CV2MIDI Out](http://www.ozoe.fr/articles.php?lng=fr&pg=398&mnuid=316&tconfig=0) : Ce module permet de convertir des signaux d'horloge et de contrôle en en provenance d'un synthétiseur monophonique sur une sortie au standard MIDI
+ - [MIDI2CV](http://www.ozoe.fr/articles.php?lng=fr&pg=390&mnuid=316&tconfig=0) : Le module MIDI2CV permet d'interfacer des claviers ou séquenceurs MIDI, à un synthétiseur modulaire. Il est composé de plusieurs fonctions accessibles par un commutateur rotatif
+ - [MIDI to Dual CV](http://www.ozoe.fr/articles.php?lng=fr&pg=383&mnuid=316&tconfig=0) : Ce module est configurable pour jouer sur un synthétiseur au standard volt/hertz ou au standard volt/octave. Les gates en sorties sont avec un état actif à +5V ou à 0V
 
 # OTHER
  - [Ears](http://mutable-instruments.net/modules/ears): Contact microphone
@@ -722,6 +757,7 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Bench PSU](https://burnit.co.uk/sdiy/index.php?page=benchpsu) : PSU to power breadboard and play around with new circuits and ideas.
  - [MSPS](https://sowa.synth.net/modular/power.html) : This one is my first decent power supply ever made. Sadly enough I made 2 very stupid mistakes on PCB (like reverse powering an opamp) so you can see kynar there too
  - [PowerSup](https://www.schmitzbits.de/powersup.html) : Some power supplys from schmitzbits
+ - [Alimentation](http://www.ozoe.fr/articles.php?lng=fr&pg=269&mnuid=316&tconfig=0) : Alimentation symétrique de +15V et -15V
 
 # BUS BOARD
  - [Busboards](https://github.com/holmesrichards/busboard) : Eurorack/Kosmo Busboards
@@ -756,7 +792,3 @@ A fully editable MIDI controller with eight faders and push buttons
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
   - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
-
-
-
-
