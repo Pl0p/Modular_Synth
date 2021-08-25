@@ -20,7 +20,7 @@
 	 - [ ] Harald Antes
 	 - [ ] Scott Stites
 	 - [ ] Thomas Henry
-	 - [ ] Schmitzbits
+	 - [x] Schmitzbits
 	 - [x] Kassutronics
 	 - [ ] Barton musical circuits
 	 - [ ] Dintree
@@ -96,6 +96,15 @@
  - [VCOs](https://www.yusynth.net/Modular/EN/VCO/index.html) : Herein I propose, three different PCB designs that let the builder choose the solution that matches best his/her needs or budget
  - [VCO classic](https://syinsi.com/projects/building-the-vco-classic/) : Syinsi
  - [VCO](http://familjenronnberg.se/~niklas/diy/eurorack/vco/) : This is a simple but yet reliable VCO. It has Sawtooth and Square wave outputs, based on Terry Mikulic's and Bernie Hutchins' designs for the late 70'ies,
+ - [CMOS VCO](https://www.schmitzbits.de/vco4069.html) : Use the gates of a 4069 CMOS inverter instead of opamps
+ - [VCO-2](https://www.schmitzbits.de/vco2.html) : It is here due to historical reasons
+ - [VCO-3](https://www.schmitzbits.de/vco3.html) : it is integrator based, has triangle and sine wave outputs, and makes use of a 2SC1583 for the exponential current source
+ - [VCO-4](https://www.schmitzbits.de/vco4.html) : waveforms are much cleaner. (The VCO2 produces a spike at the reset and also a small flat portion.)
+ - [VCO-566](https://www.schmitzbits.de/vco566.html) : This little VCO is made arround a NE566 VCO chip, that is used here as current controlled oscillator
+ - [VCO-6](https://www.schmitzbits.de/vco6.html) : A thru zero oscillator is one that can go forward and backward. This allows for deeper frequency modulation
+ - [Dronebox](https://www.schmitzbits.de/dronebox.html) : A complex textural sound generator
+
+
 
 # LOW FREQUENCIE OSCILLATOR
  - [Util_LFO](https://github.com/nickajeglin/Eurorack-pcbs/tree/master/util_LFO) : Design: Tim Parkhurst: Magic Smoke Electronics
@@ -116,6 +125,7 @@
  - [the LFO](https://syinsi.com/projects/building-the-lfo/) : Syinsi
  - [Pseudorandom LFO](http://familjenronnberg.se/~niklas/diy/eurorack/prlfo/) : This is a neat module for random (or at least pseudorandom) control voltages
  - [LFO](http://familjenronnberg.se/~niklas/diy/eurorack/lfo/) : It's a low frequency oscillator (LFO) that gives square and triangle out. There are three controls
+ - [Three phase LFO](https://www.schmitzbits.de/triphase.html) : three modulation signals spaced 120 degrees apart from each other
 
 # FILTER
  - [Ripples](http://mutable-instruments.net/modules/ripples): Liquid 2-pole BP, 2-pole LP and 4-pole LP filter
@@ -180,6 +190,12 @@ I designed my own version of this filter. I have included in the design an input
  - [VCF v2](https://syinsi.com/projects/building-new-vcf-tile/) : Syinsi
  - [Korg35 style VCF](http://familjenronnberg.se/~niklas/diy/eurorack/vcf3/) : This is a Korg35 style VCF. The Korg35 was found, for example, in the Korg MS10 and in the early Korg MS20
  - [State variable VCF](http://familjenronnberg.se/~niklas/diy/eurorack/vcf2/) : This is a state variable VCF. It's a two pole 12dB/oct. filter originally designed by Bernie Hutchkins and then adapted by Ray Wilson
+ - [Sallensteiner Filter](https://www.schmitzbits.de/sallensteiner.html) : A sallen and key filter that is inspired by the Synthacon (Steiner Parker) filter
+ - [VCF 4007](https://www.schmitzbits.de/vcf4007.html) : CMOS 4007 filter and VCA the idea is to use the MOSFET transistors of a 4007 as variable resistors
+ - [MS20 Filter](https://www.schmitzbits.de/ms20.html) : Uses opamp buffers instead of the darlingtons. And 3080 instead of 13600
+ - [SMD SSM 2040 filter](https://www.schmitzbits.de/rs2040.html) : This VCF has been heavily influenced by Jürgen Haibles SSM 2040 filter clone
+ - [WASP](https://www.schmitzbits.de/wasp.html) : Jürgen Haibles clone of the EDP Wasp VCF, a state variable filter build around one CD4069UB CMOS inverter
+ - [4 poles lowpass filter](https://www.schmitzbits.de/filter.html) Schmitzbits's version of the famous Minimoog filter
 
 # LOW PASS GATE
  - [AJH_LPG](https://github.com/forestcaver/Analog-Voice/tree/master/AJH_LPG) : Buchla-esque LPG
@@ -233,6 +249,9 @@ I designed my own version of this filter. I have included in the design an input
  - [AR](http://familjenronnberg.se/~niklas/diy/eurorack/ar/) : a simple dual envelope generator with Attack and Release (AR) with loop
  - [ADSR](http://familjenronnberg.se/~niklas/diy/eurorack/adsr/) : It outputs two CVs, one inverted. The envelope generator is based on the ASM-1 ADSR
  - [ADSR v2](http://familjenronnberg.se/~niklas/diy/eurorack/adsr2/) : There is a range switch for easier adjustment, as well as a loop-function so the envelope generator can be used as a LFO
+ - [Discrete ADSR](https://www.schmitzbits.de/adsr.html) : Design by Barry Klein. I started to expand it from the Original AD-envelope to an ADSR envelope
+ - [VCADSR](https://www.schmitzbits.de/vcadsr.html) : arround an up-down integrator made from a half LM3900. The logic produces signals for each phase of the envelope, these can be made visible with LEDs
+ - [Envelope Follower](https://www.schmitzbits.de/envf.html) : Unlike the usual envelope detectors using a diode and a lowpass this circuit is combined from a peak hold that is sampled and held after the zero crossing
 
 # VCA
  - [Blinds](http://mutable-instruments.net/modules/blinds) : Quad VC-polarizer
@@ -270,6 +289,8 @@ I designed my own version of this filter. I have included in the design an input
  - [VCA v2](https://syinsi.com/projects/building-new-vca-tile/) : Syinsi
  - [VCA](http://familjenronnberg.se/~niklas/diy/eurorack/vca/) : A dual voltage controlled amplifier. Each has two signal inputs with level adjustment, and two CV inputs (one with level control)
  - [VCA v2](http://familjenronnberg.se/~niklas/diy/eurorack/vca2/) : A dual voltage controlled amplifier. Each has two signal inputs with level adjustment, and two CV inputs (one with level control)
+ - [Many VCA from schmitzbits](https://www.schmitzbits.de/vca.html) : 4 VCA and 2 ringmodulator from schmitzbits
+ - [Vacuum TUbe VCA](https://www.schmitzbits.de/vtvca.html) : Two single ended VCAs. They are driven from two antiphase signals and their outputs are subtracted in the output transformer. So the control feedthru appears in antiphase at the transformer, while the audio signals are in phase
  
 # MIXER
  - [Frames](http://mutable-instruments.net/modules/frames): Keyframer/mixer
@@ -417,6 +438,8 @@ I designed my own version of this filter. I have included in the design an input
  - [Crush delay v3](https://www.befaco.org/crush-delay-v3/) : Crush Delay v3 is a special Echo-Delay unit based on the PT2399 IC, which is able to offer 400ms of clean delay and up to 2 seconds of dirty repetitions, having a special talent to generate noisy-glitch textures
  - [4xD](https://burnit.co.uk/sdiy/index.php?page=4xd) : The 4xD started life because I wanted a number of simple, high quality, mono delays to create spatial effects for mix elements
  - [Digital Delay](http://familjenronnberg.se/~niklas/diy/eurorack/digital_delay/) : A rather nice sounding digital delay based on the HT8972 chip
+ - [1-bit delayline](https://www.schmitzbits.de/ddl.html) : The circuit shown is just the delay core, and is part of a larger system. In my opinion this is a good demonstration on how to interface a DRAM with an AVR microcontroller
+ - [PT2399](https://www.schmitzbits.de/pt2399.html) : Schmitzbits's delay unit based on the PT2399 chip
 
 # REVERB/ECHO
  - [Spring](https://www.musicthing.co.uk/pages/spring.html) : spring reverb optimised for modular use
@@ -508,6 +531,8 @@ I designed my own version of this filter. I have included in the design an input
  - [Manual Gate](http://familjenronnberg.se/~niklas/diy/eurorack/manual_gate/) : This is a really convenient module! It's a manual gate, or a three keys keyboard
  - [Dual quad sequential switch](http://familjenronnberg.se/~niklas/diy/eurorack/seq_switch/) : This module is really useful for switching between sequencer channels. It is based on Doepfer A-151
  - [Clock to Gate](http://familjenronnberg.se/~niklas/diy/eurorack/clk2gate/) : It's a clock pulse or trigger to gate converter. It has a clock input, a buffered clock output, a duration control and two gate outputs. It has a LED that indicates a trig input when orange and the gate output when green
+ - [MinMax](https://www.schmitzbits.de/minmax.html) : Maximum and minimum of several voltages, shree inputs are shown, but it can be extended to arbitrary lengths
+ - [Signal Switchter](https://www.schmitzbits.de/switch.html) : This circuit can be used to switch a pair of audio or CV signals to a common output. It uses standard CMOS switches in a configuration that does eliminate most of the distortion, and allows for full voltage range to be processed
  
 # SAMPLE & HOLD
  - [Kinks](http://mutable-instruments.net/modules/kinks): Utility module - rectifier, analog logic, S&H, noise
@@ -521,6 +546,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Noise generator Sample & Hold](https://www.yusynth.net/Modular/EN/NOISE/index.html) : This single modules integrates two sub-modules : a noise voltage generator and a sample and hold (S&H) processor
  - [Sample and hold + noise](https://syinsi.com/projects/building-the-sample-and-hold-noise/) : Syinsi
  - [Sample and hold + noise](http://familjenronnberg.se/~niklas/diy/eurorack/noise/) : The noise generator is inspired by Eric G with some changes
+ - [2 S&H](https://www.schmitzbits.de/sah.html) : 2 sample and hold from schmitzbits
 
 # RANDOMNESS
  - [Branches](http://mutable-instruments.net/modules/branches) : Dual Bernoulli gate
@@ -556,6 +582,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Octal Random Gates](https://www.yusynth.net/Modular/EN/RANDOMGATE/index.html) : The Octal Random Gate provides eight GATE OUT signals that are randomly sequenced
  - [Arduino morse gate generator](https://github.com/TimMJN/Arduino-Morse-Gate-Generator) : a Morse code gate generator based on arduino nano
  - [Geiger counter module](https://github.com/TimMJN/Geiger-Counter-Module) : This is a fun little synthesizer module which generates decaying pulses of variable length based on a Geiger counter
+ - [White noise source](https://www.schmitzbits.de/noise.html) : A circuit for a basic white noise source
 
 # UTILITY
  - [Axo control](https://www.musicthing.co.uk/pages/axo.html) : is an easy passive control panel for the Axoloti sound board.
@@ -606,6 +633,7 @@ I designed my own version of this filter. I have included in the design an input
  - [Startup](https://www.musicthing.co.uk/pages/startup.html) : headphone amp, six-input mixer, tap tempo clock, divider & multiplier
  - [Mixout-VC Panner](https://www.yusynth.net/Modular/EN/MIXER/index.html) : This module is the combination of two utility modules : a quadruple VC-PANNER (and mixer, though not VC ) and an output module providing master volume control, tonality control and old-school vu-meters as well as a monitoring output for headphones
  - [Mixer](http://familjenronnberg.se/~niklas/diy/eurorack/mixer/) : This is a 5-channel input mixer with two identical outputs
+ - [Microphone Preamp](https://www.schmitzbits.de/micpre.html) : This little preamp has a gain of about 100 to 1000, depending on the supply voltage, and the used FETs
 
 # MULTIPLE
  - [Minx_AJH](https://github.com/forestcaver/Minx_AJH) : 4hp buffered mult
@@ -693,6 +721,7 @@ A fully editable MIDI controller with eight faders and push buttons
  - [Powskiff](https://www.befaco.org/powskiff/) : PowSkiff is a clean, compact, high-amperage power supply designed for demanding systems
  - [Bench PSU](https://burnit.co.uk/sdiy/index.php?page=benchpsu) : PSU to power breadboard and play around with new circuits and ideas.
  - [MSPS](https://sowa.synth.net/modular/power.html) : This one is my first decent power supply ever made. Sadly enough I made 2 very stupid mistakes on PCB (like reverse powering an opamp) so you can see kynar there too
+ - [PowerSup](https://www.schmitzbits.de/powersup.html) : Some power supplys from schmitzbits
 
 # BUS BOARD
  - [Busboards](https://github.com/holmesrichards/busboard) : Eurorack/Kosmo Busboards
@@ -727,6 +756,7 @@ A fully editable MIDI controller with eight faders and push buttons
   - [Cable Tester](https://github.com/holmesrichards/cabletester) : 10/16 pin Eurorack IDC Power Cable Tester
   - [Module Tester](https://github.com/holmesrichards/module_tester) : This project is a test signal generator for Eurorack synth modules. It also provides frequency/clock measurement tools, and a +/12V and +5V power supply - making it a compact "all in one" box for powering and debugging a module
   - [Synth panel-designer](https://gitlab.com/Faselunare/synth-panels-designer/-/tree/master) : free extension for INKSCAPE software. With SPD you can design Synthesizers an Electronic Musical Instruments
+
 
 
 
