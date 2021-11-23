@@ -37,6 +37,7 @@ List of awesome eurorack diy and opensource projects
  * [Mutable Instrument](https://github.com/pichenettes/eurorack)
  * [mxmxmx](https://github.com/mxmxmx)
  * [Nickajeglin](https://github.com/nickajeglin/Eurorack-pcbs)
+ * [Noisereap](https://github.com/noisereap/schema-cave)
  * [Plum Audio](https://github.com/Shayshez)
  * [Promesoft](https://github.com/promesoft)
  * [Richards Holmes](https://github.com/holmesrichards/Directory)
@@ -50,6 +51,7 @@ List of awesome eurorack diy and opensource projects
  * [TimMJN](https://github.com/TimMJN)
  * [TomWhitwell](https://github.com/TomWhitwell)
  * [Westlicht](https://github.com/westlicht/performer-hardware)
+ * [Winterbloom](https://github.com/wntrblm)
 
 # Gitlab
  * [Faselunare](https://gitlab.com/Faselunare)
