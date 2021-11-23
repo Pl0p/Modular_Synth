@@ -1,7 +1,7 @@
 
 
 
- - [] List for all gitHub repo
+ - [ ] List for all gitHub repo
 	- https://github.com/wntrblm
 	- https://github.com/noisereap/schema-cave
  - [x] List for all gitLab repo
