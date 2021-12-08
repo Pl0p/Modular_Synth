@@ -15,3 +15,10 @@ And
 These are the module's files and descriptions available in the list above but classified by category
 
 Don't hesitate to participate if you find other sources of music/video schematics
+
+Thing you can do to help :
+- Class thing in alphabetical order for the Open-hardware-builders list
+- Add new entry
+- Take a look at the modules by category and continue to class them
+- Look for typos
+- Have a good day =)
