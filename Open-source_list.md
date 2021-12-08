@@ -38,6 +38,7 @@ List of awesome eurorack diy and opensource projects
  * [mxmxmx](https://github.com/mxmxmx)
  * [Nickajeglin](https://github.com/nickajeglin/Eurorack-pcbs)
  * [Noisereap](https://github.com/noisereap/schema-cave)
+ * [naokiiwakami](https://github.com/naokiiwakami/analog2.0)
  * [Plum Audio](https://github.com/Shayshez)
  * [Promesoft](https://github.com/promesoft)
  * [Richards Holmes](https://github.com/holmesrichards/Directory)
