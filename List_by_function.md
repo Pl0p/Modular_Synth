@@ -47,6 +47,7 @@
 	 - [x] Les portes logiques 	-> Clones of existing modules
 	 - [x] Tim Stinchcombe
 	 - [ ] Morocco Dave
+	 - [ ] Synthr
 
  - [ ] List cool things from related
 
