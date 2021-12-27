@@ -123,11 +123,9 @@ List of awesome eurorack diy and opensource projects
  * [Ozerik](https://www.instructables.com/member/ozerik/)
  * [Pcb-checklist](https://github.com/azonenberg/pcb-checklist)
  * [polaron](https://github.com/zueblin/Polaron)
+ * [Service manuals & Schematics](http://www.synfo.nl/pages/servicemanuals.html#sm)
  * [Teensypolysynth](https://github.com/otem/teensypolysynth)
  * [Wojciech Jakóbczyk](https://github.com/wjakobczyk) 
-
-
- * [Service manuals & Schematics](http://www.synfo.nl/pages/servicemanuals.html#sm)
 
 
  # Community forums
