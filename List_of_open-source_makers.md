@@ -90,8 +90,6 @@ List of awesome eurorack diy and opensource projects
  * [O-Zoe](http://www.ozoe.fr/articles.php?lng=fr&pg=275&mnuid=316&tconfig=0)
  * [Papareil](http://m.bareille.free.fr/synth.htm)
  * [Rebel Tech](https://www.rebeltech.org/)
- * [Thomas Henry](https://www.birthofasynth.com/Thomas_Henry/TH_main.html)
- * [Tim Stinchcombe](http://www.timstinchcombe.co.uk/index.php?pge=home)
  * [Schmitzbits](https://www.schmitzbits.de/index.html)
  * [Scott Stites](https://www.birthofasynth.com/Scott_Stites/SLS_main.html)
  * [Seb's synth](https://burnit.co.uk/sdiy/)
@@ -102,6 +100,8 @@ List of awesome eurorack diy and opensource projects
  * [Stickney synthyard](http://www.stickneysynthyards.000space.com/?i=2)
  * [Synthr](https://synthr.fr/faites-le-vous-meme/modules/)
  * [Synsi](https://syinsi.com/projects/)
+ * [Thomas Henry](https://www.birthofasynth.com/Thomas_Henry/TH_main.html)
+ * [Tim Stinchcombe](http://www.timstinchcombe.co.uk/index.php?pge=home)
  * [Yusynth](http://www.yusynth.net/modular) 
 
 
