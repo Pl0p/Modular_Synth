@@ -40,6 +40,7 @@ List of awesome eurorack diy and opensource projects
  * [Noisereap](https://github.com/noisereap/schema-cave)
  * [naokiiwakami](https://github.com/naokiiwakami/analog2.0)
  * [Plum Audio](https://github.com/Shayshez)
+ * [Polikit](https://github.com/polykit)
  * [Promesoft](https://github.com/promesoft)
  * [Richards Holmes](https://github.com/holmesrichards/Directory)
  * [Sensai7](https://github.com/sensai7/OpenEuroBoard)
