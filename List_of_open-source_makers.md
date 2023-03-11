@@ -31,6 +31,7 @@ List of awesome eurorack diy and opensource projects
  * [Little-scale](https://github.com/little-scale/eurorack)
  * [Mattb](https://github.com/mattb)
  * [Matthewcieplak](https://github.com/matthewcieplak)
+ * [MeeBilt](https://github.com/tkilla64/eurorack)
  * [MichD](https://github.com/michd/modular-synth)
  * [Midi to DMX](https://github.com/matthova/arduino_midi_to_dmx)
  * [Minisystem](https://github.com/minisystem/Eurorack)
