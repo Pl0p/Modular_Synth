@@ -1,4 +1,4 @@
-# Drum_K
+# Drum_K (OLD version)
 Analogue drum kick
 
 ## Controls are :
