@@ -26,7 +26,7 @@ Analogue drum kick
 
 ![Front panel](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Front_Panel.jpg)
 
-### Sandwitch
+### Sandwich
 
 ![Module](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Sandwitch.jpg)
 
