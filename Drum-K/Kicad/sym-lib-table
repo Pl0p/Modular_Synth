@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Drum-k-rescue)(type Legacy)(uri ${KIPRJMOD}/Drum-k-rescue.lib)(options "")(descr ""))
-)
