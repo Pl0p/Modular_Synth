@@ -16,21 +16,17 @@ Analogue drum kick
  - Accent
 
 
-# [Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/...)
+# [Here is the schematic](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Drum-K_MKII.pdf)
 
 ### Main PCB 
-![Main PCB](https://github.com/Pl0p/Modular_Synth/blob/main/...)
-
-### I/O PCB
-
-![I/O](https://github.com/Pl0p/Modular_Synth/blob/main/...)
+![Main PCB](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Main_PCB.jpg)
 
 
 ### Front Panel
 
-![Front panel](https://github.com/Pl0p/Modular_Synth/blob/main/...)
+![Front panel](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Front_Panel.jpg)
 
-### Module =)
+### Sandwitch
 
-![Module](https://github.com/Pl0p/Modular_Synth/blob/main/...)
+![Module](https://github.com/Pl0p/Modular_Synth/blob/main/Drum-K_MKII/Sandwitch.jpg)
 
